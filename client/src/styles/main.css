@@ -1,0 +1,46 @@
+/* client/src/styles/main.css */
+
+.app-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .puzzle-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .word-card {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+  }
+  
+  .word-card:hover {
+    background-color: #ccc;
+  }
+  
+  .word-card.selected {
+    background-color: #ffdb58;
+  }
+  
+  .found-groups {
+    margin-top: 2rem;
+  }
+  
+  .found-groups .found-group {
+    margin: 0.5rem 0;
+  }
+  
+  .info-bar {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+  
