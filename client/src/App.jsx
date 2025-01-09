@@ -56,7 +56,9 @@ function App() {
           onWrongGroup={handleMistake}
         />
       )}
-      <p style={{ position: 'fixed', left: '850px'}}>Erreurs restantes : {Array(maxMistakes - mistakes).fill('❤️ ').join('')}</p>
+      {(hasMistakesLeft) && (
+        <p style={{ position: 'fixed', left: '850px'}}>Erreurs restantes : {Array(maxMistakes - mistakes).fill('❤️ ').join('')}</p>
+      )}
       {(!hasMistakesLeft && !puzzleComplete) && (
         <p>Vous avez utilisé toutes vos tentatives. Réessayez demain !</p>
       )}
