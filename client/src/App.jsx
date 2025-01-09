@@ -43,7 +43,7 @@ function App() {
   return (
     <div className="app-container">
       <h1>Connexions</h1>
-      <p>{puzzle.date}</p>
+      <h3>{new Date().toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</h3>
       <p>Trouvez les groupes de 4 mots qui se connectent</p>
       <div className="info-bar">
         <p>Erreurs restantes : {maxMistakes - mistakes}</p>
