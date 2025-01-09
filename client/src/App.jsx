@@ -45,10 +45,9 @@ function App() {
       <h3>{new Date().toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</h3>
       <p>Trouvez les groupes de 4 mots qui se connectent !</p>
       <div className="info-bar">
-        <p>Erreurs restantes : {maxMistakes - mistakes}</p>
         {puzzleComplete && <p>Félicitations ! Vous avez terminé.</p>}
       </div>
-      {puzzle && hasMistakesLeft && (
+      {puzzle  && (
         <PuzzleGrid
           puzzle={puzzle}
           setPuzzle={setPuzzle}
@@ -57,6 +56,7 @@ function App() {
           onWrongGroup={handleMistake}
         />
       )}
+      <p style={{ position: 'fixed', left: '850px'}}>Erreurs restantes : {Array(maxMistakes - mistakes).fill('❤️ ').join('')}</p>
       {(!hasMistakesLeft && !puzzleComplete) && (
         <p>Vous avez utilisé toutes vos tentatives. Réessayez demain !</p>
       )}

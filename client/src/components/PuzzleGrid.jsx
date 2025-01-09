@@ -102,7 +102,9 @@ function PuzzleGrid({ puzzle, setPuzzle, foundGroups, onGroupFound, onWrongGroup
       </div>
       <div className="button-row">
         <button onClick={handleShuffle}>Mélanger</button>
-        <button onClick={handleDeselectAll}>Tout désélectionner</button>
+        <button onClick={handleDeselectAll}
+          disabled={selectedWords.length === 0}
+        >Tout désélectionner</button>
         <button 
           onClick={handleSubmit}
           disabled={selectedWords.length !== 4}
