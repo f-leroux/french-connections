@@ -3,8 +3,8 @@
 :root {
   --color-yellow: #f9d04b;
   --color-green: #a0c35a;
-  --color-blue: #4fa4e4;
-  --color-purple: #b45eff;
+  --color-blue: #84bce6;
+  --color-purple: #9964c8;
 }
 
 .app-container {
@@ -105,6 +105,36 @@
   }
   
   .word-card.category-3 {
+    background-color: var(--color-purple);
+    color: white;
+  }
+  
+  .found-category-container {
+    margin-bottom: 1.5rem;
+  }
+  
+  .category-name {
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    color: black;
+  }
+  
+  .category-name.category-0 {
+    background-color: var(--color-yellow);
+  }
+  
+  .category-name.category-1 {
+    background-color: var(--color-green);
+  }
+  
+  .category-name.category-2 {
+    background-color: var(--color-blue);
+    color: white;
+  }
+  
+  .category-name.category-3 {
     background-color: var(--color-purple);
     color: white;
   }

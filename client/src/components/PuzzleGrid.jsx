@@ -4,11 +4,15 @@ import WordCard from './WordCard';
 function PuzzleGrid({ puzzle, setPuzzle, foundGroups, onGroupFound, onWrongGroup }) {
   const [selectedWords, setSelectedWords] = useState([]);
 
-  // Find category index for a group of words
-  const getCategoryIndex = (words) => {
-    return puzzle.groups.findIndex(group => 
+  // Find category index and name for a group of words
+  const getCategoryInfo = (words) => {
+    const index = puzzle.groups.findIndex(group => 
       words.every(w => group.words.includes(w))
     );
+    return {
+      index,
+      name: index !== -1 ? puzzle.groups[index].name : ''
+    };
   };
 
   // All puzzle words minus any that have already been grouped
@@ -62,19 +66,27 @@ function PuzzleGrid({ puzzle, setPuzzle, foundGroups, onGroupFound, onWrongGroup
   return (
     <div>
       {/* Display found groups at the top */}
-      {foundGroups.map((groupWords, index) => (
-        <div key={index} className="found-category">
-          {groupWords.map((word) => (
-            <WordCard
-              key={word}
-              word={word}
-              isSelected={false}
-              toggleWordSelection={() => {}}
-              categoryIndex={getCategoryIndex(groupWords)}
-            />
-          ))}
-        </div>
-      ))}
+      {foundGroups.map((groupWords, index) => {
+        const categoryInfo = getCategoryInfo(groupWords);
+        return (
+          <div key={index} className="found-category-container">
+            <div className={`category-name category-${categoryInfo.index}`}>
+              {categoryInfo.name}
+            </div>
+            <div className="found-category">
+              {groupWords.map((word) => (
+                <WordCard
+                  key={word}
+                  word={word}
+                  isSelected={false}
+                  toggleWordSelection={() => {}}
+                  categoryIndex={categoryInfo.index}
+                />
+              ))}
+            </div>
+          </div>
+        );
+      })}
       
       {/* Display available words below */}
       <div className="puzzle-grid">

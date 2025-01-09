@@ -48,7 +48,7 @@ function App() {
         <p>Erreurs restantes : {maxMistakes - mistakes}</p>
         {puzzleComplete && <p>Félicitations ! Vous avez terminé.</p>}
       </div>
-      {puzzle && hasMistakesLeft && !puzzleComplete && (
+      {puzzle && hasMistakesLeft && (
         <PuzzleGrid
           puzzle={puzzle}
           setPuzzle={setPuzzle}
