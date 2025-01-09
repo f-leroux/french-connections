@@ -15,6 +15,7 @@ function App() {
     async function loadPuzzle() {
       try {
         const puzzleData = await fetchPuzzleOfTheDay();
+        puzzleData.words = puzzleData.groups.flatMap(group => group.words);
         setPuzzle(puzzleData);
       } catch (error) {
         console.error('Error fetching puzzle:', error);

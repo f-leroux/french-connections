@@ -2,7 +2,6 @@
     {
       "id": 1,
       "date": "2025-01-01",
-      "words": ["AMOUR", "MER", "SABLE", "ROSE", "CHAISE", "PLUIE", "CIEL", "BLEU", "VERT", "CAMPAGNE", "BOIS", "PLANTE", "SOLEIL", "VIE", "FLEUR", "TOURNE"],
       "groups": [
         {
           "name": "Couleurs",
@@ -25,7 +24,6 @@
     {
       "id": 2,
       "date": "2025-01-02",
-      "words": ["CHAT", "CHIEN", "AVION", "VOLER", "EAU", "FEU", "AIR", "TERRE", "CRAYON", "PAPIER", "MANGER", "BOIRE", "MAISON", "PORTE", "CLEF", "SERVIR"],
       "groups": [
         {
           "name": "Éléments",
@@ -33,7 +31,7 @@
         },
         {
           "name": "Animaux",
-          "words": ["CHAT", "CHIEN"]
+          "words": ["CHAT", "CHIEN", "LAPIN", "POISSON"]
         },
         {
           "name": "Objets",
