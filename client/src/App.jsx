@@ -42,7 +42,9 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1>Connections Français</h1>
+      <h1>Connexions</h1>
+      <p>{puzzle.date}</p>
+      <p>Trouvez les groupes de 4 mots qui se connectent</p>
       <div className="info-bar">
         <p>Erreurs restantes : {maxMistakes - mistakes}</p>
         {puzzleComplete && <p>Félicitations ! Vous avez terminé.</p>}
