@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import WordCard from './WordCard';
 
-function PuzzleGrid({ puzzle, foundGroups, onGroupFound, onWrongGroup }) {
+function PuzzleGrid({ puzzle, setPuzzle, foundGroups, onGroupFound, onWrongGroup }) {
   const [selectedWords, setSelectedWords] = useState([]);
 
   // All puzzle words minus any that have already been grouped
@@ -14,7 +14,11 @@ function PuzzleGrid({ puzzle, foundGroups, onGroupFound, onWrongGroup }) {
       if (prev.includes(word)) {
         return prev.filter(w => w !== word);
       }
-      return [...prev, word];
+      // Only add if we haven't selected 4 words yet
+      if (prev.length < 4) {
+        return [...prev, word];
+      }
+      return prev;
     });
   };
 
@@ -39,7 +43,10 @@ function PuzzleGrid({ puzzle, foundGroups, onGroupFound, onWrongGroup }) {
   // Button handlers
   const handleShuffle = () => {
     const shuffledWords = [...availableWords].sort(() => Math.random() - 0.5);
-    puzzle.words = [...shuffledWords, ...groupedWords];
+    setPuzzle(prev => ({
+      ...prev,
+      words: [...shuffledWords, ...groupedWords]
+    }));
   };
 
   const handleDeselectAll = () => {

@@ -50,6 +50,7 @@ function App() {
       {puzzle && hasMistakesLeft && !puzzleComplete && (
         <PuzzleGrid
           puzzle={puzzle}
+          setPuzzle={setPuzzle}
           foundGroups={foundGroups}
           onGroupFound={handleGroupFound}
           onWrongGroup={handleMistake}
