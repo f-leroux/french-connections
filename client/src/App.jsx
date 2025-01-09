@@ -16,6 +16,8 @@ function App() {
       try {
         const puzzleData = await fetchPuzzleOfTheDay();
         puzzleData.words = puzzleData.groups.flatMap(group => group.words);
+        // shuffle words
+        puzzleData.words = puzzleData.words.sort(() => Math.random() - 0.5);
         setPuzzle(puzzleData);
       } catch (error) {
         console.error('Error fetching puzzle:', error);

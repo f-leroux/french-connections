@@ -20,10 +20,10 @@ function PuzzleGrid({ puzzle, foundGroups, onGroupFound, onWrongGroup }) {
 
   // Check if the selected 4 words match a group
   const validateSelection = (words) => {
+    if (words.length !== 4) return;
+    
     // Compare with puzzle.groups
-    // Each group is an array of 4 words
     const matchedGroup = puzzle.groups.find(group => {
-      // Sort so order doesn't matter
       const groupSet = new Set(group.words);
       return words.every(w => groupSet.has(w));
     });
@@ -33,24 +33,45 @@ function PuzzleGrid({ puzzle, foundGroups, onGroupFound, onWrongGroup }) {
     } else {
       onWrongGroup();
     }
+    setSelectedWords([]); // Reset selection
   };
 
-  // If exactly 4 words selected, validate
-  if (selectedWords.length === 4) {
+  // Button handlers
+  const handleShuffle = () => {
+    const shuffledWords = [...availableWords].sort(() => Math.random() - 0.5);
+    puzzle.words = [...shuffledWords, ...groupedWords];
+  };
+
+  const handleDeselectAll = () => {
+    setSelectedWords([]);
+  };
+
+  const handleSubmit = () => {
     validateSelection(selectedWords);
-    setSelectedWords([]); // Reset selection
-  }
+  };
 
   return (
-    <div className="puzzle-grid">
-      {availableWords.map((word) => (
-        <WordCard
-          key={word}
-          word={word}
-          isSelected={selectedWords.includes(word)}
-          toggleWordSelection={toggleWordSelection}
-        />
-      ))}
+    <div>
+      <div className="puzzle-grid">
+        {availableWords.map((word) => (
+          <WordCard
+            key={word}
+            word={word}
+            isSelected={selectedWords.includes(word)}
+            toggleWordSelection={toggleWordSelection}
+          />
+        ))}
+      </div>
+      <div className="button-row">
+        <button onClick={handleShuffle}>Mélanger</button>
+        <button onClick={handleDeselectAll}>Tout désélectionner</button>
+        <button 
+          onClick={handleSubmit}
+          disabled={selectedWords.length !== 4}
+        >
+          Soumettre
+        </button>
+      </div>
     </div>
   );
 }
