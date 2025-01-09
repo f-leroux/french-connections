@@ -1,5 +1,12 @@
 /* client/src/styles/main.css */
 
+:root {
+  --color-yellow: #f9d04b;
+  --color-green: #a0c35a;
+  --color-blue: #4fa4e4;
+  --color-purple: #b45eff;
+}
+
 .app-container {
     width: 90%;
     max-width: 800px;
@@ -75,5 +82,30 @@
   
   .button-row button:hover:not(:disabled) {
     background-color: #357abd;
+  }
+  
+  .found-category {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .word-card.category-0 {
+    background-color: var(--color-yellow);
+  }
+  
+  .word-card.category-1 {
+    background-color: var(--color-green);
+  }
+  
+  .word-card.category-2 {
+    background-color: var(--color-blue);
+    color: white;
+  }
+  
+  .word-card.category-3 {
+    background-color: var(--color-purple);
+    color: white;
   }
   

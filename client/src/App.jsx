@@ -1,7 +1,6 @@
 // client/src/App.jsx
 import React, { useEffect, useState } from 'react';
 import PuzzleGrid from './components/PuzzleGrid';
-import FoundGroups from './components/FoundGroups';
 import { fetchPuzzleOfTheDay } from './services/puzzleAPI';
 
 function App() {
@@ -61,7 +60,6 @@ function App() {
       {(!hasMistakesLeft && !puzzleComplete) && (
         <p>Vous avez utilisé toutes vos tentatives. Réessayez demain !</p>
       )}
-      <FoundGroups foundGroups={foundGroups} />
     </div>
   );
 }

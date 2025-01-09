@@ -4,17 +4,22 @@ import WordCard from './WordCard';
 function PuzzleGrid({ puzzle, setPuzzle, foundGroups, onGroupFound, onWrongGroup }) {
   const [selectedWords, setSelectedWords] = useState([]);
 
+  // Find category index for a group of words
+  const getCategoryIndex = (words) => {
+    return puzzle.groups.findIndex(group => 
+      words.every(w => group.words.includes(w))
+    );
+  };
+
   // All puzzle words minus any that have already been grouped
   const groupedWords = foundGroups.flat();
   const availableWords = puzzle.words.filter(word => !groupedWords.includes(word));
 
-  // Add or remove word from selectedWords
   const toggleWordSelection = (word) => {
     setSelectedWords(prev => {
       if (prev.includes(word)) {
         return prev.filter(w => w !== word);
       }
-      // Only add if we haven't selected 4 words yet
       if (prev.length < 4) {
         return [...prev, word];
       }
@@ -22,11 +27,9 @@ function PuzzleGrid({ puzzle, setPuzzle, foundGroups, onGroupFound, onWrongGroup
     });
   };
 
-  // Check if the selected 4 words match a group
   const validateSelection = (words) => {
     if (words.length !== 4) return;
     
-    // Compare with puzzle.groups
     const matchedGroup = puzzle.groups.find(group => {
       const groupSet = new Set(group.words);
       return words.every(w => groupSet.has(w));
@@ -37,10 +40,9 @@ function PuzzleGrid({ puzzle, setPuzzle, foundGroups, onGroupFound, onWrongGroup
     } else {
       onWrongGroup();
     }
-    setSelectedWords([]); // Reset selection
+    setSelectedWords([]);
   };
 
-  // Button handlers
   const handleShuffle = () => {
     const shuffledWords = [...availableWords].sort(() => Math.random() - 0.5);
     setPuzzle(prev => ({
@@ -59,6 +61,22 @@ function PuzzleGrid({ puzzle, setPuzzle, foundGroups, onGroupFound, onWrongGroup
 
   return (
     <div>
+      {/* Display found groups at the top */}
+      {foundGroups.map((groupWords, index) => (
+        <div key={index} className="found-category">
+          {groupWords.map((word) => (
+            <WordCard
+              key={word}
+              word={word}
+              isSelected={false}
+              toggleWordSelection={() => {}}
+              categoryIndex={getCategoryIndex(groupWords)}
+            />
+          ))}
+        </div>
+      ))}
+      
+      {/* Display available words below */}
       <div className="puzzle-grid">
         {availableWords.map((word) => (
           <WordCard
@@ -66,6 +84,7 @@ function PuzzleGrid({ puzzle, setPuzzle, foundGroups, onGroupFound, onWrongGroup
             word={word}
             isSelected={selectedWords.includes(word)}
             toggleWordSelection={toggleWordSelection}
+            categoryIndex={null}
           />
         ))}
       </div>
