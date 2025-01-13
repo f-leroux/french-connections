@@ -64,17 +64,19 @@ function App() {
     <div className="app-container">
       <h1>Connexions</h1>
       <h3>{new Date().toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</h3>
-      <p>Trouvez les groupes de 4 mots qui se connectent !</p>
       <div className="info-bar">
+        {!puzzleComplete && hasMistakesLeft && <p>Trouvez les groupes de 4 mots qui se connectent !</p>}
         {puzzleComplete && <p>Félicitations ! Vous avez terminé.</p>}
       </div>
-      {puzzle  && hasMistakesLeft && (
+      {puzzle && (
         <PuzzleGrid
           puzzle={puzzle}
           setPuzzle={setPuzzle}
           foundGroups={foundGroups}
           onGroupFound={handleGroupFound}
           onWrongGroup={handleMistake}
+          puzzleComplete={puzzleComplete}
+          hasMistakesLeft={hasMistakesLeft}
         />
       )}
       {(hasMistakesLeft) && (

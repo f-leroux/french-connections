@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import WordCard from './WordCard';
 
-function PuzzleGrid({ puzzle, setPuzzle, foundGroups, onGroupFound, onWrongGroup }) {
+function PuzzleGrid({ puzzle, setPuzzle, foundGroups, onGroupFound, onWrongGroup, puzzleComplete, hasMistakesLeft }) {
   const [selectedWords, setSelectedWords] = useState([]);
 
   // Find category index and name for a group of words
@@ -63,6 +63,11 @@ function PuzzleGrid({ puzzle, setPuzzle, foundGroups, onGroupFound, onWrongGroup
     validateSelection(selectedWords);
   };
 
+  const handleShare = () => {
+    // TODO: Implement sharing functionality
+    console.log("Share button clicked");
+  };
+
   return (
     <div>
       {/* Display found groups at the top */}
@@ -89,28 +94,44 @@ function PuzzleGrid({ puzzle, setPuzzle, foundGroups, onGroupFound, onWrongGroup
       })}
       
       {/* Display available words below */}
-      <div className="puzzle-grid">
-        {availableWords.map((word) => (
-          <WordCard
-            key={word}
-            word={word}
-            isSelected={selectedWords.includes(word)}
-            toggleWordSelection={toggleWordSelection}
-            categoryIndex={null}
-          />
-        ))}
-      </div>
+      {!puzzleComplete && hasMistakesLeft && (
+        <div className="puzzle-grid">
+          {availableWords.map((word) => (
+            <WordCard
+              key={word}
+              word={word}
+              isSelected={selectedWords.includes(word)}
+              toggleWordSelection={toggleWordSelection}
+              categoryIndex={null}
+            />
+          ))}
+        </div>
+      )}
       <div className="button-row">
-        <button onClick={handleShuffle}>Mélanger</button>
-        <button onClick={handleDeselectAll}
-          disabled={selectedWords.length === 0}
-        >Tout désélectionner</button>
-        <button 
-          onClick={handleSubmit}
-          disabled={selectedWords.length !== 4}
-        >
-          Soumettre
-        </button>
+        {!puzzleComplete && hasMistakesLeft ? (
+          <>
+            <button onClick={handleShuffle}>Mélanger</button>
+            <button 
+              onClick={handleDeselectAll}
+              disabled={selectedWords.length === 0}
+            >
+              Tout désélectionner
+            </button>
+            <button 
+              onClick={handleSubmit}
+              disabled={selectedWords.length !== 4}
+            >
+              Soumettre
+            </button>
+          </>
+        ) : (
+          <button 
+            onClick={handleShare}
+            className="share-button"
+          >
+            Partager
+          </button>
+        )}
       </div>
     </div>
   );
