@@ -1,7 +1,17 @@
 import React, { useState } from 'react';
 import WordCard from './WordCard';
 
-function PuzzleGrid({ puzzle, setPuzzle, foundGroups, onGroupFound, onWrongGroup, puzzleComplete, hasMistakesLeft }) {
+function PuzzleGrid({ 
+  puzzle, 
+  setPuzzle, 
+  foundGroups, 
+  onGroupFound, 
+  onWrongGroup, 
+  onGroupSelected,
+  puzzleComplete, 
+  hasMistakesLeft,
+  generateShareText 
+}) {
   const [selectedWords, setSelectedWords] = useState([]);
 
   // Find category index and name for a group of words
@@ -34,6 +44,10 @@ function PuzzleGrid({ puzzle, setPuzzle, foundGroups, onGroupFound, onWrongGroup
   const validateSelection = (words) => {
     if (words.length !== 4) return;
     
+    // Notify App component about the selection (for history)
+    onGroupSelected(words);
+    
+    // Compare with puzzle.groups
     const matchedGroup = puzzle.groups.find(group => {
       const groupSet = new Set(group.words);
       return words.every(w => groupSet.has(w));
@@ -63,9 +77,15 @@ function PuzzleGrid({ puzzle, setPuzzle, foundGroups, onGroupFound, onWrongGroup
     validateSelection(selectedWords);
   };
 
-  const handleShare = () => {
-    // TODO: Implement sharing functionality
-    console.log("Share button clicked");
+  const handleShare = async () => {
+    const shareText = generateShareText();
+    try {
+      await navigator.clipboard.writeText(shareText);
+      alert('Résultat copié dans le presse-papiers !');
+    } catch (err) {
+      console.error('Failed to copy text: ', err);
+      alert('Erreur lors de la copie du texte');
+    }
   };
 
   return (
