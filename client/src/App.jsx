@@ -39,6 +39,27 @@ function App() {
   const puzzleComplete = puzzle && foundGroups.length === 4;
   const hasMistakesLeft = mistakes < maxMistakes;
 
+  // Add this new component for showing solutions
+  const SolutionReveal = () => (
+    <div className="solution-reveal">
+      <h3>Solutions :</h3>
+      {puzzle.groups.map((group, index) => (
+        <div key={index} className={`found-category-container`}>
+          <div className={`category-name category-${index}`}>
+            {group.name}
+          </div>
+          <div className="found-category">
+            {group.words.map((word) => (
+              <div key={word} className={`word-card category-${index}`}>
+                {word}
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+
   return (
     <div className="app-container">
       <h1>Connexions</h1>
@@ -47,7 +68,7 @@ function App() {
       <div className="info-bar">
         {puzzleComplete && <p>Félicitations ! Vous avez terminé.</p>}
       </div>
-      {puzzle  && (
+      {puzzle  && hasMistakesLeft && (
         <PuzzleGrid
           puzzle={puzzle}
           setPuzzle={setPuzzle}
@@ -60,7 +81,10 @@ function App() {
         <p style={{ position: 'fixed', left: '850px'}}>Erreurs restantes : {Array(maxMistakes - mistakes).fill('❤️ ').join('')}</p>
       )}
       {(!hasMistakesLeft && !puzzleComplete) && (
-        <p>Vous avez utilisé toutes vos tentatives. Réessayez demain !</p>
+        <>
+          <p>Vous avez utilisé toutes vos tentatives. Réessayez demain !</p>
+          <SolutionReveal />
+        </>
       )}
     </div>
   );
