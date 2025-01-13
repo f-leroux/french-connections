@@ -14,15 +14,26 @@ try {
   console.error('Error reading puzzle data:', err);
 }
 
-// Example function: get puzzle for today's date
+// Cache variables
+let cachedPuzzle = null;
+let cachedDate = null;
+
 function getPuzzleForToday() {
   const todayStr = new Date().toISOString().split('T')[0]; // "YYYY-MM-DD"
   
-  // Try to find a puzzle with the matching date
-  const puzzle = puzzles.find(p => p.date === todayStr);
+  // Return cached puzzle if it's still the same date
+  if (cachedDate === todayStr && cachedPuzzle) {
+    return cachedPuzzle;
+  }
 
-  // If not found, fallback to some logic. Here we’ll just pick the last puzzle in the array.
-  return puzzle || puzzles[puzzles.length - 1];
+  // If date changed or no cache, find new puzzle
+  const puzzle = puzzles.find(p => p.date === todayStr);
+  
+  // Update cache
+  cachedDate = todayStr;
+  cachedPuzzle = puzzle || puzzles[puzzles.length - 1];
+  
+  return cachedPuzzle;
 }
 
 module.exports = {
