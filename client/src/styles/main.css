@@ -161,4 +161,24 @@
     background-color: #218838 !important;
   }
 
+  @keyframes shakeWrong {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-8px); }
+    75% { transform: translateX(8px); }
+  }
+
+  @keyframes shakeRight {
+    0%, 100% { transform: translateY(0); }
+    25% { transform: translateY(-8px); }
+    75% { transform: translateY(8px); }
+  }
+
+  .puzzle-grid.shake-wrong {
+    animation: shakeWrong 0.5s;
+  }
+
+  .puzzle-grid.shake-right {
+    animation: shakeRight 0.5s;
+  }
+
   

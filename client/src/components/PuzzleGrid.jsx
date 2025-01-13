@@ -13,6 +13,7 @@ function PuzzleGrid({
   generateShareText 
 }) {
   const [selectedWords, setSelectedWords] = useState([]);
+  const [shakeClass, setShakeClass] = useState('');
 
   // Find category index and name for a group of words
   const getCategoryInfo = (words) => {
@@ -44,19 +45,25 @@ function PuzzleGrid({
   const validateSelection = (words) => {
     if (words.length !== 4) return;
     
-    // Notify App component about the selection (for history)
     onGroupSelected(words);
     
-    // Compare with puzzle.groups
     const matchedGroup = puzzle.groups.find(group => {
       const groupSet = new Set(group.words);
       return words.every(w => groupSet.has(w));
     });
 
     if (matchedGroup) {
-      onGroupFound(matchedGroup.words);
+      setShakeClass('shake-right');
+      setTimeout(() => {
+        onGroupFound(matchedGroup.words);
+        setShakeClass('');
+      }, 500);
     } else {
-      onWrongGroup();
+      setShakeClass('shake-wrong');
+      setTimeout(() => {
+        onWrongGroup();
+        setShakeClass('');
+      }, 500);
     }
     setSelectedWords([]);
   };
@@ -115,7 +122,7 @@ function PuzzleGrid({
       
       {/* Display available words below */}
       {!puzzleComplete && hasMistakesLeft && (
-        <div className="puzzle-grid">
+        <div className={`puzzle-grid ${shakeClass}`}>
           {availableWords.map((word) => (
             <WordCard
               key={word}
