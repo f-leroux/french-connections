@@ -14,6 +14,7 @@ function PuzzleGrid({
 }) {
   const [selectedWords, setSelectedWords] = useState([]);
   const [shakeClass, setShakeClass] = useState('');
+  const [showAlmostMessage, setShowAlmostMessage] = useState(false);
 
   // Find category index and name for a group of words
   const getCategoryInfo = (words) => {
@@ -42,6 +43,14 @@ function PuzzleGrid({
     });
   };
 
+  const checkIfOneAway = (words) => {
+    // Check each category to see if the selection contains 3 of its words
+    return puzzle.groups.some(group => {
+      const matchCount = words.filter(word => group.words.includes(word)).length;
+      return matchCount === 3;
+    });
+  };
+
   const validateSelection = (words) => {
     if (words.length !== 4) return;
     
@@ -60,6 +69,13 @@ function PuzzleGrid({
       }, 500);
     } else {
       setShakeClass('shake-wrong');
+      const isOneAway = checkIfOneAway(words);
+      if (isOneAway) {
+        setShowAlmostMessage(true);
+        setTimeout(() => {
+          setShowAlmostMessage(false);
+        }, 1000);
+      }
       setTimeout(() => {
         onWrongGroup();
         setShakeClass('');
@@ -121,19 +137,26 @@ function PuzzleGrid({
       })}
       
       {/* Display available words below */}
-      {!puzzleComplete && hasMistakesLeft && (
-        <div className={`puzzle-grid ${shakeClass}`}>
-          {availableWords.map((word) => (
-            <WordCard
-              key={word}
-              word={word}
-              isSelected={selectedWords.includes(word)}
-              toggleWordSelection={toggleWordSelection}
-              categoryIndex={null}
-            />
-          ))}
-        </div>
-      )}
+      <div style={{ position: 'relative' }}>
+        {showAlmostMessage && (
+          <div className="almost-message">
+            Presque !
+          </div>
+        )}
+        {!puzzleComplete && hasMistakesLeft && (
+          <div className={`puzzle-grid ${shakeClass}`}>
+            {availableWords.map((word) => (
+              <WordCard
+                key={word}
+                word={word}
+                isSelected={selectedWords.includes(word)}
+                toggleWordSelection={toggleWordSelection}
+                categoryIndex={null}
+              />
+            ))}
+          </div>
+        )}
+      </div>
       <div className="button-row">
         {!puzzleComplete && hasMistakesLeft ? (
           <>

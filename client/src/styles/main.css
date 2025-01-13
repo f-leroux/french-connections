@@ -55,6 +55,7 @@
   .info-bar {
     margin-top: 1rem;
     font-size: 1.1rem;
+    margin-bottom: 5rem;
   }
   
   .button-row {
@@ -179,6 +180,25 @@
 
   .puzzle-grid.shake-right {
     animation: shakeRight 0.5s;
+  }
+
+  .almost-message {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    z-index: 100;
+    animation: fadeInOut 1s ease-in-out;
+  }
+
+  @keyframes fadeInOut {
+    0%, 100% { opacity: 0; }
+    20%, 80% { opacity: 1; }
   }
 
   

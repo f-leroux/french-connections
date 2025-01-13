@@ -103,6 +103,7 @@ function App() {
       <h1>Connexions</h1>
       <h3>{new Date().toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</h3>
       <div className="info-bar">
+        {!puzzleComplete && hasMistakesLeft && <p>Trouvez les groupes de 4 mots qui se connectent !</p>}
         {puzzleComplete && <p>Félicitations ! Vous avez terminé.</p>}
       </div>
       {puzzle && (
