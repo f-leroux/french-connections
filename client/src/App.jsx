@@ -120,7 +120,7 @@ function App() {
         />
       )}
       {(hasMistakesLeft) && (
-        <p style={{ position: 'fixed', left: '850px'}}>Erreurs restantes : {Array(maxMistakes - mistakes).fill('❤️ ').join('')}</p>
+        <p >Erreurs restantes : {Array(maxMistakes - mistakes).fill('❤️ ').join('')}</p>
       )}
       {(!hasMistakesLeft && !puzzleComplete) && (
         <>
