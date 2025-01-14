@@ -32,7 +32,6 @@ coverage/
 .vscode/
 .idea/
 
-# Lock files (optional; depends on your workflow)
 # If you want to commit exact lockfile versions, remove these lines
 package-lock.json
 yarn.lock

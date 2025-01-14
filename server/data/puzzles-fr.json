@@ -1,6 +1,5 @@
 [
     {
-      "id": 1,
       "date": "2025-01-08",
       "groups": [
         {
@@ -22,7 +21,6 @@
       ]
     },
     {
-      "id": 2,
       "date": "2025-01-09",
       "groups": [
         {
@@ -40,6 +38,27 @@
         {
           "name": "Verbes",
           "words": ["VOLER", "MANGER", "BOIRE", "SERVIR"]
+        }
+      ]
+    },
+    {
+      "date": "2025-01-13",
+      "groups": [
+        {
+          "name": "Dans une salle de classe",
+          "words": ["TABLEAU", "CRAIE", "CAHIER", "TROUSSE"]
+        },
+        {
+          "name": "Gouverner",
+          "words": ["GUIDER", "CONDUIRE", "DIRIGER", "ORIENTER"]
+        },
+        {
+          "name": "Choses bleues",
+          "words": ["CIEL", "SCHTROUMPF", "JEAN", "SAPHIR"]
+        },
+        {
+          "name": "Sur...",
+          "words": ["MENER", "PRISE", "VIVRE", "VÊTEMENT"]
         }
       ]
     }
