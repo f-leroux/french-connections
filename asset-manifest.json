@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/french-connections/static/css/main.90c4b6fa.css",
+    "main.js": "/french-connections/static/js/main.76544204.js",
+    "index.html": "/french-connections/index.html",
+    "main.90c4b6fa.css.map": "/french-connections/static/css/main.90c4b6fa.css.map",
+    "main.76544204.js.map": "/french-connections/static/js/main.76544204.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90c4b6fa.css",
+    "static/js/main.76544204.js"
+  ]
+}

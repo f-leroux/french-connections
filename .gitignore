@@ -1,0 +1,38 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Node modules
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# React build output
+client/build/
+client/dist/
+
+# Server build output (if applicable)
+server/dist/
+
+# Testing coverage
+coverage/
+
+# Environment variable files
+.env
+.env.*  # if you have multiple .env files like .env.local, .env.production
+
+# Editor folders/files
+.vscode/
+.idea/
+
+# If you want to commit exact lockfile versions, remove these lines
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
