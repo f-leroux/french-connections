@@ -61,6 +61,27 @@
           "words": ["MENER", "PRISE", "VIVRE", "VÊTEMENT"]
         }
       ]
+    },
+    {
+      "date": "2025-01-14",
+      "groups": [
+        {
+          "name": "Football",
+          "words": ["BUT", "CORNER", "PENALTY", "SURFACE"]
+        },
+        {
+          "name": "Vigne et vin",
+          "words": ["CAVE", "CRU", "CÉPAGE", "MILLÉSIME"]
+        },
+        {
+          "name": "Mer et océan",
+          "words": ["BRISE", "MARÉE", "MARIN", "NAGEOIRE"]
+        },
+        {
+          "name": "Pâtisserie",
+          "words": ["MOULE", "FOUET", "LEVURE", "PÂTE"]
+        }
+      ]
     }
   ]
   
