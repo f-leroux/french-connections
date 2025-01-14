@@ -1,87 +1,207 @@
 [
     {
-      "date": "2025-01-08",
-      "groups": [
-        {
-          "name": "Couleurs",
-          "words": ["BLEU", "VERT", "ROSE", "BLANC"]
-        },
-        {
-          "name": "Nature",
-          "words": ["PLANTE", "BOIS", "SABLE", "MER"]
-        },
-        {
-          "name": "Météo",
-          "words": ["PLUIE", "SOLEIL", "CIEL", "TOURNE"]
-        },
-        {
-          "name": "Divers",
-          "words": ["CHAISE", "FLEUR", "VIE", "CAMPAGNE"]
-        }
-      ]
+        "date": "2025-01-08",
+        "groups": [
+            {
+                "name": "Couleurs",
+                "words": [
+                    "BLEU",
+                    "VERT",
+                    "ROSE",
+                    "BLANC"
+                ]
+            },
+            {
+                "name": "Nature",
+                "words": [
+                    "PLANTE",
+                    "BOIS",
+                    "SABLE",
+                    "MER"
+                ]
+            },
+            {
+                "name": "M\u00e9t\u00e9o",
+                "words": [
+                    "PLUIE",
+                    "SOLEIL",
+                    "CIEL",
+                    "TOURNE"
+                ]
+            },
+            {
+                "name": "Divers",
+                "words": [
+                    "CHAISE",
+                    "FLEUR",
+                    "VIE",
+                    "CAMPAGNE"
+                ]
+            }
+        ]
     },
     {
-      "date": "2025-01-09",
-      "groups": [
-        {
-          "name": "Éléments",
-          "words": ["EAU", "FEU", "AIR", "TERRE"]
-        },
-        {
-          "name": "Animaux",
-          "words": ["CHAT", "CHIEN", "LAPIN", "POISSON"]
-        },
-        {
-          "name": "Objets",
-          "words": ["CRAYON", "PAPIER", "CLEF", "MAISON"]
-        },
-        {
-          "name": "Verbes",
-          "words": ["VOLER", "MANGER", "BOIRE", "SERVIR"]
-        }
-      ]
+        "date": "2025-01-09",
+        "groups": [
+            {
+                "name": "\u00c9l\u00e9ments",
+                "words": [
+                    "EAU",
+                    "FEU",
+                    "AIR",
+                    "TERRE"
+                ]
+            },
+            {
+                "name": "Animaux",
+                "words": [
+                    "CHAT",
+                    "CHIEN",
+                    "LAPIN",
+                    "POISSON"
+                ]
+            },
+            {
+                "name": "Objets",
+                "words": [
+                    "CRAYON",
+                    "PAPIER",
+                    "CLEF",
+                    "MAISON"
+                ]
+            },
+            {
+                "name": "Verbes",
+                "words": [
+                    "VOLER",
+                    "MANGER",
+                    "BOIRE",
+                    "SERVIR"
+                ]
+            }
+        ]
     },
     {
-      "date": "2025-01-13",
-      "groups": [
-        {
-          "name": "Dans une salle de classe",
-          "words": ["TABLEAU", "CRAIE", "CAHIER", "TROUSSE"]
-        },
-        {
-          "name": "Gouverner",
-          "words": ["GUIDER", "CONDUIRE", "DIRIGER", "ORIENTER"]
-        },
-        {
-          "name": "Choses bleues",
-          "words": ["CIEL", "SCHTROUMPF", "JEAN", "SAPHIR"]
-        },
-        {
-          "name": "Sur...",
-          "words": ["MENER", "PRISE", "VIVRE", "VÊTEMENT"]
-        }
-      ]
+        "date": "2025-01-13",
+        "groups": [
+            {
+                "name": "Dans une salle de classe",
+                "words": [
+                    "TABLEAU",
+                    "CRAIE",
+                    "CAHIER",
+                    "TROUSSE"
+                ]
+            },
+            {
+                "name": "Gouverner",
+                "words": [
+                    "GUIDER",
+                    "CONDUIRE",
+                    "DIRIGER",
+                    "ORIENTER"
+                ]
+            },
+            {
+                "name": "Choses bleues",
+                "words": [
+                    "CIEL",
+                    "SCHTROUMPF",
+                    "JEAN",
+                    "SAPHIR"
+                ]
+            },
+            {
+                "name": "Sur...",
+                "words": [
+                    "MENER",
+                    "PRISE",
+                    "VIVRE",
+                    "V\u00caTEMENT"
+                ]
+            }
+        ]
     },
     {
-      "date": "2025-01-14",
-      "groups": [
-        {
-          "name": "Football",
-          "words": ["BUT", "CORNER", "PENALTY", "SURFACE"]
-        },
-        {
-          "name": "Vigne et vin",
-          "words": ["CAVE", "CRU", "CÉPAGE", "MILLÉSIME"]
-        },
-        {
-          "name": "Mer et océan",
-          "words": ["BRISE", "MARÉE", "MARIN", "NAGEOIRE"]
-        },
-        {
-          "name": "Pâtisserie",
-          "words": ["MOULE", "FOUET", "LEVURE", "PÂTE"]
-        }
-      ]
+        "date": "2025-01-14",
+        "groups": [
+            {
+                "name": "Football",
+                "words": [
+                    "BUT",
+                    "CORNER",
+                    "PENALTY",
+                    "SURFACE"
+                ]
+            },
+            {
+                "name": "Vigne et vin",
+                "words": [
+                    "CAVE",
+                    "CRU",
+                    "C\u00c9PAGE",
+                    "MILL\u00c9SIME"
+                ]
+            },
+            {
+                "name": "Mer et oc\u00e9an",
+                "words": [
+                    "BRISE",
+                    "MAR\u00c9E",
+                    "MARIN",
+                    "NAGEOIRE"
+                ]
+            },
+            {
+                "name": "P\u00e2tisserie",
+                "words": [
+                    "MOULE",
+                    "FOUET",
+                    "LEVURE",
+                    "P\u00c2TE"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2025-01-15",
+        "groups": [
+            {
+                "name": "Tennis",
+                "words": [
+                    " RAQUETTE",
+                    " FILET",
+                    " SERVICE",
+                    " SMASH"
+                ]
+            },
+            {
+                "name": "Marine",
+                "words": [
+                    " FLOTTE",
+                    " COQUE",
+                    " MAT",
+                    " VOILE"
+                ]
+            },
+            {
+                "name": "Cuisine",
+                "words": [
+                    " GRAIN",
+                    " BOULE",
+                    " LAME",
+                    " TASSE"
+                ]
+            },
+            {
+                "name": "Parties d\u2019un livre",
+                "words": [
+                    " DOS",
+                    " COUVERTURE",
+                    " TRANCHE",
+                    " FEUILLE"
+                ]
+            }
+        ]
     }
-  ]
-  
+]
