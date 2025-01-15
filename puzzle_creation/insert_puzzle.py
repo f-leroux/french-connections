@@ -19,6 +19,7 @@ def insert_puzzle(data, groups, new_date, last_date):
         'date': new_date,
         'groups': groups
     })
+    print(f"Puzzle ajouté pour la date {new_date}")
     with open(json_path, 'w') as file:
         json.dump(data, file, indent=4)
 
@@ -46,18 +47,13 @@ Nom catégorie 1: MOT1, MOT2, MOT3, MOT4; Nom catégorie 2: MOT5, MOT6, MOT7, MO
             'words': words
         })
     
-    date_option = input(f'Par défaut, ce puzzle sera ajouté à la date {next_date}. Appuyez sur entrée pour conserver cette date, ou entrez une nouvelle date au format YYYY-MM-DD\n')
+    date_option = input(f'Par défaut, ce puzzle sera ajouté à la date {next_date}. Appuyez sur Entrée pour conserver cette date, ou entrez une nouvelle date au format YYYY-MM-DD\n')
     if date_option == '':
         date = next_date
     else:
         date = date_option
     
     insert_puzzle(data, groups, date, last_date)
-
-    
-    
-    
-
 
 if __name__ == "__main__":
     main()
