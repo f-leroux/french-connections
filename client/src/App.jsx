@@ -101,7 +101,7 @@ function App() {
   return (
     <div className="app-container">
       <h1>Connexions</h1>
-      <h3>{new Date().toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</h3>
+      <h2>{new Date().toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</h2>
       <div className="info-bar">
         {!puzzleComplete && hasMistakesLeft && <p>Trouvez les groupes de 4 mots qui se connectent !</p>}
         {puzzleComplete && <p>Félicitations ! Vous avez terminé.</p>}
@@ -120,7 +120,7 @@ function App() {
         />
       )}
       {(hasMistakesLeft) && (
-        <p >Erreurs restantes : {Array(maxMistakes - mistakes).fill('❤️ ').join('')}</p>
+        <p id="mistakes-remaining">Erreurs restantes : {Array(maxMistakes - mistakes).fill('❤️ ').join('')}</p>
       )}
       {(!hasMistakesLeft && !puzzleComplete) && (
         <>
