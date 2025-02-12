@@ -1,415 +1,5 @@
 [
     {
-        "date": "2025-01-08",
-        "groups": [
-            {
-                "name": "Couleurs",
-                "words": [
-                    "BLEU",
-                    "VERT",
-                    "ROSE",
-                    "BLANC"
-                ]
-            },
-            {
-                "name": "Nature",
-                "words": [
-                    "PLANTE",
-                    "BOIS",
-                    "SABLE",
-                    "MER"
-                ]
-            },
-            {
-                "name": "M\u00e9t\u00e9o",
-                "words": [
-                    "PLUIE",
-                    "SOLEIL",
-                    "CIEL",
-                    "TOURNE"
-                ]
-            },
-            {
-                "name": "Divers",
-                "words": [
-                    "CHAISE",
-                    "FLEUR",
-                    "VIE",
-                    "CAMPAGNE"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2025-01-09",
-        "groups": [
-            {
-                "name": "\u00c9l\u00e9ments",
-                "words": [
-                    "EAU",
-                    "FEU",
-                    "AIR",
-                    "TERRE"
-                ]
-            },
-            {
-                "name": "Animaux",
-                "words": [
-                    "CHAT",
-                    "CHIEN",
-                    "LAPIN",
-                    "POISSON"
-                ]
-            },
-            {
-                "name": "Objets",
-                "words": [
-                    "CRAYON",
-                    "PAPIER",
-                    "CLEF",
-                    "MAISON"
-                ]
-            },
-            {
-                "name": "Verbes",
-                "words": [
-                    "VOLER",
-                    "MANGER",
-                    "BOIRE",
-                    "SERVIR"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2025-01-13",
-        "groups": [
-            {
-                "name": "Dans une salle de classe",
-                "words": [
-                    "TABLEAU",
-                    "CRAIE",
-                    "CAHIER",
-                    "TROUSSE"
-                ]
-            },
-            {
-                "name": "Gouverner",
-                "words": [
-                    "GUIDER",
-                    "CONDUIRE",
-                    "DIRIGER",
-                    "ORIENTER"
-                ]
-            },
-            {
-                "name": "Choses bleues",
-                "words": [
-                    "CIEL",
-                    "SCHTROUMPF",
-                    "JEAN",
-                    "SAPHIR"
-                ]
-            },
-            {
-                "name": "Sur...",
-                "words": [
-                    "MENER",
-                    "PRISE",
-                    "VIVRE",
-                    "V\u00caTEMENT"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2025-01-14",
-        "groups": [
-            {
-                "name": "Football",
-                "words": [
-                    "BUT",
-                    "CORNER",
-                    "PENALTY",
-                    "SURFACE"
-                ]
-            },
-            {
-                "name": "Vigne et vin",
-                "words": [
-                    "CAVE",
-                    "CRU",
-                    "C\u00c9PAGE",
-                    "MILL\u00c9SIME"
-                ]
-            },
-            {
-                "name": "Mer et oc\u00e9an",
-                "words": [
-                    "BRISE",
-                    "MAR\u00c9E",
-                    "MARIN",
-                    "NAGEOIRE"
-                ]
-            },
-            {
-                "name": "P\u00e2tisserie",
-                "words": [
-                    "MOULE",
-                    "FOUET",
-                    "LEVURE",
-                    "P\u00c2TE"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2025-01-15",
-        "groups": [
-            {
-                "name": "Tennis",
-                "words": [
-                    " RAQUETTE",
-                    " FILET",
-                    " SERVICE",
-                    " SMASH"
-                ]
-            },
-            {
-                "name": "Marine",
-                "words": [
-                    " FLOTTE",
-                    " COQUE",
-                    " MAT",
-                    " VOILE"
-                ]
-            },
-            {
-                "name": "Cuisine",
-                "words": [
-                    " GRAIN",
-                    " BOULE",
-                    " LAME",
-                    " TASSE"
-                ]
-            },
-            {
-                "name": "Parties d\u2019un livre",
-                "words": [
-                    " DOS",
-                    " COUVERTURE",
-                    " TRANCHE",
-                    " FEUILLE"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2025-01-16",
-        "groups": [
-            {
-                "name": "Jeu de soci\u00e9t\u00e9",
-                "words": [
-                    " TOUR",
-                    " PION",
-                    " PLATEAU",
-                    " JETON"
-                ]
-            },
-            {
-                "name": "Infrastructures de transport",
-                "words": [
-                    " AXE",
-                    " ROUTE",
-                    " VOIE",
-                    " RAIL"
-                ]
-            },
-            {
-                "name": "\u00c9conomie & Finance",
-                "words": [
-                    " ACTION",
-                    " BILAN",
-                    " MARGE",
-                    " CAPITAL"
-                ]
-            },
-            {
-                "name": "Objets/\u00e9l\u00e9ments qu\u2019on d\u00e9plie ou d\u00e9ploie",
-                "words": [
-                    " TENTE",
-                    " \u00c9CHELLE",
-                    " CARTE",
-                    " VOILE"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2025-01-17",
-        "groups": [
-            {
-                "name": "Cin\u00e9ma",
-                "words": [
-                    " R\u00d4LE",
-                    " CASTING",
-                    " SC\u00c9NARIO",
-                    " TOURNAGE"
-                ]
-            },
-            {
-                "name": "Musique",
-                "words": [
-                    " PORT\u00c9E",
-                    " NOTE",
-                    " MESURE",
-                    " CLEF"
-                ]
-            },
-            {
-                "name": "Cuisine",
-                "words": [
-                    " ROULEAU",
-                    " SPATULE",
-                    " COUTEAU",
-                    " TORCHON"
-                ]
-            },
-            {
-                "name": "Peinture",
-                "words": [
-                    " PINCEAU",
-                    " CHEVALET",
-                    " PALETTE",
-                    " TOILE"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2025-01-18",
-        "groups": [
-            {
-                "name": "Instruments de musique",
-                "words": [
-                    " COR",
-                    " FL\u00dbTE",
-                    " ORGUE",
-                    " TAMBOUR"
-                ]
-            },
-            {
-                "name": "\u00c9l\u00e9ments vestimentaires",
-                "words": [
-                    " BANDE",
-                    " CEINTURE",
-                    " BOUTON",
-                    " COL"
-                ]
-            },
-            {
-                "name": "Concepts math\u00e9matiques",
-                "words": [
-                    " SOMME",
-                    " DIFF\u00c9RENCE",
-                    " PRODUIT",
-                    " RACINE"
-                ]
-            },
-            {
-                "name": "Termes en typographie",
-                "words": [
-                    " POLICE",
-                    " CORPS",
-                    " JUSTIFICATION",
-                    " CHASSE"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2025-01-19",
-        "groups": [
-            {
-                "name": "Monnaies",
-                "words": [
-                    " LIVRE",
-                    " FRANC",
-                    " EURO",
-                    " YEN"
-                ]
-            },
-            {
-                "name": "Photographie",
-                "words": [
-                    " CADRE",
-                    " ZOOM",
-                    " OBJECTIF",
-                    " POSE"
-                ]
-            },
-            {
-                "name": "Musculation",
-                "words": [
-                    " BANC",
-                    " BARRE",
-                    " S\u00c9RIE",
-                    " R\u00c9P\u00c9TITION"
-                ]
-            },
-            {
-                "name": "Architecture",
-                "words": [
-                    " OGIVE",
-                    " CLEF",
-                    " ARCADE",
-                    " CHAPITEAU"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2025-01-20",
-        "groups": [
-            {
-                "name": "D\u00e9partements fran\u00e7ais",
-                "words": [
-                    " MANCHE",
-                    " CHER",
-                    " SOMME",
-                    " LOT"
-                ]
-            },
-            {
-                "name": "Points d\u2019eau / Distribution d\u2019eau",
-                "words": [
-                    " BOUTEILLE",
-                    " ROBINET",
-                    " FONTAINE",
-                    " SOURCE"
-                ]
-            },
-            {
-                "name": "Math\u00e9matiques",
-                "words": [
-                    " LIMITE",
-                    " SUITE",
-                    " CORPS",
-                    " GROUPE"
-                ]
-            },
-            {
-                "name": "Parties d\u2019un bateau",
-                "words": [
-                    " PONT",
-                    " COQUE",
-                    " BARRE",
-                    " QUILLE"
-                ]
-            }
-        ]
-    },
-    {
         "date": "2025-02-12",
         "groups": [
             {
@@ -446,6 +36,211 @@
                     "Sens",
                     "Vannes",
                     "Die"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2025-02-13",
+        "groups": [
+            {
+                "name": "Types de Courses",
+                "words": [
+                    "Marathon",
+                    "Sprint",
+                    "Relais",
+                    "Haies"
+                ]
+            },
+            {
+                "name": "Tennis Shots",
+                "words": [
+                    "Service",
+                    "Smash",
+                    "Revers",
+                    "Vol\u00e9e"
+                ]
+            },
+            {
+                "name": "Synonymes de Courir",
+                "words": [
+                    "Filer",
+                    "Trotter",
+                    "Galoper",
+                    "H\u00e2ter"
+                ]
+            },
+            {
+                "name": "Peintres impressionnistes",
+                "words": [
+                    "Boudin",
+                    "Colin",
+                    "Manet",
+                    "Sisley"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2025-02-14",
+        "groups": [
+            {
+                "name": "Dieux et Plan\u00e8tes",
+                "words": [
+                    "Mars",
+                    "Mercure",
+                    "Jupiter",
+                    "Neptune"
+                ]
+            },
+            {
+                "name": "Titres de films de science-fiction",
+                "words": [
+                    "Dune",
+                    "Solaris",
+                    "Gravity",
+                    "Avatar"
+                ]
+            },
+            {
+                "name": "VILLES FICTIVES",
+                "words": [
+                    "Gotham",
+                    "Metropolis",
+                    "Rapture",
+                    "Zion"
+                ]
+            },
+            {
+                "name": "Objets Ferm\u00e9s \u00e0 Cl\u00e9",
+                "words": [
+                    "Coffre",
+                    "Porte",
+                    "Cave",
+                    "Tiroir"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2025-02-15",
+        "groups": [
+            {
+                "name": "Vins Rouges",
+                "words": [
+                    "Merlot",
+                    "Syrah",
+                    "Grenache",
+                    "Malbec"
+                ]
+            },
+            {
+                "name": "Fromages",
+                "words": [
+                    "Ch\u00e8vre",
+                    "Bleu",
+                    "Brie",
+                    "Cantal"
+                ]
+            },
+            {
+                "name": "L\u00e9gumes",
+                "words": [
+                    "Chou",
+                    "Carotte",
+                    "Pois",
+                    "Haricot"
+                ]
+            },
+            {
+                "name": "Genres musicaux",
+                "words": [
+                    "M\u00e9tal",
+                    "Blues",
+                    "Salsa",
+                    "Garage"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2025-02-16",
+        "groups": [
+            {
+                "name": "Amulettes",
+                "words": [
+                    "Fer",
+                    "Argent",
+                    "\u00c9cu",
+                    "Sel"
+                ]
+            },
+            {
+                "name": "Accessoires Mariage",
+                "words": [
+                    "Voile",
+                    "Couronne",
+                    "Bijou",
+                    "Gants"
+                ]
+            },
+            {
+                "name": "Objets Pivot",
+                "words": [
+                    "Sabre",
+                    "Anneau",
+                    "Bouclier",
+                    "Cape"
+                ]
+            },
+            {
+                "name": "Albums Francophones",
+                "words": [
+                    "Feu",
+                    "Noir",
+                    "Zen",
+                    "Blonde"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2025-02-17",
+        "groups": [
+            {
+                "name": "Mots sans 'e'",
+                "words": [
+                    "Bijou",
+                    "Loup",
+                    "Souris",
+                    "Froid"
+                ]
+            },
+            {
+                "name": "Formations Naturelles",
+                "words": [
+                    "Archipel",
+                    "Cr\u00eate",
+                    "Plateau",
+                    "Source"
+                ]
+            },
+            {
+                "name": "Ph\u00e9nom\u00e8nes M\u00e9t\u00e9orologiques",
+                "words": [
+                    "\u00c9clair",
+                    "Mirage",
+                    "Foudre",
+                    "Cyclone"
+                ]
+            },
+            {
+                "name": "Synonymes de \u00ab SE PLAINDRE \u00bb",
+                "words": [
+                    "Grogner",
+                    "Ronchonner",
+                    "G\u00e9mir",
+                    "Rousp\u00e9ter"
                 ]
             }
         ]
