@@ -38,3 +38,4 @@ yarn.lock
 pnpm-lock.yaml
 
 puzzle_creation/automation/
+puzzle_creation/puzzles-fr.json
