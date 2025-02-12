@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/french-connections/static/css/main.61b7d90e.css",
+    "main.css": "/french-connections/static/css/main.2737bb08.css",
     "main.js": "/french-connections/static/js/main.eb1202b1.js",
     "index.html": "/french-connections/index.html",
-    "main.61b7d90e.css.map": "/french-connections/static/css/main.61b7d90e.css.map",
+    "main.2737bb08.css.map": "/french-connections/static/css/main.2737bb08.css.map",
     "main.eb1202b1.js.map": "/french-connections/static/js/main.eb1202b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.61b7d90e.css",
+    "static/css/main.2737bb08.css",
     "static/js/main.eb1202b1.js"
   ]
 }
