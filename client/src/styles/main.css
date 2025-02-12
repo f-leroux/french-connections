@@ -45,6 +45,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  user-select: none; /* Disable text selection */
 }
 
 .word-card.selected {
@@ -212,7 +213,6 @@ h2 {
   .word-card {
     font-size: clamp(0.7rem, 2vw, 2.5rem);
     padding: 0.75rem 0.5rem;
-    transition: none;
   }
   .word-card:hover { color: inherit; }
   .button-row button {

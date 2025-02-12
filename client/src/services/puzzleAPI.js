@@ -1,11 +1,14 @@
 // client/src/services/puzzleAPI.js
 export async function fetchPuzzleOfTheDay() {
-    // const response = await fetch('http://localhost:4000/api/puzzles/today');
-    // const response = await fetch('http://81.164.23.45:4000/api/puzzles/today');
-    const response = await fetch('https://french-connections.onrender.com/api/puzzles/today');
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
-    return response.json();
+  // Use process.env.PUBLIC_URL to ensure we get the correct path in both development and production
+  const response = await fetch(`${process.env.PUBLIC_URL}/puzzles-fr.json`);
+  if (!response.ok) {
+    throw new Error('Network response was not ok');
   }
+  const puzzles = await response.json();
   
+  const todayStr = new Date().toISOString().split('T')[0];
+  const puzzle = puzzles.find(p => p.date === todayStr) || puzzles[puzzles.length - 1];
+  
+  return puzzle;
+}
