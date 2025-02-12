@@ -408,5 +408,46 @@
                 ]
             }
         ]
+    },
+    {
+        "date": "2025-02-12",
+        "groups": [
+            {
+                "name": "Vins Rouges",
+                "words": [
+                    "Merlot",
+                    "Syrah",
+                    "Grenache",
+                    "Malbec"
+                ]
+            },
+            {
+                "name": "Fruits rouges",
+                "words": [
+                    "Cerise",
+                    "Grenade",
+                    "Framboise",
+                    "Groseille"
+                ]
+            },
+            {
+                "name": "Rappeurs Fran\u00e7ais",
+                "words": [
+                    "Jul",
+                    "Soprano",
+                    "Vald",
+                    "Niska"
+                ]
+            },
+            {
+                "name": "Villes Fortifi\u00e9es",
+                "words": [
+                    "Orange",
+                    "Sens",
+                    "Vannes",
+                    "Die"
+                ]
+            }
+        ]
     }
 ]
