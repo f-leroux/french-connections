@@ -1,164 +1,287 @@
 [
     {
-        "date": "2025-03-07",
+        "date": "2026-02-17",
         "groups": [
             {
-                "name": "Insectes",
+                "name": "Formes de r\u00e9cit",
                 "words": [
-                    "Punaise",
-                    "Bourdon",
-                    "Mouche",
-                    "Coccinelle"
+                    "Nouvelle",
+                    "Fable",
+                    "L\u00e9gende",
+                    "M\u00e9moire"
                 ]
             },
             {
-                "name": "Animaux Venimeux",
+                "name": "Inventer pour tromper",
                 "words": [
-                    "Vip\u00e8re",
-                    "Scorpion",
-                    "Cobra",
-                    "Frelon"
+                    "Baratiner",
+                    "Fabuler",
+                    "Bluffer",
+                    "Mystifier"
                 ]
             },
             {
-                "name": "Synonymes de Courir",
+                "name": "Trouver en cherchant",
                 "words": [
-                    "Filer",
-                    "Trotter",
-                    "Galoper",
-                    "H\u00e2ter"
+                    "D\u00e9nicher",
+                    "Flairer",
+                    "Rep\u00e9rer",
+                    "D\u00e9busquer"
                 ]
             },
             {
-                "name": "Rayures",
+                "name": "Rire pour critiquer",
                 "words": [
-                    "Z\u00e8bre",
-                    "Tigre",
-                    "Gu\u00eape",
-                    "Maillot"
+                    "Ironie",
+                    "Satire",
+                    "Parodie",
+                    "Caricature"
                 ]
             }
         ]
     },
     {
-        "date": "2025-03-08",
+        "date": "2026-02-18",
         "groups": [
             {
-                "name": "Dieux et Plan\u00e8tes",
+                "name": "Op\u00e9rations militaires",
                 "words": [
-                    "Mars",
+                    "Campagne",
+                    "Offensive",
+                    "Blitz",
+                    "Man\u0153uvre"
+                ]
+            },
+            {
+                "name": "Animaux de compagnie",
+                "words": [
+                    "Souris",
+                    "Canari",
+                    "Lapin",
+                    "Poisson"
+                ]
+            },
+            {
+                "name": "B\u00e2tir / assembler",
+                "words": [
+                    "\u00c9difier",
+                    "Monter",
+                    "Fonder",
+                    "Agencer"
+                ]
+            },
+            {
+                "name": "\u00c9l\u00e9ments d\u2019un avion",
+                "words": [
+                    "Aile",
+                    "Train",
+                    "Moteur",
+                    "H\u00e9lice"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-02-19",
+        "groups": [
+            {
+                "name": "Maisons de couture fran\u00e7aises",
+                "words": [
+                    "Chanel",
+                    "Dior",
+                    "Balmain",
+                    "C\u00e9line"
+                ]
+            },
+            {
+                "name": "Personnages de contes",
+                "words": [
+                    "Loup",
+                    "Belle",
+                    "F\u00e9e",
+                    "Ogre"
+                ]
+            },
+            {
+                "name": "Plan\u00e8tes du Syst\u00e8me solaire",
+                "words": [
                     "Mercure",
-                    "Jupiter",
-                    "Neptune"
+                    "V\u00e9nus",
+                    "Terre",
+                    "Mars"
                 ]
             },
             {
-                "name": "Capitales Europ\u00e9ennes",
+                "name": "Fromages",
                 "words": [
-                    "Vienne",
-                    "Rome",
-                    "Berne",
-                    "Sofia"
-                ]
-            },
-            {
-                "name": "R\u00e9gions viticoles c\u00e9l\u00e8bres",
-                "words": [
-                    "Champagne",
-                    "Bordeaux",
-                    "Bourgogne",
-                    "Rh\u00f4ne"
-                ]
-            },
-            {
-                "name": "Villes Fortifi\u00e9es",
-                "words": [
-                    "Orange",
-                    "Sens",
-                    "Vannes",
-                    "Die"
+                    "Brie",
+                    "Cantal",
+                    "Roquefort",
+                    "Comt\u00e9"
                 ]
             }
         ]
     },
     {
-        "date": "2025-03-09",
+        "date": "2026-02-20",
         "groups": [
             {
-                "name": "Com\u00e9dies Musicales Fran\u00e7aises",
+                "name": "Se plie ou se replie",
                 "words": [
-                    "Starmania",
-                    "Orph\u00e9e",
-                    "Cabaret",
-                    "Mistinguett"
+                    "Carte",
+                    "Feuille",
+                    "Voile",
+                    "Nappe"
                 ]
             },
             {
-                "name": "Places c\u00e9l\u00e8bres \u00e0 Paris",
+                "name": "Fleurs des champs",
                 "words": [
-                    "R\u00e9publique",
-                    "Bastille",
-                    "Concorde",
-                    "Op\u00e9ra"
+                    "Coquelicot",
+                    "P\u00e2querette",
+                    "Chardon",
+                    "Bleuet"
                 ]
             },
             {
-                "name": "Ministres",
+                "name": "Milieux forestiers",
                 "words": [
-                    "Tr\u00e9sor",
-                    "Culture",
-                    "Justice",
-                    "D\u00e9fense"
+                    "Ta\u00efga",
+                    "Mangrove",
+                    "Pin\u00e8de",
+                    "Bosquet"
                 ]
             },
             {
-                "name": "Mus\u00e9es en France",
+                "name": "Amphibiens",
                 "words": [
-                    "Louvre",
-                    "Orsay",
-                    "Pompidou",
-                    "Rodin"
+                    "Triton",
+                    "Salamandre",
+                    "Rainette",
+                    "Crapaud"
                 ]
             }
         ]
     },
     {
-        "date": "2025-03-10",
+        "date": "2026-02-21",
         "groups": [
             {
-                "name": "Produits laitiers",
+                "name": "Pr\u00e9noms aussi fleurs",
                 "words": [
-                    "Cr\u00e8me",
-                    "Beurre",
-                    "Fromage",
-                    "Yaourt"
+                    "Rose",
+                    "Iris",
+                    "Lys",
+                    "Violette"
                 ]
             },
             {
-                "name": "Desserts fran\u00e7ais",
+                "name": "Maisons dynastiques europ\u00e9ennes",
                 "words": [
-                    "\u00c9clair",
-                    "Souffl\u00e9",
-                    "Tarte",
-                    "Financier"
+                    "Bourbon",
+                    "Orl\u00e9ans",
+                    "Anjou",
+                    "Savoie"
                 ]
             },
             {
-                "name": "Chefs Fran\u00e7ais",
+                "name": "Palindromes",
                 "words": [
-                    "Blanc",
-                    "Pic",
-                    "Bras",
-                    "Car\u00eame"
+                    "Kayak",
+                    "Radar",
+                    "Laval",
+                    "Rever"
                 ]
             },
             {
-                "name": "Fleurs de Printemps",
+                "name": "Objets pour fermer",
                 "words": [
-                    "Narcisse",
-                    "Jacinthe",
-                    "Pens\u00e9e",
-                    "Muguet"
+                    "Cl\u00e9",
+                    "Cadenas",
+                    "Verrou",
+                    "Loquet"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-02-22",
+        "groups": [
+            {
+                "name": "Caf\u00e9 (formes ou pr\u00e9parations)",
+                "words": [
+                    "Grain",
+                    "Moulu",
+                    "Ristretto",
+                    "Allong\u00e9"
+                ]
+            },
+            {
+                "name": "Techniques de cuisson",
+                "words": [
+                    "Saut\u00e9",
+                    "Brais\u00e9",
+                    "Fum\u00e9",
+                    "Confit"
+                ]
+            },
+            {
+                "name": "Synonymes de \u00ab finir \u00bb",
+                "words": [
+                    "Achever",
+                    "Conclure",
+                    "Clore",
+                    "Boucler"
+                ]
+            },
+            {
+                "name": "Textures capillaires",
+                "words": [
+                    "Ondul\u00e9",
+                    "Fris\u00e9",
+                    "Cr\u00e9pu",
+                    "Lisse"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-02-23",
+        "groups": [
+            {
+                "name": "Sports nautiques",
+                "words": [
+                    "Surf",
+                    "Voile",
+                    "Kayak",
+                    "Plong\u00e9e"
+                ]
+            },
+            {
+                "name": "Inventions fran\u00e7aises",
+                "words": [
+                    "Braille",
+                    "Montgolfi\u00e8re",
+                    "Parachute",
+                    "Minitel"
+                ]
+            },
+            {
+                "name": "Sports avec balle",
+                "words": [
+                    "Polo",
+                    "Rugby",
+                    "Golf",
+                    "Tennis"
+                ]
+            },
+            {
+                "name": "Notes de parfumerie",
+                "words": [
+                    "Ambre",
+                    "Iris",
+                    "Foug\u00e8re",
+                    "Musc"
                 ]
             }
         ]
