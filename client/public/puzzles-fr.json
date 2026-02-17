@@ -1,246 +1,287 @@
 [
     {
-        "date": "2025-02-12",
+        "date": "2026-02-17",
         "groups": [
             {
-                "name": "Vins Rouges",
+                "name": "Formes de r\u00e9cit",
                 "words": [
-                    "Merlot",
-                    "Syrah",
-                    "Grenache",
-                    "Malbec"
+                    "Nouvelle",
+                    "Fable",
+                    "L\u00e9gende",
+                    "M\u00e9moire"
                 ]
             },
             {
-                "name": "Fruits rouges",
+                "name": "Inventer pour tromper",
                 "words": [
-                    "Cerise",
-                    "Grenade",
-                    "Framboise",
-                    "Groseille"
+                    "Baratiner",
+                    "Fabuler",
+                    "Bluffer",
+                    "Mystifier"
                 ]
             },
             {
-                "name": "Rappeurs Fran\u00e7ais",
+                "name": "Trouver en cherchant",
                 "words": [
-                    "Jul",
-                    "Soprano",
-                    "Vald",
-                    "Niska"
+                    "D\u00e9nicher",
+                    "Flairer",
+                    "Rep\u00e9rer",
+                    "D\u00e9busquer"
                 ]
             },
             {
-                "name": "Villes Fortifi\u00e9es",
+                "name": "Rire pour critiquer",
                 "words": [
-                    "Orange",
-                    "Sens",
-                    "Vannes",
-                    "Die"
+                    "Ironie",
+                    "Satire",
+                    "Parodie",
+                    "Caricature"
                 ]
             }
         ]
     },
     {
-        "date": "2025-02-13",
+        "date": "2026-02-18",
         "groups": [
             {
-                "name": "Types de Courses",
+                "name": "Op\u00e9rations militaires",
                 "words": [
-                    "Marathon",
-                    "Sprint",
-                    "Relais",
-                    "Haies"
+                    "Campagne",
+                    "Offensive",
+                    "Blitz",
+                    "Man\u0153uvre"
                 ]
             },
             {
-                "name": "Tennis Shots",
+                "name": "Animaux de compagnie",
                 "words": [
-                    "Service",
-                    "Smash",
-                    "Revers",
-                    "Vol\u00e9e"
+                    "Souris",
+                    "Canari",
+                    "Lapin",
+                    "Poisson"
                 ]
             },
             {
-                "name": "Synonymes de Courir",
+                "name": "B\u00e2tir / assembler",
                 "words": [
-                    "Filer",
-                    "Trotter",
-                    "Galoper",
-                    "H\u00e2ter"
+                    "\u00c9difier",
+                    "Monter",
+                    "Fonder",
+                    "Agencer"
                 ]
             },
             {
-                "name": "Peintres impressionnistes",
+                "name": "\u00c9l\u00e9ments d\u2019un avion",
                 "words": [
-                    "Boudin",
-                    "Colin",
-                    "Manet",
-                    "Sisley"
+                    "Aile",
+                    "Train",
+                    "Moteur",
+                    "H\u00e9lice"
                 ]
             }
         ]
     },
     {
-        "date": "2025-02-14",
+        "date": "2026-02-19",
         "groups": [
             {
-                "name": "Dieux et Plan\u00e8tes",
+                "name": "Maisons de couture fran\u00e7aises",
                 "words": [
-                    "Mars",
+                    "Chanel",
+                    "Dior",
+                    "Balmain",
+                    "C\u00e9line"
+                ]
+            },
+            {
+                "name": "Personnages de contes",
+                "words": [
+                    "Loup",
+                    "Belle",
+                    "F\u00e9e",
+                    "Ogre"
+                ]
+            },
+            {
+                "name": "Plan\u00e8tes du Syst\u00e8me solaire",
+                "words": [
                     "Mercure",
-                    "Jupiter",
-                    "Neptune"
-                ]
-            },
-            {
-                "name": "Titres de films de science-fiction",
-                "words": [
-                    "Dune",
-                    "Solaris",
-                    "Gravity",
-                    "Avatar"
-                ]
-            },
-            {
-                "name": "VILLES FICTIVES",
-                "words": [
-                    "Gotham",
-                    "Metropolis",
-                    "Rapture",
-                    "Zion"
-                ]
-            },
-            {
-                "name": "Objets Ferm\u00e9s \u00e0 Cl\u00e9",
-                "words": [
-                    "Coffre",
-                    "Porte",
-                    "Cave",
-                    "Tiroir"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2025-02-15",
-        "groups": [
-            {
-                "name": "Vins Rouges",
-                "words": [
-                    "Merlot",
-                    "Syrah",
-                    "Grenache",
-                    "Malbec"
+                    "V\u00e9nus",
+                    "Terre",
+                    "Mars"
                 ]
             },
             {
                 "name": "Fromages",
                 "words": [
-                    "Ch\u00e8vre",
-                    "Bleu",
                     "Brie",
-                    "Cantal"
-                ]
-            },
-            {
-                "name": "L\u00e9gumes",
-                "words": [
-                    "Chou",
-                    "Carotte",
-                    "Pois",
-                    "Haricot"
-                ]
-            },
-            {
-                "name": "Genres musicaux",
-                "words": [
-                    "M\u00e9tal",
-                    "Blues",
-                    "Salsa",
-                    "Garage"
+                    "Cantal",
+                    "Roquefort",
+                    "Comt\u00e9"
                 ]
             }
         ]
     },
     {
-        "date": "2025-02-16",
+        "date": "2026-02-20",
         "groups": [
             {
-                "name": "Amulettes",
+                "name": "Se plie ou se replie",
                 "words": [
-                    "Fer",
-                    "Argent",
-                    "\u00c9cu",
-                    "Sel"
-                ]
-            },
-            {
-                "name": "Accessoires Mariage",
-                "words": [
+                    "Carte",
+                    "Feuille",
                     "Voile",
-                    "Couronne",
-                    "Bijou",
-                    "Gants"
+                    "Nappe"
                 ]
             },
             {
-                "name": "Objets Pivot",
+                "name": "Fleurs des champs",
                 "words": [
-                    "Sabre",
-                    "Anneau",
-                    "Bouclier",
-                    "Cape"
+                    "Coquelicot",
+                    "P\u00e2querette",
+                    "Chardon",
+                    "Bleuet"
                 ]
             },
             {
-                "name": "Albums Francophones",
+                "name": "Milieux forestiers",
                 "words": [
-                    "Feu",
-                    "Noir",
-                    "Zen",
-                    "Blonde"
+                    "Ta\u00efga",
+                    "Mangrove",
+                    "Pin\u00e8de",
+                    "Bosquet"
+                ]
+            },
+            {
+                "name": "Amphibiens",
+                "words": [
+                    "Triton",
+                    "Salamandre",
+                    "Rainette",
+                    "Crapaud"
                 ]
             }
         ]
     },
     {
-        "date": "2025-02-17",
+        "date": "2026-02-21",
         "groups": [
             {
-                "name": "Mots sans 'e'",
+                "name": "Pr\u00e9noms aussi fleurs",
                 "words": [
-                    "Bijou",
-                    "Loup",
-                    "Souris",
-                    "Froid"
+                    "Rose",
+                    "Iris",
+                    "Lys",
+                    "Violette"
                 ]
             },
             {
-                "name": "Formations Naturelles",
+                "name": "Maisons dynastiques europ\u00e9ennes",
                 "words": [
-                    "Archipel",
-                    "Cr\u00eate",
-                    "Plateau",
-                    "Source"
+                    "Bourbon",
+                    "Orl\u00e9ans",
+                    "Anjou",
+                    "Savoie"
                 ]
             },
             {
-                "name": "Ph\u00e9nom\u00e8nes M\u00e9t\u00e9orologiques",
+                "name": "Palindromes",
                 "words": [
-                    "\u00c9clair",
-                    "Mirage",
-                    "Foudre",
-                    "Cyclone"
+                    "Kayak",
+                    "Radar",
+                    "Laval",
+                    "Rever"
                 ]
             },
             {
-                "name": "Synonymes de \u00ab SE PLAINDRE \u00bb",
+                "name": "Objets pour fermer",
                 "words": [
-                    "Grogner",
-                    "Ronchonner",
-                    "G\u00e9mir",
-                    "Rousp\u00e9ter"
+                    "Cl\u00e9",
+                    "Cadenas",
+                    "Verrou",
+                    "Loquet"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-02-22",
+        "groups": [
+            {
+                "name": "Caf\u00e9 (formes ou pr\u00e9parations)",
+                "words": [
+                    "Grain",
+                    "Moulu",
+                    "Ristretto",
+                    "Allong\u00e9"
+                ]
+            },
+            {
+                "name": "Techniques de cuisson",
+                "words": [
+                    "Saut\u00e9",
+                    "Brais\u00e9",
+                    "Fum\u00e9",
+                    "Confit"
+                ]
+            },
+            {
+                "name": "Synonymes de \u00ab finir \u00bb",
+                "words": [
+                    "Achever",
+                    "Conclure",
+                    "Clore",
+                    "Boucler"
+                ]
+            },
+            {
+                "name": "Textures capillaires",
+                "words": [
+                    "Ondul\u00e9",
+                    "Fris\u00e9",
+                    "Cr\u00e9pu",
+                    "Lisse"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-02-23",
+        "groups": [
+            {
+                "name": "Sports nautiques",
+                "words": [
+                    "Surf",
+                    "Voile",
+                    "Kayak",
+                    "Plong\u00e9e"
+                ]
+            },
+            {
+                "name": "Inventions fran\u00e7aises",
+                "words": [
+                    "Braille",
+                    "Montgolfi\u00e8re",
+                    "Parachute",
+                    "Minitel"
+                ]
+            },
+            {
+                "name": "Sports avec balle",
+                "words": [
+                    "Polo",
+                    "Rugby",
+                    "Golf",
+                    "Tennis"
+                ]
+            },
+            {
+                "name": "Notes de parfumerie",
+                "words": [
+                    "Ambre",
+                    "Iris",
+                    "Foug\u00e8re",
+                    "Musc"
                 ]
             }
         ]
