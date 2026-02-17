@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Frontend for daily puzzle in French NYT Connections Clone",
-  "homepage": "https://f-leroux.github.io/french-connections",
+  "homepage": "https://www.frenchconnections.fr",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
