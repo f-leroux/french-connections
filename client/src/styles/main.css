@@ -227,6 +227,17 @@ h2 {
   z-index: 1000;
 }
 
+@media (max-width: 1000px) {
+  .submit-puzzle-button {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.5rem;
+    z-index: 1000;
+  }
+}
+
 .submit-puzzle-button:hover {
   background-color: #7a4fa0;
   transform: translateY(-2px);
@@ -434,6 +445,18 @@ h2 {
 }
 
 @media (max-width: 1000px) {
+  h1 {
+    display: none;
+  }
+  
+  .app-container {
+    padding-top: 0.5rem;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
   .word-card {
     font-size: clamp(0.7rem, 2vw, 2.5rem);
     padding: 0.75rem 0.5rem;
@@ -446,12 +469,7 @@ h2 {
   }
   .info-bar {
     margin-bottom: 1rem;
-  }
-  .submit-puzzle-button {
-    bottom: 10px;
-    right: 10px;
-    padding: 0.6rem 1.2rem;
-    font-size: 0.8rem;
+    margin-top: 0.5rem;
   }
   .words-grid {
     grid-template-columns: 1fr;

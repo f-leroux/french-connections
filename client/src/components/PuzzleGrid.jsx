@@ -119,7 +119,7 @@ function PuzzleGrid({
         return (
           <div key={index} className="found-category-container">
             <div className={`category-name category-${categoryInfo.index}`}>
-              {categoryInfo.name}
+              {categoryInfo.name.toUpperCase()}
             </div>
             <div className="found-category">
               {groupWords.map((word) => (

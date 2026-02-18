@@ -15,7 +15,7 @@ function WordCard({ word, isSelected, toggleWordSelection, categoryIndex }) {
       onClick={() => toggleWordSelection(word)}
       style={{ cursor: categoryIndex !== null ? 'default' : 'pointer' }}
     >
-      {word}
+      {word.toUpperCase()}
     </div>
   );
 }

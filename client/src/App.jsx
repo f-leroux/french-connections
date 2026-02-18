@@ -149,12 +149,12 @@ function App() {
       {puzzle.groups.map((group, index) => (
         <div key={index} className={`found-category-container`}>
           <div className={`category-name category-${index}`}>
-            {group.name}
+            {group.name.toUpperCase()}
           </div>
           <div className="found-category">
             {group.words.map((word) => (
               <div key={word} className={`word-card category-${index}`}>
-                {word}
+                {word.toUpperCase()}
               </div>
             ))}
           </div>
