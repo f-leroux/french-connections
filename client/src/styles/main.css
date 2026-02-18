@@ -245,6 +245,7 @@ h2 {
   justify-content: center;
   z-index: 2000;
   padding: 1rem;
+  overflow-y: auto;
 }
 
 .modal-content {
@@ -253,10 +254,11 @@ h2 {
   padding: 2rem;
   max-width: 600px;
   width: 100%;
-  max-height: 90vh;
+  max-height: calc(100vh - 2rem);
   overflow-y: auto;
   position: relative;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  margin: auto;
 }
 
 .modal-close {
@@ -311,7 +313,6 @@ h2 {
 }
 
 .form-group input[type="text"],
-.form-group input[type="email"],
 .form-group select,
 .form-group textarea {
   padding: 0.75rem;
@@ -455,8 +456,17 @@ h2 {
   .words-grid {
     grid-template-columns: 1fr;
   }
+  .modal-overlay {
+    padding: 0.5rem;
+    align-items: flex-start;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
   .modal-content {
     padding: 1.5rem;
-    max-height: 95vh;
+    max-height: calc(100vh - 2rem);
+    margin: 0;
+    border-radius: 10px;
   }
 }
