@@ -1,6 +1,7 @@
 // client/src/App.jsx
 import React, { useEffect, useState } from 'react';
 import PuzzleGrid from './components/PuzzleGrid';
+import PuzzleSubmissionForm from './components/PuzzleSubmissionForm';
 import { fetchPuzzleOfTheDay } from './services/puzzleAPI';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   const [foundGroups, setFoundGroups] = useState([]);
   const [mistakes, setMistakes] = useState(0);
   const [selectionHistory, setSelectionHistory] = useState([]);
+  const [showSubmissionForm, setShowSubmissionForm] = useState(false);
   const maxMistakes = 4;
   const STORAGE_PREFIX = 'connections-puzzle-';
 
@@ -165,6 +167,13 @@ function App() {
     <div className="app-container">
       <h1>Connexions</h1>
       <h2>{new Date().toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</h2>
+      <button 
+        className="submit-puzzle-button"
+        onClick={() => setShowSubmissionForm(true)}
+        title="Soumettre un puzzle"
+      >
+        💡 Proposer un puzzle
+      </button>
       <div className="info-bar">
         {!puzzleComplete && hasMistakesLeft && <p>Trouvez les groupes de 4 mots qui se connectent !</p>}
         {puzzleComplete && <p>Félicitations ! Vous avez terminé.</p>}
@@ -191,6 +200,10 @@ function App() {
           <SolutionReveal />
         </>
       )}
+      <PuzzleSubmissionForm 
+        isOpen={showSubmissionForm}
+        onClose={() => setShowSubmissionForm(false)}
+      />
     </div>
   );
 }
