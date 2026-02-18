@@ -227,16 +227,6 @@ h2 {
   z-index: 1000;
 }
 
-@media (max-width: 1000px) {
-  .submit-puzzle-button {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    padding: 0.4rem 0.8rem;
-    font-size: 0.5rem;
-    z-index: 1000;
-  }
-}
 
 .submit-puzzle-button:hover {
   background-color: #7a4fa0;
@@ -451,6 +441,17 @@ h2 {
   
   .app-container {
     padding-top: 0.5rem;
+    position: relative;
+    padding-bottom: 60px;
+  }
+  
+  .submit-puzzle-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.5rem;
+    z-index: 1000;
   }
   
   h2 {
