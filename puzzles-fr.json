@@ -84,42 +84,22 @@
     {
         "date": "2026-02-19",
         "groups": [
-            {
-                "name": "Maisons de couture fran\u00e7aises",
-                "words": [
-                    "Chanel",
-                    "Dior",
-                    "Balmain",
-                    "C\u00e9line"
-                ]
-            },
-            {
-                "name": "Personnages de contes",
-                "words": [
-                    "Loup",
-                    "Belle",
-                    "F\u00e9e",
-                    "Ogre"
-                ]
-            },
-            {
-                "name": "Plan\u00e8tes du Syst\u00e8me solaire",
-                "words": [
-                    "Mercure",
-                    "V\u00e9nus",
-                    "Terre",
-                    "Mars"
-                ]
-            },
-            {
-                "name": "Fromages",
-                "words": [
-                    "Brie",
-                    "Cantal",
-                    "Roquefort",
-                    "Comt\u00e9"
-                ]
-            }
+          {
+            "name": "Maisons de mode françaises",
+            "words": ["Hermès", "Givenchy", "Lanvin", "Courrèges"]
+          },
+          {
+            "name": "Personnages de Shakespeare",
+            "words": ["Ariel", "Oberon", "Titania", "Puck"]
+          },
+          {
+            "name": "Lunes de Saturne",
+            "words": ["Pan", "Atlas", "Janus", "Phoebe"]
+          },
+          {
+            "name": "Barres chocolatées",
+            "words": ["Mars", "Milky Way", "Bounty", "Lion"]
+          }
         ]
     },
     {
@@ -166,42 +146,22 @@
     {
         "date": "2026-02-21",
         "groups": [
-            {
-                "name": "Pr\u00e9noms aussi fleurs",
-                "words": [
-                    "Rose",
-                    "Iris",
-                    "Lys",
-                    "Violette"
-                ]
-            },
-            {
-                "name": "Maisons dynastiques europ\u00e9ennes",
-                "words": [
-                    "Bourbon",
-                    "Orl\u00e9ans",
-                    "Anjou",
-                    "Savoie"
-                ]
-            },
-            {
-                "name": "Palindromes",
-                "words": [
-                    "Kayak",
-                    "Radar",
-                    "Laval",
-                    "Rever"
-                ]
-            },
-            {
-                "name": "Objets pour fermer",
-                "words": [
-                    "Cl\u00e9",
-                    "Cadenas",
-                    "Verrou",
-                    "Loquet"
-                ]
-            }
+          {
+            "name": "Prénoms aussi fleurs",
+            "words": ["Rose", "Iris", "Lys", "Violette"]
+          },
+          {
+            "name": "Maisons dynastiques européennes",
+            "words": ["Bourbon", "Orléans", "Anjou", "Savoie"]
+          },
+          {
+            "name": "Palindromes",
+            "words": ["Laval", "Selles", "Anna", "Ève"]
+          },
+          {
+            "name": "Couleurs",
+            "words": ["Bordeaux", "Ivoire", "Sable", "Taupe"]
+          }
         ]
     },
     {
