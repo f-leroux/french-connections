@@ -13,7 +13,9 @@ function PuzzleGrid({
   onGroupSelected,
   puzzleComplete, 
   hasMistakesLeft,
-  generateShareText 
+  generateShareText,
+  mistakes,
+  maxMistakes
 }) {
   const [selectedWords, setSelectedWords] = useState([]);
   const [shakeClass, setShakeClass] = useState('');
@@ -124,7 +126,7 @@ function PuzzleGrid({
             <span className="solved-emoji">{categoryEmojis[categoryInfo.index]}</span>
             <div>
               <div className="solved-theme">{categoryInfo.name.toUpperCase()}</div>
-              <div className="solved-words">{groupWords.join(' · ')}</div>
+              <div className="solved-words">{groupWords.map(w => w.toUpperCase()).join(' · ')}</div>
             </div>
           </div>
         );
@@ -152,33 +154,49 @@ function PuzzleGrid({
         )}
       </div>
       
-      {/* Button row */}
-      <div className="button-row">
-        {!puzzleComplete && hasMistakesLeft ? (
-          <>
-            <button onClick={handleShuffle}>Mélanger</button>
-            <button 
-              onClick={handleDeselectAll}
-              disabled={selectedWords.length === 0}
-            >
-              Désélectionner
-            </button>
-            <button 
-              onClick={handleSubmit}
-              disabled={selectedWords.length !== 4}
-              className="primary"
-            >
-              Valider
-            </button>
-          </>
-        ) : (
-          <button 
-            onClick={handleShare}
-            className="share-button"
-          >
-            Partager
-          </button>
+      {/* Controls section */}
+      <div className="controls">
+        {/* Mistakes display - above buttons */}
+        {hasMistakesLeft && !puzzleComplete && (
+          <div className="mistakes-row">
+            <span className="mistakes-label">Essais restants :</span>
+            {Array.from({ length: maxMistakes }).map((_, i) => (
+              <div 
+                key={i} 
+                className={`mistake-dot ${i < (maxMistakes - mistakes) ? 'active' : 'inactive'}`}
+              />
+            ))}
+          </div>
         )}
+        
+        {/* Button row */}
+        <div className="button-row">
+          {!puzzleComplete && hasMistakesLeft ? (
+            <>
+              <button onClick={handleShuffle}>Mélanger</button>
+              <button 
+                onClick={handleDeselectAll}
+                disabled={selectedWords.length === 0}
+              >
+                Désélectionner
+              </button>
+              <button 
+                onClick={handleSubmit}
+                disabled={selectedWords.length !== 4}
+                className="primary"
+              >
+                Valider
+              </button>
+            </>
+          ) : (
+            <button 
+              onClick={handleShare}
+              className="share-button"
+            >
+              Partager
+            </button>
+          )}
+        </div>
       </div>
     </div>
   );

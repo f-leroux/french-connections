@@ -3,6 +3,13 @@ import React from 'react';
 function WordCard({ word, isSelected, toggleWordSelection, categoryIndex }) {
   let cardClass = 'word-card';
   
+  // Add size class based on word length
+  if (word.length >= 12) {
+    cardClass += ' very-long-word';
+  } else if (word.length >= 8) {
+    cardClass += ' long-word';
+  }
+  
   if (categoryIndex !== null) {
     cardClass += ` category-${categoryIndex} solved-tile`;
   } else if (isSelected) {

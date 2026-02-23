@@ -154,22 +154,9 @@ function App() {
           <span className="solved-emoji">{categoryEmojis[index]}</span>
           <div>
             <div className="solved-theme">{group.name.toUpperCase()}</div>
-            <div className="solved-words">{group.words.join(' · ')}</div>
+            <div className="solved-words">{group.words.map(w => w.toUpperCase()).join(' · ')}</div>
           </div>
         </div>
-      ))}
-    </div>
-  );
-
-  // Mistakes dots display
-  const MistakesDots = () => (
-    <div className="mistakes-row">
-      <span className="mistakes-label">Essais restants :</span>
-      {Array.from({ length: maxMistakes }).map((_, i) => (
-        <div 
-          key={i} 
-          className={`mistake-dot ${i < (maxMistakes - mistakes) ? 'active' : 'inactive'}`}
-        />
       ))}
     </div>
   );
@@ -204,12 +191,9 @@ function App() {
           puzzleComplete={puzzleComplete}
           hasMistakesLeft={hasMistakesLeft}
           generateShareText={generateShareText}
+          mistakes={mistakes}
+          maxMistakes={maxMistakes}
         />
-      )}
-
-      {/* Mistakes display */}
-      {hasMistakesLeft && !puzzleComplete && (
-        <MistakesDots />
       )}
 
       {/* Game over state */}
@@ -229,13 +213,15 @@ function App() {
       )}
 
       {/* Submit puzzle button */}
-      <button 
-        className="submit-puzzle-button"
-        onClick={() => setShowSubmissionForm(true)}
-        title="Soumettre un puzzle"
-      >
-        💡 Proposer un puzzle
-      </button>
+      <div className="submit-puzzle-wrapper">
+        <button 
+          className="submit-puzzle-button"
+          onClick={() => setShowSubmissionForm(true)}
+          title="Soumettre un puzzle"
+        >
+          💡 Proposer un puzzle
+        </button>
+      </div>
 
       {/* Submission form modal */}
       <PuzzleSubmissionForm 
