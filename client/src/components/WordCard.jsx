@@ -4,7 +4,7 @@ function WordCard({ word, isSelected, toggleWordSelection, categoryIndex }) {
   let cardClass = 'word-card';
   
   if (categoryIndex !== null) {
-    cardClass += ` category-${categoryIndex}`;
+    cardClass += ` category-${categoryIndex} solved-tile`;
   } else if (isSelected) {
     cardClass += ' selected';
   }
@@ -12,7 +12,7 @@ function WordCard({ word, isSelected, toggleWordSelection, categoryIndex }) {
   return (
     <div 
       className={cardClass} 
-      onClick={() => toggleWordSelection(word)}
+      onClick={() => categoryIndex === null && toggleWordSelection(word)}
       style={{ cursor: categoryIndex !== null ? 'default' : 'pointer' }}
     >
       {word.toUpperCase()}

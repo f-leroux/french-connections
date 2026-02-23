@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import WordCard from './WordCard';
 
+// Emoji map for categories
+const categoryEmojis = ['🟨', '🟩', '🔵', '🟣'];
+
 function PuzzleGrid({ 
   puzzle, 
   setPuzzle, 
@@ -74,7 +77,7 @@ function PuzzleGrid({
         setShowAlmostMessage(true);
         setTimeout(() => {
           setShowAlmostMessage(false);
-        }, 1000);
+        }, 1500);
       }
       setTimeout(() => {
         onWrongGroup();
@@ -113,24 +116,15 @@ function PuzzleGrid({
 
   return (
     <div>
-      {/* Display found groups at the top */}
+      {/* Display found groups with new card styling */}
       {foundGroups.map((groupWords, index) => {
         const categoryInfo = getCategoryInfo(groupWords);
         return (
-          <div key={index} className="found-category-container">
-            <div className={`category-name category-${categoryInfo.index}`}>
-              {categoryInfo.name.toUpperCase()}
-            </div>
-            <div className="found-category">
-              {groupWords.map((word) => (
-                <WordCard
-                  key={word}
-                  word={word}
-                  isSelected={false}
-                  toggleWordSelection={() => {}}
-                  categoryIndex={categoryInfo.index}
-                />
-              ))}
+          <div key={index} className={`solved-card category-${categoryInfo.index}`}>
+            <span className="solved-emoji">{categoryEmojis[categoryInfo.index]}</span>
+            <div>
+              <div className="solved-theme">{categoryInfo.name.toUpperCase()}</div>
+              <div className="solved-words">{groupWords.join(' · ')}</div>
             </div>
           </div>
         );
@@ -140,7 +134,7 @@ function PuzzleGrid({
       <div style={{ position: 'relative' }}>
         {showAlmostMessage && (
           <div className="almost-message">
-            Presque !
+            🔥 Presque ! Il en manque une…
           </div>
         )}
         {!puzzleComplete && hasMistakesLeft && (
@@ -157,6 +151,8 @@ function PuzzleGrid({
           </div>
         )}
       </div>
+      
+      {/* Button row */}
       <div className="button-row">
         {!puzzleComplete && hasMistakesLeft ? (
           <>
@@ -165,13 +161,14 @@ function PuzzleGrid({
               onClick={handleDeselectAll}
               disabled={selectedWords.length === 0}
             >
-              Tout désélectionner
+              Désélectionner
             </button>
             <button 
               onClick={handleSubmit}
               disabled={selectedWords.length !== 4}
+              className="primary"
             >
-              Soumettre
+              Valider
             </button>
           </>
         ) : (

@@ -142,42 +142,57 @@ function App() {
     return `Connexions \n${date}\n${attempts}`;
   };
 
-  // Add this new component for showing solutions
+  // Emoji map for categories
+  const categoryEmojis = ['🟨', '🟩', '🔵', '🟣'];
+
+  // Component for showing solutions with new styling
   const SolutionReveal = () => (
     <div className="solution-reveal">
       <h3>Solutions :</h3>
       {puzzle.groups.map((group, index) => (
-        <div key={index} className={`found-category-container`}>
-          <div className={`category-name category-${index}`}>
-            {group.name.toUpperCase()}
-          </div>
-          <div className="found-category">
-            {group.words.map((word) => (
-              <div key={word} className={`word-card category-${index}`}>
-                {word.toUpperCase()}
-              </div>
-            ))}
+        <div key={index} className={`solved-card category-${index}`}>
+          <span className="solved-emoji">{categoryEmojis[index]}</span>
+          <div>
+            <div className="solved-theme">{group.name.toUpperCase()}</div>
+            <div className="solved-words">{group.words.join(' · ')}</div>
           </div>
         </div>
       ))}
     </div>
   );
 
+  // Mistakes dots display
+  const MistakesDots = () => (
+    <div className="mistakes-row">
+      <span className="mistakes-label">Essais restants :</span>
+      {Array.from({ length: maxMistakes }).map((_, i) => (
+        <div 
+          key={i} 
+          className={`mistake-dot ${i < (maxMistakes - mistakes) ? 'active' : 'inactive'}`}
+        />
+      ))}
+    </div>
+  );
+
   return (
     <div className="app-container">
-      <h1>Connexions</h1>
-      <h2>{new Date().toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</h2>
-      <button 
-        className="submit-puzzle-button"
-        onClick={() => setShowSubmissionForm(true)}
-        title="Soumettre un puzzle"
-      >
-        💡 Proposer un puzzle
-      </button>
+      {/* Header */}
+      <div className="header">
+        <div className="logo-row">
+          <span className="logo-icon">🔗</span>
+          <h1>Connexions</h1>
+        </div>
+        <h2>{new Date().toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</h2>
+        <div className="divider" />
+      </div>
+
+      {/* Info bar */}
       <div className="info-bar">
         {!puzzleComplete && hasMistakesLeft && <p>Trouvez les groupes de 4 mots qui se connectent !</p>}
-        {puzzleComplete && <p>Félicitations ! Vous avez terminé.</p>}
+        {puzzleComplete && <p>✨ Félicitations, vous avez tout trouvé !</p>}
       </div>
+
+      {/* Puzzle grid */}
       {puzzle && (
         <PuzzleGrid
           puzzle={puzzle}
@@ -191,15 +206,38 @@ function App() {
           generateShareText={generateShareText}
         />
       )}
-      {(hasMistakesLeft) && (
-        <p id="mistakes-remaining">Erreurs restantes : {Array(maxMistakes - mistakes).fill('❤️ ').join('')}</p>
+
+      {/* Mistakes display */}
+      {hasMistakesLeft && !puzzleComplete && (
+        <MistakesDots />
       )}
-      {(!hasMistakesLeft && !puzzleComplete) && (
+
+      {/* Game over state */}
+      {!hasMistakesLeft && !puzzleComplete && (
         <>
-          <p>Vous avez utilisé toutes vos tentatives. Réessayez demain !</p>
+          <div className="message-box">💀 Partie terminée !</div>
           <SolutionReveal />
         </>
       )}
+
+      {/* Win state */}
+      {puzzleComplete && (
+        <div className="win-box">
+          <div className="win-emoji">🎉</div>
+          <p className="win-text">Félicitations, vous avez tout trouvé !</p>
+        </div>
+      )}
+
+      {/* Submit puzzle button */}
+      <button 
+        className="submit-puzzle-button"
+        onClick={() => setShowSubmissionForm(true)}
+        title="Soumettre un puzzle"
+      >
+        💡 Proposer un puzzle
+      </button>
+
+      {/* Submission form modal */}
       <PuzzleSubmissionForm 
         isOpen={showSubmissionForm}
         onClose={() => setShowSubmissionForm(false)}
