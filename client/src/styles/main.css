@@ -228,14 +228,17 @@ h2 {
 
 .solved-card {
   border-radius: 10px;
-  padding: 0 20px;
+  padding: 8px 20px;
+  border: 2px solid transparent;
   display: flex;
   align-items: center;
   gap: 14px;
   text-align: left;
   margin-bottom: 10px;
   animation: fadeIn 0.5s ease;
-  aspect-ratio: 16 / 3;
+  /* Match word-card height: 4 cards with gap 10px, aspect-ratio 4/3 */
+  /* Solved card spans full width, so aspect-ratio ≈ (4 + gaps) * 4/3 */
+  aspect-ratio: 5.6 / 1;
 }
 
 .solved-card.category-0 {
@@ -767,8 +770,10 @@ h2 {
   }
   
   .solved-card {
-    aspect-ratio: 4 / 1;
-    padding: 0 14px;
+    /* Match square word-cards on mobile: 4 cards + 3 gaps of 6px */
+    aspect-ratio: 4.5 / 1;
+    padding: 4px 14px;
+    border: 2px solid transparent;
   }
 
   .puzzle-grid {
@@ -787,10 +792,6 @@ h2 {
     margin-top: 14px;
   }
 
-  .solved-card {
-    padding: 12px 16px;
-    border-radius: 10px;
-  }
 
   .solved-emoji {
     font-size: 24px;

@@ -188,14 +188,14 @@ function PuzzleGrid({
                 Valider
               </button>
             </>
-          ) : (
+          ) : puzzleComplete ? (
             <button 
               onClick={handleShare}
               className="share-button"
             >
               Partager
             </button>
-          )}
+          ) : null}
         </div>
       </div>
     </div>

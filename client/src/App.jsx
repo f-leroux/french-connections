@@ -145,21 +145,49 @@ function App() {
   // Emoji map for categories
   const categoryEmojis = ['🟨', '🟩', '🔵', '🟣'];
 
-  // Component for showing solutions with new styling
-  const SolutionReveal = () => (
-    <div className="solution-reveal">
-      <h3>Solutions :</h3>
-      {puzzle.groups.map((group, index) => (
-        <div key={index} className={`solved-card category-${index}`}>
-          <span className="solved-emoji">{categoryEmojis[index]}</span>
-          <div>
-            <div className="solved-theme">{group.name.toUpperCase()}</div>
-            <div className="solved-words">{group.words.map(w => w.toUpperCase()).join(' · ')}</div>
-          </div>
-        </div>
-      ))}
-    </div>
-  );
+  // Share handler
+  const handleShare = async () => {
+    const shareText = generateShareText();
+    try {
+      await navigator.clipboard.writeText(shareText);
+      alert('Résultat copié dans le presse-papiers !');
+    } catch (err) {
+      console.error('Failed to copy text: ', err);
+      alert('Erreur lors de la copie du texte');
+    }
+  };
+
+  // Component for showing solutions - only shows groups that weren't found
+  const SolutionReveal = () => {
+    // Find which groups weren't found yet
+    const unfoundGroups = puzzle.groups.filter((group, index) => {
+      // Check if this group's words are in foundGroups
+      return !foundGroups.some(foundGroup => 
+        foundGroup.every(word => group.words.includes(word))
+      );
+    });
+
+    if (unfoundGroups.length === 0) return null;
+
+    return (
+      <div className="solution-reveal">
+        <h3>Solutions restantes :</h3>
+        {unfoundGroups.map((group) => {
+          // Get the original index for correct coloring
+          const originalIndex = puzzle.groups.findIndex(g => g.name === group.name);
+          return (
+            <div key={originalIndex} className={`solved-card category-${originalIndex}`}>
+              <span className="solved-emoji">{categoryEmojis[originalIndex]}</span>
+              <div>
+                <div className="solved-theme">{group.name.toUpperCase()}</div>
+                <div className="solved-words">{group.words.map(w => w.toUpperCase()).join(' · ')}</div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    );
+  };
 
   return (
     <div className="app-container">
@@ -179,7 +207,12 @@ function App() {
         {puzzleComplete && <p>✨ Félicitations, vous avez tout trouvé !</p>}
       </div>
 
-      {/* Puzzle grid */}
+      {/* Game over message - at the top */}
+      {!hasMistakesLeft && !puzzleComplete && (
+        <div className="message-box">💀 Partie terminée !</div>
+      )}
+
+      {/* Puzzle grid - shows found groups */}
       {puzzle && (
         <PuzzleGrid
           puzzle={puzzle}
@@ -196,20 +229,19 @@ function App() {
         />
       )}
 
-      {/* Game over state */}
+      {/* Game over - solutions and share button */}
       {!hasMistakesLeft && !puzzleComplete && (
         <>
-          <div className="message-box">💀 Partie terminée !</div>
           <SolutionReveal />
+          <div className="button-row" style={{ marginTop: '16px' }}>
+            <button 
+              onClick={handleShare}
+              className="share-button"
+            >
+              Partager
+            </button>
+          </div>
         </>
-      )}
-
-      {/* Win state */}
-      {puzzleComplete && (
-        <div className="win-box">
-          <div className="win-emoji">🎉</div>
-          <p className="win-text">Félicitations, vous avez tout trouvé !</p>
-        </div>
       )}
 
       {/* Submit puzzle button */}
