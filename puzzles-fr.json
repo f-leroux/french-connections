@@ -1,292 +1,5 @@
 [
     {
-        "date": "2026-02-19",
-        "groups": [
-            {
-                "name": "Maisons de couture françaises",
-                "words": [
-                    "Chanel",
-                    "Dior",
-                    "Balmain",
-                    "Céline"
-                ]
-            },
-            {
-                "name": "Personnages de contes",
-                "words": [
-                    "Loup",
-                    "Belle",
-                    "Fée",
-                    "Ogre"
-                ]
-            },
-            {
-                "name": "Planètes du Système solaire",
-                "words": [
-                    "Mercure",
-                    "Vénus",
-                    "Terre",
-                    "Mars"
-                ]
-            },
-            {
-                "name": "Fromages",
-                "words": [
-                    "Brie",
-                    "Cantal",
-                    "Roquefort",
-                    "Comté"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-02-20",
-        "groups": [
-            {
-                "name": "Se plie ou se replie",
-                "words": [
-                    "Carte",
-                    "Feuille",
-                    "Voile",
-                    "Nappe"
-                ]
-            },
-            {
-                "name": "Fleurs des champs",
-                "words": [
-                    "Coquelicot",
-                    "Pâquerette",
-                    "Chardon",
-                    "Bleuet"
-                ]
-            },
-            {
-                "name": "Milieux forestiers",
-                "words": [
-                    "Taïga",
-                    "Mangrove",
-                    "Pinède",
-                    "Bosquet"
-                ]
-            },
-            {
-                "name": "Amphibiens",
-                "words": [
-                    "Triton",
-                    "Salamandre",
-                    "Rainette",
-                    "Crapaud"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-02-21",
-        "groups": [
-            {
-                "name": "Prénoms aussi fleurs",
-                "words": [
-                    "Rose",
-                    "Iris",
-                    "Lys",
-                    "Violette"
-                ]
-            },
-            {
-                "name": "Maisons dynastiques européennes",
-                "words": [
-                    "Bourbon",
-                    "Orléans",
-                    "Anjou",
-                    "Savoie"
-                ]
-            },
-            {
-                "name": "Palindromes",
-                "words": [
-                    "Kayak",
-                    "Radar",
-                    "Laval",
-                    "Rever"
-                ]
-            },
-            {
-                "name": "Objets pour fermer",
-                "words": [
-                    "Clé",
-                    "Cadenas",
-                    "Verrou",
-                    "Loquet"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-02-22",
-        "groups": [
-            {
-                "name": "Café (formes ou préparations)",
-                "words": [
-                    "Grain",
-                    "Moulu",
-                    "Ristretto",
-                    "Allongé"
-                ]
-            },
-            {
-                "name": "Techniques de cuisson",
-                "words": [
-                    "Sauté",
-                    "Braisé",
-                    "Fumé",
-                    "Confit"
-                ]
-            },
-            {
-                "name": "Synonymes de « finir »",
-                "words": [
-                    "Achever",
-                    "Conclure",
-                    "Clore",
-                    "Boucler"
-                ]
-            },
-            {
-                "name": "Textures capillaires",
-                "words": [
-                    "Ondulé",
-                    "Frisé",
-                    "Crépu",
-                    "Lisse"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-02-23",
-        "groups": [
-            {
-                "name": "Sports nautiques",
-                "words": [
-                    "Surf",
-                    "Voile",
-                    "Kayak",
-                    "Plongée"
-                ]
-            },
-            {
-                "name": "Inventions françaises",
-                "words": [
-                    "Braille",
-                    "Montgolfière",
-                    "Parachute",
-                    "Minitel"
-                ]
-            },
-            {
-                "name": "Sports avec balle",
-                "words": [
-                    "Polo",
-                    "Rugby",
-                    "Golf",
-                    "Tennis"
-                ]
-            },
-            {
-                "name": "Notes de parfumerie",
-                "words": [
-                    "Ambre",
-                    "Iris",
-                    "Fougère",
-                    "Musc"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-02-24",
-        "groups": [
-            {
-                "name": "Régions viticoles",
-                "words": [
-                    "Champagne",
-                    "Bordeaux",
-                    "Bandol",
-                    "Cahors"
-                ]
-            },
-            {
-                "name": "Même lettre aux extrémités",
-                "words": [
-                    "Anna",
-                    "Cognac",
-                    "Laval",
-                    "Sables"
-                ]
-            },
-            {
-                "name": "Pâtes italiennes",
-                "words": [
-                    "Penne",
-                    "Fusilli",
-                    "Farfalle",
-                    "Rigatoni"
-                ]
-            },
-            {
-                "name": "Départs rapides",
-                "words": [
-                    "Balle",
-                    "Jet",
-                    "Fusée",
-                    "Flèche"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-02-25",
-        "groups": [
-            {
-                "name": "Cafés au zinc",
-                "words": [
-                    "Noisette",
-                    "Serré",
-                    "Allongé",
-                    "Viennois"
-                ]
-            },
-            {
-                "name": "Au rayon charcuterie",
-                "words": [
-                    "Jambon",
-                    "Boudin",
-                    "Andouille",
-                    "Rosette"
-                ]
-            },
-            {
-                "name": "Au bout du fil",
-                "words": [
-                    "Cadran",
-                    "Combiné",
-                    "Tonalité",
-                    "Rallonge"
-                ]
-            },
-            {
-                "name": "Emballages",
-                "words": [
-                    "Boîte",
-                    "Brique",
-                    "Tube",
-                    "Ampoule"
-                ]
-            }
-        ]
-    },
-    {
         "date": "2026-02-26",
         "groups": [
             {
@@ -364,6 +77,309 @@
                     "RÉGIME",
                     "ARRÊT",
                     "DOSE"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-02-28",
+        "groups": [
+            {
+                "name": "Noms d’arbres",
+                "words": [
+                    "cèdre",
+                    "laurier",
+                    "olivier",
+                    "orme"
+                ]
+            },
+            {
+                "name": "Graminées et herbes",
+                "words": [
+                    "avoine",
+                    "brome",
+                    "menthe",
+                    "thym"
+                ]
+            },
+            {
+                "name": "Chaleur intense",
+                "words": [
+                    "ardeur",
+                    "braise",
+                    "fièvre",
+                    "fournaise"
+                ]
+            },
+            {
+                "name": "Synonymes de saleté",
+                "words": [
+                    "boue",
+                    "crasse",
+                    "fange",
+                    "ordure"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-03-01",
+        "groups": [
+            {
+                "name": "Villes françaises",
+                "words": [
+                    "Orange",
+                    "Tours",
+                    "Lyon",
+                    "Vannes"
+                ]
+            },
+            {
+                "name": "Philosophes français",
+                "words": [
+                    "Pascal",
+                    "Descartes",
+                    "Comte",
+                    "Camus"
+                ]
+            },
+            {
+                "name": "Zones humides",
+                "words": [
+                    "Delta",
+                    "Marais",
+                    "Lagune",
+                    "Estuaire"
+                ]
+            },
+            {
+                "name": "Marques auto françaises",
+                "words": [
+                    "Alpine",
+                    "Venturi",
+                    "Talbot",
+                    "Delage"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-03-02",
+        "groups": [
+            {
+                "name": "Fromages toponymes",
+                "words": [
+                    "Brie",
+                    "Langres",
+                    "Livarot",
+                    "Roquefort"
+                ]
+            },
+            {
+                "name": "Spiritueux français",
+                "words": [
+                    "Armagnac",
+                    "Calvados",
+                    "Chartreuse",
+                    "Marc"
+                ]
+            },
+            {
+                "name": "Rôles sur le terrain",
+                "words": [
+                    "Arbitre",
+                    "Capitaine",
+                    "Gardien",
+                    "Pilier"
+                ]
+            },
+            {
+                "name": "Ports de France",
+                "words": [
+                    "Brest",
+                    "Havre",
+                    "Lorient",
+                    "Sète"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-03-03",
+        "groups": [
+            {
+                "name": "Types de clubs de golf",
+                "emoji": "🏌️",
+                "words": [
+                    "DRIVER",
+                    "PUTTER",
+                    "WEDGE",
+                    "FER"
+                ]
+            },
+            {
+                "name": "Informatique : Choses qu’on installe",
+                "emoji": "💻",
+                "words": [
+                    "PILOTE",
+                    "CODEC",
+                    "PLUGIN",
+                    "FIRMWARE"
+                ]
+            },
+            {
+                "name": "Qui inspire la méfiance",
+                "emoji": "🕵️",
+                "words": [
+                    "SUSPECT",
+                    "DOUTEUX",
+                    "ÉQUIVOQUE",
+                    "FUMEUX"
+                ]
+            },
+            {
+                "name": "Avec un manche",
+                "emoji": "🍲",
+                "words": [
+                    "CLUB",
+                    "CRAVACHE",
+                    "LOUCHE",
+                    "RAQUETTE"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-03-04",
+        "groups": [
+            {
+                "name": "TITRES DE JOURNAUX (FRANCE)",
+                "emoji": "📰",
+                "words": [
+                    "FIGARO",
+                    "MONDE",
+                    "ÉQUIPE",
+                    "LIBÉRATION"
+                ]
+            },
+            {
+                "name": "INTERJECTIONS / EXCLAMATIONS",
+                "emoji": "💬",
+                "words": [
+                    "ZUT",
+                    "MINCE",
+                    "PURÉE",
+                    "OUPS"
+                ]
+            },
+            {
+                "name": "SE TERMINENT PAR \"-ION\"",
+                "emoji": "🔤",
+                "words": [
+                    "LION",
+                    "NATION",
+                    "FICTION",
+                    "MISSION"
+                ]
+            },
+            {
+                "name": "MARQUES SUCRÉES -1 LETTRE",
+                "emoji": "🍬",
+                "words": [
+                    "CARAMBA",
+                    "FERRER",
+                    "ION",
+                    "MAS"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-03-05",
+        "groups": [
+            {
+                "name": "Matériel de pêche (à la ligne)",
+                "emoji": "🎣",
+                "words": [
+                    "HAMEÇON",
+                    "FLOTTEUR",
+                    "MOULINET",
+                    "APPÂT"
+                ]
+            },
+            {
+                "name": "Arbres à fruits",
+                "emoji": "🌳",
+                "words": [
+                    "POMMIER",
+                    "OLIVIER",
+                    "AMANDIER",
+                    "PRUNIER"
+                ]
+            },
+            {
+                "name": "Couleurs “gourmandes” (teintes inspirées d’aliments)",
+                "emoji": "🎨",
+                "words": [
+                    "SAFRAN",
+                    "CACAO",
+                    "CARAMEL",
+                    "PISTACHE"
+                ]
+            },
+            {
+                "name": "Argot : “prendre une …” (coup / sanction)",
+                "emoji": "🥊",
+                "words": [
+                    "PRUNE",
+                    "PÊCHE",
+                    "POIRE",
+                    "CHÂTAIGNE"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-03-06",
+        "groups": [
+            {
+                "name": "Sentiments agréables",
+                "emoji": "😊",
+                "words": [
+                    "JOIE",
+                    "HUMEUR",
+                    "PLAISIR",
+                    "SÉRÉNITÉ"
+                ]
+            },
+            {
+                "name": "Expressions « faire ___ »",
+                "emoji": "🎭",
+                "words": [
+                    "RIRE",
+                    "PEUR",
+                    "PEINE",
+                    "HONTE"
+                ]
+            },
+            {
+                "name": "Formules « en toute ___ »",
+                "emoji": "🤫",
+                "words": [
+                    "CONFIANCE",
+                    "SIMPLICITÉ",
+                    "DISCRÉTION",
+                    "SÉCURITÉ"
+                ]
+            },
+            {
+                "name": "Noms abstraits en « -ité »",
+                "emoji": "🧩",
+                "words": [
+                    "TRANQUILLITÉ",
+                    "FIABILITÉ",
+                    "STABILITÉ",
+                    "CONFIDENTIALITÉ"
                 ]
             }
         ]
