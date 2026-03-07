@@ -1,345 +1,5 @@
 [
     {
-        "date": "2026-02-26",
-        "groups": [
-            {
-                "name": "Pièces de la maison",
-                "words": [
-                    "Bureau",
-                    "Cabinet",
-                    "Chambre",
-                    "Loge"
-                ]
-            },
-            {
-                "name": "Plantes du jardin",
-                "words": [
-                    "Rose",
-                    "Iris",
-                    "Lierre",
-                    "Mousse"
-                ]
-            },
-            {
-                "name": "Rêves éveillés",
-                "words": [
-                    "Mirage",
-                    "Chimère",
-                    "Fantasme",
-                    "Illusion"
-                ]
-            },
-            {
-                "name": "Humeur sombre",
-                "words": [
-                    "Spleen",
-                    "Ombre",
-                    "Brume",
-                    "Nuage"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-02-27",
-        "groups": [
-            {
-                "name": "Ça gronde",
-                "words": [
-                    "ORAGE",
-                    "VOLCAN",
-                    "MOTEUR",
-                    "DÉTONATION"
-                ]
-            },
-            {
-                "name": "Peut prendre «dé-»",
-                "words": [
-                    "GOÛT",
-                    "PRESSION",
-                    "ROUTE",
-                    "TRESSE"
-                ]
-            },
-            {
-                "name": "Coup au moral",
-                "words": [
-                    "DÉGOÛT",
-                    "DÉPRESSION",
-                    "DÉROUTE",
-                    "DÉTRESSE"
-                ]
-            },
-            {
-                "name": "Consignes médicales",
-                "words": [
-                    "REPOS",
-                    "RÉGIME",
-                    "ARRÊT",
-                    "DOSE"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-02-28",
-        "groups": [
-            {
-                "name": "Noms d’arbres",
-                "words": [
-                    "cèdre",
-                    "laurier",
-                    "olivier",
-                    "orme"
-                ]
-            },
-            {
-                "name": "Graminées et herbes",
-                "words": [
-                    "avoine",
-                    "brome",
-                    "menthe",
-                    "thym"
-                ]
-            },
-            {
-                "name": "Chaleur intense",
-                "words": [
-                    "ardeur",
-                    "braise",
-                    "fièvre",
-                    "fournaise"
-                ]
-            },
-            {
-                "name": "Synonymes de saleté",
-                "words": [
-                    "boue",
-                    "crasse",
-                    "fange",
-                    "ordure"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-03-01",
-        "groups": [
-            {
-                "name": "Villes françaises",
-                "words": [
-                    "Orange",
-                    "Tours",
-                    "Lyon",
-                    "Vannes"
-                ]
-            },
-            {
-                "name": "Philosophes français",
-                "words": [
-                    "Pascal",
-                    "Descartes",
-                    "Comte",
-                    "Camus"
-                ]
-            },
-            {
-                "name": "Zones humides",
-                "words": [
-                    "Delta",
-                    "Marais",
-                    "Lagune",
-                    "Estuaire"
-                ]
-            },
-            {
-                "name": "Marques auto françaises",
-                "words": [
-                    "Alpine",
-                    "Venturi",
-                    "Talbot",
-                    "Delage"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-03-02",
-        "groups": [
-            {
-                "name": "Fromages toponymes",
-                "words": [
-                    "Brie",
-                    "Langres",
-                    "Livarot",
-                    "Roquefort"
-                ]
-            },
-            {
-                "name": "Spiritueux français",
-                "words": [
-                    "Armagnac",
-                    "Calvados",
-                    "Chartreuse",
-                    "Marc"
-                ]
-            },
-            {
-                "name": "Rôles sur le terrain",
-                "words": [
-                    "Arbitre",
-                    "Capitaine",
-                    "Gardien",
-                    "Pilier"
-                ]
-            },
-            {
-                "name": "Ports de France",
-                "words": [
-                    "Brest",
-                    "Havre",
-                    "Lorient",
-                    "Sète"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-03-03",
-        "groups": [
-            {
-                "name": "Types de clubs de golf",
-                "emoji": "🏌️",
-                "words": [
-                    "DRIVER",
-                    "PUTTER",
-                    "WEDGE",
-                    "FER"
-                ]
-            },
-            {
-                "name": "Informatique : Choses qu’on installe",
-                "emoji": "💻",
-                "words": [
-                    "PILOTE",
-                    "CODEC",
-                    "PLUGIN",
-                    "FIRMWARE"
-                ]
-            },
-            {
-                "name": "Qui inspire la méfiance",
-                "emoji": "🕵️",
-                "words": [
-                    "SUSPECT",
-                    "DOUTEUX",
-                    "ÉQUIVOQUE",
-                    "FUMEUX"
-                ]
-            },
-            {
-                "name": "Avec un manche",
-                "emoji": "🍲",
-                "words": [
-                    "CLUB",
-                    "CRAVACHE",
-                    "LOUCHE",
-                    "RAQUETTE"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-03-04",
-        "groups": [
-            {
-                "name": "TITRES DE JOURNAUX (FRANCE)",
-                "emoji": "📰",
-                "words": [
-                    "FIGARO",
-                    "MONDE",
-                    "ÉQUIPE",
-                    "LIBÉRATION"
-                ]
-            },
-            {
-                "name": "INTERJECTIONS / EXCLAMATIONS",
-                "emoji": "💬",
-                "words": [
-                    "ZUT",
-                    "MINCE",
-                    "PURÉE",
-                    "OUPS"
-                ]
-            },
-            {
-                "name": "SE TERMINENT PAR \"-ION\"",
-                "emoji": "🔤",
-                "words": [
-                    "LION",
-                    "NATION",
-                    "FICTION",
-                    "MISSION"
-                ]
-            },
-            {
-                "name": "MARQUES SUCRÉES -1 LETTRE",
-                "emoji": "🍬",
-                "words": [
-                    "CARAMBA",
-                    "FERRER",
-                    "ION",
-                    "MAS"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-03-05",
-        "groups": [
-            {
-                "name": "Matériel de pêche (à la ligne)",
-                "emoji": "🎣",
-                "words": [
-                    "HAMEÇON",
-                    "FLOTTEUR",
-                    "MOULINET",
-                    "APPÂT"
-                ]
-            },
-            {
-                "name": "Arbres à fruits",
-                "emoji": "🌳",
-                "words": [
-                    "POMMIER",
-                    "OLIVIER",
-                    "AMANDIER",
-                    "PRUNIER"
-                ]
-            },
-            {
-                "name": "Couleurs “gourmandes” (teintes inspirées d’aliments)",
-                "emoji": "🎨",
-                "words": [
-                    "SAFRAN",
-                    "CACAO",
-                    "CARAMEL",
-                    "PISTACHE"
-                ]
-            },
-            {
-                "name": "Argot : “prendre une …” (coup / sanction)",
-                "emoji": "🥊",
-                "words": [
-                    "PRUNE",
-                    "PÊCHE",
-                    "POIRE",
-                    "CHÂTAIGNE"
-                ]
-            }
-        ]
-    },
-    {
         "date": "2026-03-06",
         "groups": [
             {
@@ -380,6 +40,366 @@
                     "FIABILITÉ",
                     "STABILITÉ",
                     "CONFIDENTIALITÉ"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-03-07",
+        "groups": [
+            {
+                "name": "Insectes qui piquent (et font démanger)",
+                "emoji": "🐝",
+                "words": [
+                    "MOUSTIQUE",
+                    "GUÊPE",
+                    "ABEILLE",
+                    "PUNAISE"
+                ]
+            },
+            {
+                "name": "Plantes qui piquent / irritent",
+                "emoji": "🌿",
+                "words": [
+                    "ORTIE",
+                    "RONCE",
+                    "CHARDON",
+                    "HOUX"
+                ]
+            },
+            {
+                "name": "Armement médiéval",
+                "emoji": "🗡️",
+                "words": [
+                    "LANCE",
+                    "PIQUE",
+                    "MASSE",
+                    "FLÉAU"
+                ]
+            },
+            {
+                "name": "Sensations désagréables sur la peau",
+                "emoji": "🔥",
+                "words": [
+                    "BRÛLE",
+                    "GRATTE",
+                    "DÉMANGE",
+                    "PICOTE"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-03-08",
+        "groups": [
+            {
+                "name": "Argot pour \"argent\"",
+                "emoji": "💰",
+                "words": [
+                    "THUNE",
+                    "FRIC",
+                    "OSEILLE",
+                    "BIFTONS"
+                ]
+            },
+            {
+                "name": "Arnaques et coups tordus",
+                "emoji": "🎭",
+                "words": [
+                    "ENTOURLOUPE",
+                    "COMBINE",
+                    "MAGOUILLE",
+                    "ESCROQUERIE"
+                ]
+            },
+            {
+                "name": "Récoltes souterraines",
+                "emoji": "🥕",
+                "words": [
+                    "AIL",
+                    "OIGNON",
+                    "CAROTTE",
+                    "TRUFFE"
+                ]
+            },
+            {
+                "name": "Mots qui finissent par \"-gnon\"",
+                "emoji": "🔤",
+                "words": [
+                    "CHAMPIGNON",
+                    "COMPAGNON",
+                    "MIGNON",
+                    "POGNON"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-03-09",
+        "groups": [
+            {
+                "name": "Fruits",
+                "emoji": "🍎",
+                "words": [
+                    "POMME",
+                    "ORANGE",
+                    "PÊCHE",
+                    "BANANE"
+                ]
+            },
+            {
+                "name": "Sanctions routières / verbalisation",
+                "emoji": "🧾",
+                "words": [
+                    "AMENDE",
+                    "CONTRAVENTION",
+                    "FOURRIÈRE",
+                    "PROCÈS-VERBAL"
+                ]
+            },
+            {
+                "name": "Lieux/structures pour animaux abandonnés",
+                "emoji": "🐾",
+                "words": [
+                    "REFUGE",
+                    "CHENIL",
+                    "CHATTERIE",
+                    "SPA"
+                ]
+            },
+            {
+                "name": "Prénoms féminins",
+                "emoji": "🍒",
+                "words": [
+                    "CLÉMENTINE",
+                    "CERISE",
+                    "OLIVE",
+                    "ANNE"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-03-10",
+        "groups": [
+            {
+                "name": "Réalisateurs célèbres",
+                "emoji": "🎬",
+                "words": [
+                    "HITCHCOCK",
+                    "KUBRICK",
+                    "TARANTINO",
+                    "NOLAN"
+                ]
+            },
+            {
+                "name": "Types de nœuds (en anglais)",
+                "emoji": "🪢",
+                "words": [
+                    "BOWLINE",
+                    "REEFKNOT",
+                    "SLIPKNOT",
+                    "PRUSIK"
+                ]
+            },
+            {
+                "name": "Verbes anglais : attacher / accrocher / atteler",
+                "emoji": "🔗",
+                "words": [
+                    "HITCH",
+                    "HOOK",
+                    "LATCH",
+                    "TETHER"
+                ]
+            },
+            {
+                "name": "Mots finissant par -ino",
+                "emoji": "🍝",
+                "words": [
+                    "BAMBINO",
+                    "CAPPUCCINO",
+                    "PEPERONCINO",
+                    "PACINO"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-03-11",
+        "groups": [
+            {
+                "name": "Outils pour reproduire / imposer une forme",
+                "emoji": "📐",
+                "words": [
+                    "GABARIT",
+                    "MATRICE",
+                    "EMPORTE-PIÈCE",
+                    "POCHOIR"
+                ]
+            },
+            {
+                "name": "Algèbre linéaire",
+                "emoji": "🧮",
+                "words": [
+                    "DÉTERMINANT",
+                    "VECTEUR",
+                    "TRANSPOSÉE",
+                    "INVERSE"
+                ]
+            },
+            {
+                "name": "Mollusques à manger",
+                "emoji": "🐚",
+                "words": [
+                    "PALOURDE",
+                    "PRAIRE",
+                    "BULOT",
+                    "SEICHE"
+                ]
+            },
+            {
+                "name": "Injures “bon enfant”",
+                "emoji": "🗯️",
+                "words": [
+                    "HUÎTRE",
+                    "MOULE",
+                    "QUICHE",
+                    "CRUCHE"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-03-12",
+        "groups": [
+            {
+                "name": "Fromages français (classiques)",
+                "emoji": "🧀",
+                "words": [
+                    "BRIE",
+                    "ROQUEFORT",
+                    "REBLOCHON",
+                    "CAMEMBERT"
+                ]
+            },
+            {
+                "name": "Titres de noblesse",
+                "emoji": "👑",
+                "words": [
+                    "PRINCE",
+                    "DUC",
+                    "COMTE",
+                    "BARON"
+                ]
+            },
+            {
+                "name": "Mammifères marins",
+                "emoji": "🐋",
+                "words": [
+                    "BALEINE",
+                    "DAUPHIN",
+                    "MORSE",
+                    "PHOQUE"
+                ]
+            },
+            {
+                "name": "CODE ___",
+                "emoji": "🔐",
+                "words": [
+                    "POSTAL",
+                    "PIN",
+                    "BARRES",
+                    "ROUTE"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-03-13",
+        "groups": [
+            {
+                "name": "Imagerie de la Nativité",
+                "emoji": "🎄",
+                "words": [
+                    "CRÈCHE",
+                    "ÉTOILE",
+                    "MAGES",
+                    "ÉTABLE"
+                ]
+            },
+            {
+                "name": "BTP / maçonnerie : matières à étaler ou reboucher",
+                "emoji": "🧱",
+                "words": [
+                    "MORTIER",
+                    "ENDUIT",
+                    "MASTIC",
+                    "BARBOTINE"
+                ]
+            },
+            {
+                "name": "Résines aromatiques (encens & parfumerie)",
+                "emoji": "🕯️",
+                "words": [
+                    "MYRRHE",
+                    "BENJOIN",
+                    "COPAL",
+                    "OLIBAN"
+                ]
+            },
+            {
+                "name": "Préparations & sauces",
+                "emoji": "🍳",
+                "words": [
+                    "ROUX",
+                    "FUMET",
+                    "COULIS",
+                    "GLACE"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-03-14",
+        "groups": [
+            {
+                "name": "Animaux du zodiaque chinois",
+                "emoji": "🐉",
+                "words": [
+                    "RAT",
+                    "BŒUF",
+                    "DRAGON",
+                    "SINGE"
+                ]
+            },
+            {
+                "name": "Argot pour “policier”",
+                "emoji": "👮",
+                "words": [
+                    "FLIC",
+                    "KEUF",
+                    "CONDÉ",
+                    "PANDORE"
+                ]
+            },
+            {
+                "name": "Synonymes (soutenus) de “lettre”",
+                "emoji": "✉️",
+                "words": [
+                    "MISSIVE",
+                    "ÉPISTRE",
+                    "PLI",
+                    "BILLET"
+                ]
+            },
+            {
+                "name": "Toujours à cuire",
+                "emoji": "🍳",
+                "words": [
+                    "POULET",
+                    "PORC",
+                    "ŒUF",
+                    "HARICOT"
                 ]
             }
         ]
