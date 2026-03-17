@@ -1,405 +1,405 @@
 [
     {
-        "date": "2026-03-06",
+        "date": "2026-03-16",
         "groups": [
             {
-                "name": "Sentiments agréables",
-                "emoji": "😊",
+                "name": "Navigateurs web",
+                "emoji": "🌐",
                 "words": [
-                    "JOIE",
-                    "HUMEUR",
-                    "PLAISIR",
-                    "SÉRÉNITÉ"
+                    "CHROME",
+                    "FIREFOX",
+                    "EDGE",
+                    "OPERA"
                 ]
             },
             {
-                "name": "Expressions « faire ___ »",
-                "emoji": "🎭",
+                "name": "Éléments chimiques",
+                "emoji": "🧪",
                 "words": [
-                    "RIRE",
-                    "PEUR",
-                    "PEINE",
-                    "HONTE"
+                    "NICKEL",
+                    "COBALT",
+                    "ZINC",
+                    "TITANE"
                 ]
             },
             {
-                "name": "Formules « en toute ___ »",
-                "emoji": "🤫",
+                "name": "Ce qu’on peut briser",
+                "emoji": "💥",
                 "words": [
-                    "CONFIANCE",
-                    "SIMPLICITÉ",
-                    "DISCRÉTION",
-                    "SÉCURITÉ"
+                    "SILENCE",
+                    "GLACE",
+                    "BARRIÈRE",
+                    "COEUR"
                 ]
             },
             {
-                "name": "Noms abstraits en « -ité »",
-                "emoji": "🧩",
+                "name": "Mots d’origine étrangère",
+                "emoji": "🗺️",
                 "words": [
-                    "TRANQUILLITÉ",
-                    "FIABILITÉ",
-                    "STABILITÉ",
-                    "CONFIDENTIALITÉ"
+                    "PIANO",
+                    "CACAO",
+                    "TABOU",
+                    "SAFARI"
                 ]
             }
         ]
     },
     {
-        "date": "2026-03-07",
+        "date": "2026-03-17",
         "groups": [
             {
-                "name": "Insectes qui piquent (et font démanger)",
-                "emoji": "🐝",
+                "name": "Parties d’un siège",
+                "emoji": "💺",
                 "words": [
-                    "MOUSTIQUE",
-                    "GUÊPE",
-                    "ABEILLE",
-                    "PUNAISE"
+                    "ACCOUDOIR",
+                    "ASSISE",
+                    "APPUIE-TÊTE",
+                    "PIÈTEMENT"
                 ]
             },
             {
-                "name": "Plantes qui piquent / irritent",
-                "emoji": "🌿",
+                "name": "Vocabulaire du tableur",
+                "emoji": "📊",
                 "words": [
-                    "ORTIE",
-                    "RONCE",
-                    "CHARDON",
-                    "HOUX"
+                    "CELLULE",
+                    "COLONNE",
+                    "FEUILLE",
+                    "FORMULE"
                 ]
             },
             {
-                "name": "Armement médiéval",
-                "emoji": "🗡️",
+                "name": "Avec des feuilles",
+                "emoji": "📚",
                 "words": [
-                    "LANCE",
-                    "PIQUE",
-                    "MASSE",
-                    "FLÉAU"
+                    "CARNET",
+                    "DOSSIER",
+                    "CLASSEUR",
+                    "ALBUM"
                 ]
             },
             {
-                "name": "Sensations désagréables sur la peau",
-                "emoji": "🔥",
+                "name": "Ce qu'on peut tenir à jour",
+                "emoji": "🗂️",
                 "words": [
-                    "BRÛLE",
-                    "GRATTE",
-                    "DÉMANGE",
-                    "PICOTE"
+                    "AGENDA",
+                    "REGISTRE",
+                    "RÉPERTOIRE",
+                    "FICHIER"
                 ]
             }
         ]
     },
     {
-        "date": "2026-03-08",
+        "date": "2026-03-18",
         "groups": [
             {
-                "name": "Argot pour \"argent\"",
-                "emoji": "💰",
-                "words": [
-                    "THUNE",
-                    "FRIC",
-                    "OSEILLE",
-                    "BIFTONS"
-                ]
-            },
-            {
-                "name": "Arnaques et coups tordus",
-                "emoji": "🎭",
-                "words": [
-                    "ENTOURLOUPE",
-                    "COMBINE",
-                    "MAGOUILLE",
-                    "ESCROQUERIE"
-                ]
-            },
-            {
-                "name": "Récoltes souterraines",
+                "name": "Sous la terre",
                 "emoji": "🥕",
                 "words": [
-                    "AIL",
-                    "OIGNON",
-                    "CAROTTE",
-                    "TRUFFE"
+                    "NAVET",
+                    "RADIS",
+                    "PANAIS",
+                    "RAIFORT"
                 ]
             },
             {
-                "name": "Mots qui finissent par \"-gnon\"",
-                "emoji": "🔤",
-                "words": [
-                    "CHAMPIGNON",
-                    "COMPAGNON",
-                    "MIGNON",
-                    "POGNON"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-03-09",
-        "groups": [
-            {
-                "name": "Fruits",
-                "emoji": "🍎",
-                "words": [
-                    "POMME",
-                    "ORANGE",
-                    "PÊCHE",
-                    "BANANE"
-                ]
-            },
-            {
-                "name": "Sanctions routières / verbalisation",
-                "emoji": "🧾",
-                "words": [
-                    "AMENDE",
-                    "CONTRAVENTION",
-                    "FOURRIÈRE",
-                    "PROCÈS-VERBAL"
-                ]
-            },
-            {
-                "name": "Lieux/structures pour animaux abandonnés",
-                "emoji": "🐾",
-                "words": [
-                    "REFUGE",
-                    "CHENIL",
-                    "CHATTERIE",
-                    "SPA"
-                ]
-            },
-            {
-                "name": "Prénoms féminins",
-                "emoji": "🍒",
-                "words": [
-                    "CLÉMENTINE",
-                    "CERISE",
-                    "OLIVE",
-                    "ANNE"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-03-10",
-        "groups": [
-            {
-                "name": "Réalisateurs célèbres",
+                "name": "Mauvais films",
                 "emoji": "🎬",
                 "words": [
-                    "HITCHCOCK",
-                    "KUBRICK",
-                    "TARANTINO",
-                    "NOLAN"
+                    "NANAR",
+                    "DAUBE",
+                    "PURGE",
+                    "BOUSE"
                 ]
             },
             {
-                "name": "Types de nœuds (en anglais)",
-                "emoji": "🪢",
+                "name": "Insultes alimentaires ou potagères",
+                "emoji": "🤡",
                 "words": [
-                    "BOWLINE",
-                    "REEFKNOT",
-                    "SLIPKNOT",
-                    "PRUSIK"
+                    "CORNICHON",
+                    "COURGE",
+                    "PATATE",
+                    "ANDOUILLE"
                 ]
             },
             {
-                "name": "Verbes anglais : attacher / accrocher / atteler",
-                "emoji": "🔗",
+                "name": "Argot de l’argent « végétal »",
+                "emoji": "💸",
                 "words": [
-                    "HITCH",
-                    "HOOK",
-                    "LATCH",
-                    "TETHER"
-                ]
-            },
-            {
-                "name": "Mots finissant par -ino",
-                "emoji": "🍝",
-                "words": [
-                    "BAMBINO",
-                    "CAPPUCCINO",
-                    "PEPERONCINO",
-                    "PACINO"
+                    "BLÉ",
+                    "OSEILLE",
+                    "TRÈFLE",
+                    "ARTICHE"
                 ]
             }
         ]
     },
     {
-        "date": "2026-03-11",
+        "date": "2026-03-19",
         "groups": [
             {
-                "name": "Outils pour reproduire / imposer une forme",
-                "emoji": "📐",
+                "name": "Sorts possibles d’un vol",
+                "emoji": "✈️",
                 "words": [
-                    "GABARIT",
-                    "MATRICE",
-                    "EMPORTE-PIÈCE",
-                    "POCHOIR"
+                    "ANNULÉ",
+                    "RETARDÉ",
+                    "REPORTÉ",
+                    "DÉTOURNÉ"
                 ]
             },
             {
-                "name": "Algèbre linéaire",
-                "emoji": "🧮",
+                "name": "Sans repères spatiaux",
+                "emoji": "🧭",
                 "words": [
-                    "DÉTERMINANT",
-                    "VECTEUR",
-                    "TRANSPOSÉE",
-                    "INVERSE"
+                    "DÉBOUSSOLÉ",
+                    "DÉSORIENTÉ",
+                    "ÉGARÉ",
+                    "DÉROUTÉ"
                 ]
             },
             {
-                "name": "Mollusques à manger",
-                "emoji": "🐚",
+                "name": "Dans le flou",
+                "emoji": "😵",
                 "words": [
-                    "PALOURDE",
-                    "PRAIRE",
-                    "BULOT",
-                    "SEICHE"
+                    "PERDU",
+                    "PAUMÉ",
+                    "LARGUÉ",
+                    "DÉCONTENANCÉ"
                 ]
             },
             {
-                "name": "Injures “bon enfant”",
-                "emoji": "🗯️",
+                "name": "Système de navigation perturbé",
+                "emoji": "📡",
                 "words": [
-                    "HUÎTRE",
-                    "MOULE",
-                    "QUICHE",
-                    "CRUCHE"
+                    "DÉRÉGLÉ",
+                    "FAUSSÉ",
+                    "BROUILLÉ",
+                    "PARASITÉ"
                 ]
             }
         ]
     },
     {
-        "date": "2026-03-12",
+        "date": "2026-03-20",
         "groups": [
             {
-                "name": "Fromages français (classiques)",
-                "emoji": "🧀",
+                "name": "Titres de films animés",
+                "emoji": "🎬",
                 "words": [
-                    "BRIE",
-                    "ROQUEFORT",
-                    "REBLOCHON",
-                    "CAMEMBERT"
+                    "COCO",
+                    "RIO",
+                    "REBELLE",
+                    "RATATOUILLE"
                 ]
             },
             {
-                "name": "Titres de noblesse",
-                "emoji": "👑",
+                "name": "Villes hôtes des JO d’été au XXIe siècle",
+                "emoji": "🏅",
                 "words": [
-                    "PRINCE",
-                    "DUC",
-                    "COMTE",
-                    "BARON"
+                    "ATHÈNES",
+                    "LONDRES",
+                    "PÉKIN",
+                    "TOKYO"
                 ]
             },
             {
-                "name": "Mammifères marins",
-                "emoji": "🐋",
+                "name": "Parfums Chanel",
+                "emoji": "💎",
                 "words": [
-                    "BALEINE",
-                    "DAUPHIN",
-                    "MORSE",
-                    "PHOQUE"
+                    "CHANCE",
+                    "ALLURE",
+                    "CRISTALLE",
+                    "ÉGOÏSTE"
                 ]
             },
             {
-                "name": "CODE ___",
-                "emoji": "🔐",
+                "name": "Noms de code de braqueurs dans La Casa de Papel",
+                "emoji": "🎭",
                 "words": [
-                    "POSTAL",
-                    "PIN",
-                    "BARRES",
-                    "ROUTE"
+                    "BERLIN",
+                    "DENVER",
+                    "HELSINKI",
+                    "NAIROBI"
                 ]
             }
         ]
     },
     {
-        "date": "2026-03-13",
+        "date": "2026-03-21",
         "groups": [
             {
-                "name": "Imagerie de la Nativité",
-                "emoji": "🎄",
-                "words": [
-                    "CRÈCHE",
-                    "ÉTOILE",
-                    "MAGES",
-                    "ÉTABLE"
-                ]
-            },
-            {
-                "name": "BTP / maçonnerie : matières à étaler ou reboucher",
-                "emoji": "🧱",
-                "words": [
-                    "MORTIER",
-                    "ENDUIT",
-                    "MASTIC",
-                    "BARBOTINE"
-                ]
-            },
-            {
-                "name": "Résines aromatiques (encens & parfumerie)",
-                "emoji": "🕯️",
-                "words": [
-                    "MYRRHE",
-                    "BENJOIN",
-                    "COPAL",
-                    "OLIBAN"
-                ]
-            },
-            {
-                "name": "Préparations & sauces",
-                "emoji": "🍳",
-                "words": [
-                    "ROUX",
-                    "FUMET",
-                    "COULIS",
-                    "GLACE"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-03-14",
-        "groups": [
-            {
-                "name": "Animaux du zodiaque chinois",
+                "name": "Créatures du bestiaire fantastique",
                 "emoji": "🐉",
                 "words": [
-                    "RAT",
-                    "BŒUF",
                     "DRAGON",
-                    "SINGE"
+                    "HYDRE",
+                    "CHIMÈRE",
+                    "GRIFFON"
                 ]
             },
             {
-                "name": "Argot pour “policier”",
-                "emoji": "👮",
+                "name": "Herbes de cuisine",
+                "emoji": "🌿",
                 "words": [
-                    "FLIC",
-                    "KEUF",
-                    "CONDÉ",
-                    "PANDORE"
+                    "THYM",
+                    "BASILIC",
+                    "ANETH",
+                    "MENTHE"
                 ]
             },
             {
-                "name": "Synonymes (soutenus) de “lettre”",
-                "emoji": "✉️",
+                "name": "Cavalerie d’autrefois",
+                "emoji": "🐎",
                 "words": [
-                    "MISSIVE",
-                    "ÉPISTRE",
-                    "PLI",
-                    "BILLET"
+                    "HUSSARD",
+                    "LANCIER",
+                    "CUIRASSIER",
+                    "SPAHI"
                 ]
             },
             {
-                "name": "Toujours à cuire",
-                "emoji": "🍳",
+                "name": "Lamiacées",
+                "emoji": "🌱",
                 "words": [
-                    "POULET",
-                    "PORC",
-                    "ŒUF",
-                    "HARICOT"
+                    "SAUGE",
+                    "ROMARIN",
+                    "ORIGAN",
+                    "SARRIETTE"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-03-22",
+        "groups": [
+            {
+                "name": "Bijoux portés au doigt",
+                "emoji": "💍",
+                "words": [
+                    "BAGUE",
+                    "CHEVALIÈRE",
+                    "ANNEAU",
+                    "SOLITAIRE"
+                ]
+            },
+            {
+                "name": "Phénomènes météorologiques",
+                "emoji": "🌦️",
+                "words": [
+                    "FRONT",
+                    "GRAIN",
+                    "BRUME",
+                    "RAFALE"
+                ]
+            },
+            {
+                "name": "Regroupements politiques",
+                "emoji": "🤝",
+                "words": [
+                    "ALLIANCE",
+                    "COALITION",
+                    "LIGUE",
+                    "RASSEMBLEMENT"
+                ]
+            },
+            {
+                "name": "Avions de combat français",
+                "emoji": "✈️",
+                "words": [
+                    "MIRAGE",
+                    "ÉTENDARD",
+                    "OURAGAN",
+                    "MYSTÈRE"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-03-23",
+        "groups": [
+            {
+                "name": "Périphériques d’ordinateur",
+                "emoji": "🖥️",
+                "words": [
+                    "CLAVIER",
+                    "ÉCRAN",
+                    "IMPRIMANTE",
+                    "SCANNER"
+                ]
+            },
+            {
+                "name": "Morceaux d’agneau",
+                "emoji": "🐑",
+                "words": [
+                    "GIGOT",
+                    "CARRÉ",
+                    "SELLE",
+                    "ÉPAULE"
+                ]
+            },
+            {
+                "name": "Avec un bec",
+                "emoji": "🐦",
+                "words": [
+                    "CANARD",
+                    "THÉIÈRE",
+                    "TOUCANS",
+                    "STYLO"
+                ]
+            },
+            {
+                "name": "Noms d’animaux qui sont aussi d’autres choses",
+                "emoji": "🦗",
+                "words": [
+                    "GRUE",
+                    "SOURIS",
+                    "PUCE",
+                    "POULE"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-03-24",
+        "groups": [
+            {
+                "name": "Mythologie grecque",
+                "emoji": "🇬🇷",
+                "words": [
+                    "HÉRA",
+                    "PAN",
+                    "ATLAS",
+                    "NIKE"
+                ]
+            },
+            {
+                "name": "Lunes de Saturne",
+                "emoji": "🪐",
+                "words": [
+                    "JANUS",
+                    "DAPHNIS",
+                    "MIMAS",
+                    "ENCELADE"
+                ]
+            },
+            {
+                "name": "Personnages des Mille et Une Nuits",
+                "emoji": "🧞",
+                "words": [
+                    "ALADIN",
+                    "ALI BABA",
+                    "MORGIANE",
+                    "SINDBAD"
+                ]
+            },
+            {
+                "name": "Œuvres de Ravel",
+                "emoji": "🎼",
+                "words": [
+                    "BOLÉRO",
+                    "MIROIRS",
+                    "SHÉHÉRAZADE",
+                    "TZIGANE"
                 ]
             }
         ]
