@@ -1,230 +1,5 @@
 [
     {
-        "date": "2026-03-16",
-        "groups": [
-            {
-                "name": "Navigateurs web",
-                "emoji": "🌐",
-                "words": [
-                    "CHROME",
-                    "FIREFOX",
-                    "EDGE",
-                    "OPERA"
-                ]
-            },
-            {
-                "name": "Éléments chimiques",
-                "emoji": "🧪",
-                "words": [
-                    "NICKEL",
-                    "COBALT",
-                    "ZINC",
-                    "TITANE"
-                ]
-            },
-            {
-                "name": "Ce qu’on peut briser",
-                "emoji": "💥",
-                "words": [
-                    "SILENCE",
-                    "GLACE",
-                    "BARRIÈRE",
-                    "COEUR"
-                ]
-            },
-            {
-                "name": "Mots d’origine étrangère",
-                "emoji": "🗺️",
-                "words": [
-                    "PIANO",
-                    "CACAO",
-                    "TABOU",
-                    "SAFARI"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-03-17",
-        "groups": [
-            {
-                "name": "Parties d’un siège",
-                "emoji": "💺",
-                "words": [
-                    "ACCOUDOIR",
-                    "ASSISE",
-                    "APPUIE-TÊTE",
-                    "PIÈTEMENT"
-                ]
-            },
-            {
-                "name": "Vocabulaire du tableur",
-                "emoji": "📊",
-                "words": [
-                    "CELLULE",
-                    "COLONNE",
-                    "FEUILLE",
-                    "FORMULE"
-                ]
-            },
-            {
-                "name": "Avec des feuilles",
-                "emoji": "📚",
-                "words": [
-                    "CARNET",
-                    "DOSSIER",
-                    "CLASSEUR",
-                    "ALBUM"
-                ]
-            },
-            {
-                "name": "Ce qu'on peut tenir à jour",
-                "emoji": "🗂️",
-                "words": [
-                    "AGENDA",
-                    "REGISTRE",
-                    "RÉPERTOIRE",
-                    "FICHIER"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-03-18",
-        "groups": [
-            {
-                "name": "Sous la terre",
-                "emoji": "🥕",
-                "words": [
-                    "NAVET",
-                    "RADIS",
-                    "PANAIS",
-                    "RAIFORT"
-                ]
-            },
-            {
-                "name": "Mauvais films",
-                "emoji": "🎬",
-                "words": [
-                    "NANAR",
-                    "DAUBE",
-                    "PURGE",
-                    "BOUSE"
-                ]
-            },
-            {
-                "name": "Insultes alimentaires ou potagères",
-                "emoji": "🤡",
-                "words": [
-                    "CORNICHON",
-                    "COURGE",
-                    "PATATE",
-                    "ANDOUILLE"
-                ]
-            },
-            {
-                "name": "Argot de l’argent « végétal »",
-                "emoji": "💸",
-                "words": [
-                    "BLÉ",
-                    "OSEILLE",
-                    "TRÈFLE",
-                    "ARTICHE"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-03-19",
-        "groups": [
-            {
-                "name": "Sorts possibles d’un vol",
-                "emoji": "✈️",
-                "words": [
-                    "ANNULÉ",
-                    "RETARDÉ",
-                    "REPORTÉ",
-                    "DÉTOURNÉ"
-                ]
-            },
-            {
-                "name": "Sans repères spatiaux",
-                "emoji": "🧭",
-                "words": [
-                    "DÉBOUSSOLÉ",
-                    "DÉSORIENTÉ",
-                    "ÉGARÉ",
-                    "DÉROUTÉ"
-                ]
-            },
-            {
-                "name": "Dans le flou",
-                "emoji": "😵",
-                "words": [
-                    "PERDU",
-                    "PAUMÉ",
-                    "LARGUÉ",
-                    "DÉCONTENANCÉ"
-                ]
-            },
-            {
-                "name": "Système de navigation perturbé",
-                "emoji": "📡",
-                "words": [
-                    "DÉRÉGLÉ",
-                    "FAUSSÉ",
-                    "BROUILLÉ",
-                    "PARASITÉ"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-03-20",
-        "groups": [
-            {
-                "name": "Titres de films animés",
-                "emoji": "🎬",
-                "words": [
-                    "COCO",
-                    "RIO",
-                    "REBELLE",
-                    "RATATOUILLE"
-                ]
-            },
-            {
-                "name": "Villes hôtes des JO d’été au XXIe siècle",
-                "emoji": "🏅",
-                "words": [
-                    "ATHÈNES",
-                    "LONDRES",
-                    "PÉKIN",
-                    "TOKYO"
-                ]
-            },
-            {
-                "name": "Parfums Chanel",
-                "emoji": "💎",
-                "words": [
-                    "CHANCE",
-                    "ALLURE",
-                    "CRISTALLE",
-                    "ÉGOÏSTE"
-                ]
-            },
-            {
-                "name": "Noms de code de braqueurs dans La Casa de Papel",
-                "emoji": "🎭",
-                "words": [
-                    "BERLIN",
-                    "DENVER",
-                    "HELSINKI",
-                    "NAIROBI"
-                ]
-            }
-        ]
-    },
-    {
         "date": "2026-03-21",
         "groups": [
             {
@@ -400,6 +175,141 @@
                     "MIROIRS",
                     "SHÉHÉRAZADE",
                     "TZIGANE"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-03-25",
+        "groups": [
+            {
+                "name": "Titres nobiliaires",
+                "emoji": "👑",
+                "words": [
+                    "PRINCE",
+                    "DUC",
+                    "COMTE",
+                    "BARON"
+                ]
+            },
+            {
+                "name": "Marques de biscuits / goûters",
+                "emoji": "🍪",
+                "words": [
+                    "OREO",
+                    "GRANOLA",
+                    "MIKADO",
+                    "PALMITO"
+                ]
+            },
+            {
+                "name": "Artistes connus sous un seul nom",
+                "emoji": "🎤",
+                "words": [
+                    "MADONNA",
+                    "BEYONCÉ",
+                    "SIA",
+                    "SHAKIRA"
+                ]
+            },
+            {
+                "name": "Cartes / rôles dans Love Letter",
+                "emoji": "🃏",
+                "words": [
+                    "ROI",
+                    "COMTESSE",
+                    "PRINCESSE",
+                    "PRÊTRE"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-03-26",
+        "groups": [
+            {
+                "name": "Traits d’un partenaire toxique",
+                "emoji": "👤",
+                "words": [
+                    "JALOUX",
+                    "CONTRÔLANT",
+                    "EXCLUSIF",
+                    "ENVAHISSANT"
+                ]
+            },
+            {
+                "name": "Types de pronoms",
+                "emoji": "🔤",
+                "words": [
+                    "POSSESSIF",
+                    "DÉMONSTRATIF",
+                    "INTERROGATIF",
+                    "RELATIF"
+                ]
+            },
+            {
+                "name": "Jargon nautique",
+                "emoji": "⚓",
+                "words": [
+                    "CAP",
+                    "AMER",
+                    "BORD",
+                    "MOUILLAGE"
+                ]
+            },
+            {
+                "name": "Avant « de bord »",
+                "emoji": "💻",
+                "words": [
+                    "JOURNAL",
+                    "TABLEAU",
+                    "PERSONNEL",
+                    "ORDINATEUR"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-03-27",
+        "groups": [
+            {
+                "name": "Matières textiles",
+                "emoji": "🧵",
+                "words": [
+                    "LAINE",
+                    "COTON",
+                    "MOHAIR",
+                    "ACRYLIQUE"
+                ]
+            },
+            {
+                "name": "Médiums de peinture",
+                "emoji": "🎨",
+                "words": [
+                    "HUILE",
+                    "GOUACHE",
+                    "AQUARELLE",
+                    "PASTEL"
+                ]
+            },
+            {
+                "name": "Territoires au statut contesté",
+                "emoji": "🌍",
+                "words": [
+                    "CRIMÉE",
+                    "KOSOVO",
+                    "PALESTINE",
+                    "TAÏWAN"
+                ]
+            },
+            {
+                "name": "Mots composés (2 mots)",
+                "emoji": "🧩",
+                "words": [
+                    "PASSEPORT",
+                    "BONHOMME",
+                    "CACHEMIRE",
+                    "GRATTECIEL"
                 ]
             }
         ]
