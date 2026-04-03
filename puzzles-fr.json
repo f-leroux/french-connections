@@ -1,275 +1,5 @@
 [
     {
-        "date": "2026-03-27",
-        "groups": [
-            {
-                "name": "Matières textiles",
-                "emoji": "🧵",
-                "words": [
-                    "LAINE",
-                    "COTON",
-                    "MOHAIR",
-                    "ACRYLIQUE"
-                ]
-            },
-            {
-                "name": "Médiums de peinture",
-                "emoji": "🎨",
-                "words": [
-                    "HUILE",
-                    "GOUACHE",
-                    "AQUARELLE",
-                    "PASTEL"
-                ]
-            },
-            {
-                "name": "Territoires au statut contesté",
-                "emoji": "🌍",
-                "words": [
-                    "CRIMÉE",
-                    "KOSOVO",
-                    "PALESTINE",
-                    "TAÏWAN"
-                ]
-            },
-            {
-                "name": "Mots composés (2 mots)",
-                "emoji": "🧩",
-                "words": [
-                    "PASSEPORT",
-                    "BONHOMME",
-                    "CACHEMIRE",
-                    "GRATTECIEL"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-03-28",
-        "groups": [
-            {
-                "name": "Fromages AOP",
-                "emoji": "🧀",
-                "words": [
-                    "COMTÉ",
-                    "CANTAL",
-                    "SALERS",
-                    "LAGUIOLE"
-                ]
-            },
-            {
-                "name": "Marques françaises de coutellerie",
-                "emoji": "🔪",
-                "words": [
-                    "OPINEL",
-                    "NONTRON",
-                    "SABATIER",
-                    "PRADEL"
-                ]
-            },
-            {
-                "name": "Territoires nobiliaires",
-                "emoji": "👑",
-                "words": [
-                    "DUCHÉ",
-                    "MARQUISAT",
-                    "VICOMTÉ",
-                    "PRINCIPAUTÉ"
-                ]
-            },
-            {
-                "name": "Toponymes devenus noms de races bovines",
-                "emoji": "🐄",
-                "words": [
-                    "ABONDANCE",
-                    "AUBRAC",
-                    "MONTBÉLIARDE",
-                    "TARENTAISE"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-03-29",
-        "groups": [
-            {
-                "name": "Fortifications",
-                "emoji": "🏰",
-                "words": [
-                    "CITADELLE",
-                    "BASTION",
-                    "REMPART",
-                    "DONJON"
-                ]
-            },
-            {
-                "name": "Verlan très courant",
-                "emoji": "🔄",
-                "words": [
-                    "MEUF",
-                    "TEUF",
-                    "KEUF",
-                    "OUF"
-                ]
-            },
-            {
-                "name": "Intensifs familiers après « à »",
-                "emoji": "⚡",
-                "words": [
-                    "BLOC",
-                    "FOND",
-                    "BALLE",
-                    "DONF"
-                ]
-            },
-            {
-                "name": "Après « temps »",
-                "emoji": "⏳",
-                "words": [
-                    "MORT",
-                    "FORT",
-                    "PARTIEL",
-                    "PERDU"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-03-30",
-        "groups": [
-            {
-                "name": "Peuvent suivre « huile de »",
-                "emoji": "🧴",
-                "words": [
-                    "ARGAN",
-                    "COLZA",
-                    "SÉSAME",
-                    "TOURNESOL"
-                ]
-            },
-            {
-                "name": "Plantes à miel",
-                "emoji": "🐝",
-                "words": [
-                    "ACACIA",
-                    "LAVANDE",
-                    "THYM",
-                    "CHÂTAIGNIER"
-                ]
-            },
-            {
-                "name": "Mots qui sont aussi des couleurs",
-                "emoji": "🎨",
-                "words": [
-                    "OLIVE",
-                    "LILAS",
-                    "AUBERGINE",
-                    "PISTACHE"
-                ]
-            },
-            {
-                "name": "Personnages de Tintin",
-                "emoji": "🚀",
-                "words": [
-                    "HADDOCK",
-                    "MILOU",
-                    "CASTAFIORE",
-                    "NESTOR"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-03-31",
-        "groups": [
-            {
-                "name": "Acteurs ayant incarné Batman",
-                "emoji": "🦇",
-                "words": [
-                    "KEATON",
-                    "KILMER",
-                    "CLOONEY",
-                    "PATTINSON"
-                ]
-            },
-            {
-                "name": "Téléréalités",
-                "emoji": "🏝️",
-                "words": [
-                    "LOFT",
-                    "BACHELOR",
-                    "SURVIVOR",
-                    "KOH-LANTA"
-                ]
-            },
-            {
-                "name": "Structures de données",
-                "emoji": "💻",
-                "words": [
-                    "QUEUE",
-                    "HEAP",
-                    "TREE",
-                    "GRAPH"
-                ]
-            },
-            {
-                "name": "Peuvent suivre \"HAY\"",
-                "emoji": "🌾",
-                "words": [
-                    "BALE",
-                    "FEVER",
-                    "RIDE",
-                    "STACK"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-04-01",
-        "groups": [
-            {
-                "name": "Vocabulaire du vin",
-                "emoji": "🍷",
-                "words": [
-                    "CRU",
-                    "CÉPAGE",
-                    "CUVÉE",
-                    "MILLÉSIME"
-                ]
-            },
-            {
-                "name": "Aspects d’un discours ou d’un texte",
-                "emoji": "📝",
-                "words": [
-                    "CONTENU",
-                    "FORME",
-                    "TON",
-                    "STYLE"
-                ]
-            },
-            {
-                "name": "Qualifie une expression maîtrisée",
-                "emoji": "🤫",
-                "words": [
-                    "RETENU",
-                    "MESURÉ",
-                    "DISCRET",
-                    "SOBRE"
-                ]
-            },
-            {
-                "name": "Quatre sens de « stock »",
-                "emoji": "📦",
-                "words": [
-                    "SOUCHE",
-                    "FOND",
-                    "CHEPTEL",
-                    "RÉSERVE"
-                ]
-            }
-        ]
-    },
-    {
         "date": "2026-04-02",
         "groups": [
             {
@@ -310,6 +40,321 @@
                     "PASCAL",
                     "WATT",
                     "NEWTON"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-04-03",
+        "groups": [
+            {
+                "name": "Parties de l’oreille",
+                "emoji": "🩺",
+                "words": [
+                    "ENCLUME",
+                    "ÉTRIER",
+                    "TYMPAN",
+                    "COCHLÉE"
+                ]
+            },
+            {
+                "name": "Armes blanches",
+                "emoji": "🗡️",
+                "words": [
+                    "ÉPÉE",
+                    "DAGUE",
+                    "LANCE",
+                    "RAPIÈRE"
+                ]
+            },
+            {
+                "name": "Pièces d’un piano",
+                "emoji": "🎹",
+                "words": [
+                    "CLAVIER",
+                    "PÉDALE",
+                    "CORDE",
+                    "ÉTOUFFOIR"
+                ]
+            },
+            {
+                "name": "Objets d’épreuves olympiques",
+                "emoji": "🏅",
+                "words": [
+                    "SABRE",
+                    "MARTEAU",
+                    "ANNEAUX",
+                    "JAVELOT"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-04-04",
+        "groups": [
+            {
+                "name": "Biscuits / petites pâtisseries",
+                "emoji": "🍪",
+                "words": [
+                    "PALMIER",
+                    "FINANCIER",
+                    "MADELEINE",
+                    "MACARON"
+                ]
+            },
+            {
+                "name": "Composés “partie du corps + animal”",
+                "emoji": "🐱",
+                "words": [
+                    "LANGUE-DE-CHAT",
+                    "PATTE-D’OIE",
+                    "QUEUE-DE-CHEVAL",
+                    "PIED-DE-POULE"
+                ]
+            },
+            {
+                "name": "Stations du métro parisien",
+                "emoji": "🚇",
+                "words": [
+                    "JAURÈS",
+                    "CRIMÉE",
+                    "STALINGRAD",
+                    "ROME"
+                ]
+            },
+            {
+                "name": "Contes de Perrault",
+                "emoji": "📖",
+                "words": [
+                    "CENDRILLON",
+                    "BARBE-BLEUE",
+                    "RIQUET",
+                    "PEAU-D’ÂNE"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-04-05",
+        "groups": [
+            {
+                "name": "Au théâtre",
+                "emoji": "🎭",
+                "words": [
+                    "SCÈNE",
+                    "RIDEAU",
+                    "COULISSES",
+                    "LOGE"
+                ]
+            },
+            {
+                "name": "Surnoms familiers du visage",
+                "emoji": "🧑",
+                "words": [
+                    "FRIMOUSSE",
+                    "TROMBINE",
+                    "BOUILLE",
+                    "TRONCHE"
+                ]
+            },
+            {
+                "name": "Outils au jardin",
+                "emoji": "🪴",
+                "words": [
+                    "BINETTE",
+                    "PIOCHE",
+                    "RÂTEAU",
+                    "SERPE"
+                ]
+            },
+            {
+                "name": "Déconvenues qu’on peut “se prendre”",
+                "emoji": "😬",
+                "words": [
+                    "VENT",
+                    "CLAQUE",
+                    "VESTE",
+                    "BIDE"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-04-06",
+        "groups": [
+            {
+                "name": "Éléments d’un tableur",
+                "emoji": "📊",
+                "words": [
+                    "LIGNE",
+                    "COLONNE",
+                    "FEUILLE",
+                    "FORMULE"
+                ]
+            },
+            {
+                "name": "Métaux nobles",
+                "emoji": "🥇",
+                "words": [
+                    "OR",
+                    "ARGENT",
+                    "PLATINE",
+                    "PALLADIUM"
+                ]
+            },
+            {
+                "name": "Éléments d’une platine vinyle",
+                "emoji": "🎵",
+                "words": [
+                    "BRAS",
+                    "CELLULE",
+                    "PLATEAU",
+                    "DIAMANT"
+                ]
+            },
+            {
+                "name": "Tinctures héraldiques",
+                "emoji": "🛡️",
+                "words": [
+                    "AZUR",
+                    "SABLE",
+                    "GUEULES",
+                    "SINOPLE"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-04-07",
+        "groups": [
+            {
+                "name": "Langages de programmation",
+                "emoji": "💻",
+                "words": [
+                    "ADA",
+                    "BASIC",
+                    "LISP",
+                    "RUBY"
+                ]
+            },
+            {
+                "name": "Unités de pression",
+                "emoji": "📏",
+                "words": [
+                    "PASCAL",
+                    "ATMOSPHÈRE",
+                    "PSI",
+                    "MILLIBAR"
+                ]
+            },
+            {
+                "name": "Poissons de mer à table",
+                "emoji": "🐟",
+                "words": [
+                    "BAR",
+                    "DORADE",
+                    "SOLE",
+                    "MAQUEREAU"
+                ]
+            },
+            {
+                "name": "Noms de poissons employés pour parler de personnes",
+                "emoji": "🗣️",
+                "words": [
+                    "MORUE",
+                    "THON",
+                    "REQUIN",
+                    "MERLAN"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-04-08",
+        "groups": [
+            {
+                "name": "Résidus / produits de combustion",
+                "emoji": "🔥",
+                "words": [
+                    "SUIE",
+                    "CENDRE",
+                    "BRAISE",
+                    "CHARBON"
+                ]
+            },
+            {
+                "name": "Techniques / matières de dessin classique",
+                "emoji": "🎨",
+                "words": [
+                    "SÉPIA",
+                    "SANGUINE",
+                    "FUSAIN",
+                    "PASTEL"
+                ]
+            },
+            {
+                "name": "Robes de chevaux",
+                "emoji": "🎠",
+                "words": [
+                    "ALEZAN",
+                    "BAI",
+                    "AUBÈRE",
+                    "ROUAN"
+                ]
+            },
+            {
+                "name": "Couleurs peu communes",
+                "emoji": "🖌️",
+                "words": [
+                    "BISTRE",
+                    "ISABELLE",
+                    "CAPUCINE",
+                    "CÉLADON"
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2026-04-09",
+        "groups": [
+            {
+                "name": "Chez le coiffeur",
+                "emoji": "💇",
+                "words": [
+                    "FRANGE",
+                    "MÈCHE",
+                    "TRESSE",
+                    "CHIGNON"
+                ]
+            },
+            {
+                "name": "Jeux de société classiques",
+                "emoji": "🎲",
+                "words": [
+                    "ÉCHECS",
+                    "SCRABBLE",
+                    "MIKADO",
+                    "LOTO"
+                ]
+            },
+            {
+                "name": "Habitants de la mer",
+                "emoji": "🐟",
+                "words": [
+                    "RAIE",
+                    "SOLE",
+                    "MOULE",
+                    "LOUP"
+                ]
+            },
+            {
+                "name": "Au bal masqué",
+                "emoji": "🎭",
+                "words": [
+                    "MASQUE",
+                    "CAPE",
+                    "DOMINO",
+                    "ÉVENTAIL"
                 ]
             }
         ]
