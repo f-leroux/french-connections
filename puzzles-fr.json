@@ -1,225 +1,45 @@
 [
     {
-        "date": "2026-04-22",
+        "date": "2026-04-30",
         "groups": [
             {
-                "name": "Peuvent avoir des trous",
+                "name": "Couleurs nommées d’après des aliments ou des boissons",
+                "emoji": "🎨",
+                "words": [
+                    "MOUTARDE",
+                    "OLIVE",
+                    "SAUMON",
+                    "PRUNE"
+                ]
+            },
+            {
+                "name": "Fromages à pâte molle",
                 "emoji": "🧀",
                 "words": [
-                    "GRUYÈRE",
-                    "PASSOIRE",
-                    "MÉMOIRE",
-                    "ALIBI"
+                    "BRIE",
+                    "COULOMMIERS",
+                    "MUNSTER",
+                    "LIVAROT"
                 ]
             },
             {
-                "name": "À passer à la râpe",
-                "emoji": "🥥",
+                "name": "Couteaux emblématiques",
+                "emoji": "🔪",
                 "words": [
-                    "ZESTE",
-                    "EMMENTAL",
-                    "GINGEMBRE",
-                    "NOIX"
+                    "OPINEL",
+                    "NONTRON",
+                    "DOUK-DOUK",
+                    "LE THIERS"
                 ]
             },
             {
-                "name": "Peuvent suivre \"trou de / d’ …\"",
-                "emoji": "🕳️",
+                "name": "Toponymes français devenus noms de produits",
+                "emoji": "📍",
                 "words": [
-                    "SERRURE",
-                    "SOURIS",
-                    "TAUPE",
-                    "AIGUILLE"
-                ]
-            },
-            {
-                "name": "Ce qu’on peut perdre",
-                "emoji": "💨",
-                "words": [
-                    "NORD",
-                    "PATIENCE",
-                    "SOUFFLE",
-                    "CONNAISSANCE"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-04-23",
-        "groups": [
-            {
-                "name": "Pièces d’échecs",
-                "emoji": "♟️",
-                "words": [
-                    "BISHOP",
-                    "ROOK",
-                    "PAWN",
-                    "QUEEN"
-                ]
-            },
-            {
-                "name": "Verbes de générique de cinéma",
-                "emoji": "🎬",
-                "words": [
-                    "DIRECT",
-                    "WRITE",
-                    "PRODUCE",
-                    "EDIT"
-                ]
-            },
-            {
-                "name": "Peuvent suivre « ALL- »",
-                "emoji": "🔤",
-                "words": [
-                    "IN",
-                    "OUT",
-                    "NIGHT",
-                    "TERRAIN"
-                ]
-            },
-            {
-                "name": "Animaux à rebours",
-                "emoji": "🔄",
-                "words": [
-                    "STAR",
-                    "ENA",
-                    "AMAL",
-                    "TAR"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-04-24",
-        "groups": [
-            {
-                "name": "Signes du zodiaque",
-                "emoji": "♈",
-                "words": [
-                    "BALANCE",
-                    "CANCER",
-                    "TAUREAU",
-                    "VIERGE"
-                ]
-            },
-            {
-                "name": "Sur un plateau de tournage",
-                "emoji": "🎬",
-                "words": [
-                    "ACTION",
-                    "CLAP",
-                    "COUPEZ",
-                    "SILENCE"
-                ]
-            },
-            {
-                "name": "Verbes pour « jeter / envoyer »",
-                "emoji": "📨",
-                "words": [
-                    "LANCE",
-                    "JETTE",
-                    "EXPÉDIE",
-                    "ENVOIE"
-                ]
-            },
-            {
-                "name": "Ça rugit",
-                "emoji": "🦁",
-                "words": [
-                    "LION",
-                    "TONNERRE",
-                    "MOTEUR",
-                    "FOULE"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-04-25",
-        "groups": [
-            {
-                "name": "Noms de couleurs",
-                "emoji": "🎨",
-                "words": [
-                    "INDIGO",
-                    "OCRE",
-                    "SÉPIA",
-                    "VERMILLON"
-                ]
-            },
-            {
-                "name": "Fleurs qui sont aussi des prénoms",
-                "emoji": "🌸",
-                "words": [
-                    "ROSE",
-                    "VIOLETTE",
-                    "CAPUCINE",
-                    "MARGUERITE"
-                ]
-            },
-            {
-                "name": "Types de camping-cars",
-                "emoji": "🚐",
-                "words": [
-                    "FOURGON",
-                    "PROFILÉ",
-                    "INTÉGRAL",
-                    "VAN"
-                ]
-            },
-            {
-                "name": "Panthéon grec",
-                "emoji": "🏛️",
-                "words": [
-                    "NIKE",
-                    "PAN",
-                    "IRIS",
-                    "ÉROS"
-                ]
-            }
-        ]
-    },
-    {
-        "date": "2026-04-26",
-        "groups": [
-            {
-                "name": "Symboles traditionnels de Pâques",
-                "emoji": "🐣",
-                "words": [
-                    "ŒUF",
-                    "LAPIN",
-                    "CHOCOLAT",
-                    "POUSSIN"
-                ]
-            },
-            {
-                "name": "Grands peintres français",
-                "emoji": "🎨",
-                "words": [
-                    "INGRES",
-                    "MONET",
-                    "CHARDIN",
-                    "DELACROIX"
-                ]
-            },
-            {
-                "name": "Prénommés Nicolas",
-                "emoji": "👤",
-                "words": [
-                    "HULOT",
-                    "SARKOZY",
-                    "BEDOS",
-                    "CANTELOUP"
-                ]
-            },
-            {
-                "name": "Qui font écho",
-                "emoji": "🗣️",
-                "words": [
-                    "VOÛTE",
-                    "CAISSE",
-                    "GROTTE",
-                    "CLOCHE"
+                    "COGNAC",
+                    "CHABLIS",
+                    "LAGUIOLE",
+                    "ROQUEFORT"
                 ]
             }
         ]
