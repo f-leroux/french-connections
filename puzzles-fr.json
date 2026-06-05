@@ -1,1 +1,43 @@
-[]
+[
+    {
+        "date": "2026-06-05",
+        "groups": [
+            {
+                "name": "mme jade",
+                "words": [
+                    "KAHOOT",
+                    "ESCAPE ROOM",
+                    "OTTAWA",
+                    "BAL DE FINISSANTS"
+                ]
+            },
+            {
+                "name": "défauts de élèves 603",
+                "words": [
+                    "PETIT CRAYON",
+                    "ÉCRIS AVEC STYLO",
+                    "CRIS POUR AUCUN RAISON",
+                    "NUL A LECTURE"
+                ]
+            },
+            {
+                "name": "harry potter",
+                "words": [
+                    "RAVENCLAW",
+                    "GRYFFINDOR",
+                    "SLYTHERIN",
+                    "HUFFLEPUFF"
+                ]
+            },
+            {
+                "name": "enseignants diabolique",
+                "words": [
+                    "MME MAHEUX",
+                    "MME ROUSSEAU",
+                    "MME SONYA",
+                    "MME CIRE"
+                ]
+            }
+        ]
+    }
+]
