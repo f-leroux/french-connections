@@ -1,41 +1,41 @@
 [
     {
-        "date": "2026-06-05",
+        "date": "2026-08-14",
         "groups": [
             {
-                "name": "mme jade",
+                "name": "Famille de Fleurs",
                 "words": [
-                    "KAHOOT",
-                    "ESCAPE ROOM",
-                    "OTTAWA",
-                    "BAL DE FINISSANTS"
+                    "OMBELLE",
+                    "RENONCULE",
+                    "LAMIER",
+                    "VIOLETTE"
                 ]
             },
             {
-                "name": "défauts de élèves 603",
+                "name": "Timbres",
                 "words": [
-                    "PETIT CRAYON",
-                    "ÉCRIS AVEC STYLO",
-                    "CRIS POUR AUCUN RAISON",
-                    "NUL A LECTURE"
+                    "PENNY BLACK",
+                    "VERMILLION",
+                    "MARIANNE",
+                    "ONE CENT MAGENTA"
                 ]
             },
             {
-                "name": "harry potter",
+                "name": "Technique culinaire",
                 "words": [
-                    "RAVENCLAW",
-                    "GRYFFINDOR",
-                    "SLYTHERIN",
-                    "HUFFLEPUFF"
+                    "BLANCHIR",
+                    "RÉDUCTION",
+                    "BAIN-MARIE",
+                    "INFUSION"
                 ]
             },
             {
-                "name": "enseignants diabolique",
+                "name": "Réaction chimiques",
                 "words": [
-                    "MME MAHEUX",
-                    "MME ROUSSEAU",
-                    "MME SONYA",
-                    "MME CIRE"
+                    "AUTOCATALYSE",
+                    "COMPLEXATION",
+                    "CHÉLATION",
+                    "SUBSTITUTION"
                 ]
             }
         ]
