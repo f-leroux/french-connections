@@ -1,42 +1,26 @@
 [
     {
-        "date": "2026-08-14",
+        "date": "2026-09-24",
         "groups": [
             {
-                "name": "Famille de Fleurs",
-                "words": [
-                    "OMBELLE",
-                    "RENONCULE",
-                    "LAMIER",
-                    "VIOLETTE"
-                ]
+                "name": "Boissons chaudes",
+                "emoji": "☕",
+                "words": ["CAFÉ", "TISANE", "CHOCOLAT", "GROG"]
             },
             {
-                "name": "Timbres",
-                "words": [
-                    "PENNY BLACK",
-                    "VERMILLION",
-                    "MARIANNE",
-                    "ONE CENT MAGENTA"
-                ]
+                "name": "Pièces d'échecs",
+                "emoji": "♟️",
+                "words": ["TOUR", "CAVALIER", "ROI", "DAME"]
             },
             {
-                "name": "Technique culinaire",
-                "words": [
-                    "BLANCHIR",
-                    "RÉDUCTION",
-                    "BAIN-MARIE",
-                    "INFUSION"
-                ]
+                "name": "Oiseaux",
+                "emoji": "🐦",
+                "words": ["MERLE", "PIE", "MÉSANGE", "FOU"]
             },
             {
-                "name": "Réaction chimiques",
-                "words": [
-                    "AUTOCATALYSE",
-                    "COMPLEXATION",
-                    "CHÉLATION",
-                    "SUBSTITUTION"
-                ]
+                "name": "Se prononcent comme une lettre",
+                "emoji": "🔤",
+                "words": ["GEAI", "THÉ", "DÉ", "PAIX"]
             }
         ]
     }
