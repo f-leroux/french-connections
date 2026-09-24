@@ -23,5 +23,30 @@
                 "words": ["GEAI", "THÉ", "DÉ", "PAIX"]
             }
         ]
+    },
+    {
+        "date": "2026-09-25",
+        "groups": [
+            {
+                "name": "Parties d'une église",
+                "emoji": "⛪",
+                "words": ["NEF", "CHŒUR", "CRYPTE", "CLOCHER"]
+            },
+            {
+                "name": "Signes diacritiques",
+                "emoji": "🖋️",
+                "words": ["CÉDILLE", "TRÉMA", "TILDE", "CIRCONFLEXE"]
+            },
+            {
+                "name": "Alliages",
+                "emoji": "🔩",
+                "words": ["ACIER", "LAITON", "FONTE", "AMALGAME"]
+            },
+            {
+                "name": "Cachent un nombre",
+                "emoji": "🔢",
+                "words": ["BRONZE", "ACCENT", "TRANSEPT", "FAMILLE"]
+            }
+        ]
     }
 ]
