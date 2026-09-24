@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import PuzzleGrid from './components/PuzzleGrid';
 import PuzzleSubmissionForm from './components/PuzzleSubmissionForm';
-import { fetchPuzzleOfTheDay } from './services/puzzleAPI';
+import { fetchPuzzleOfTheDay, localDateString } from './services/puzzleAPI';
 
 function App() {
   const [puzzle, setPuzzle] = useState(null);
@@ -68,6 +68,19 @@ function App() {
     }
     loadPuzzle();
   }, []);
+
+  // A tab left open (or restored by a mobile browser) keeps the puzzle it loaded with.
+  // When the player comes back and it's no longer today's puzzle, reload to get the new one.
+  useEffect(() => {
+    if (!puzzle) return;
+    function handleVisibilityChange() {
+      if (document.visibilityState === 'visible' && puzzle.date !== localDateString()) {
+        window.location.reload();
+      }
+    }
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+    return () => document.removeEventListener('visibilitychange', handleVisibilityChange);
+  }, [puzzle]);
 
   // Persist state changes so a user can't replay the daily puzzle from scratch
   useEffect(() => {
