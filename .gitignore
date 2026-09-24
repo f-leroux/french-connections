@@ -41,3 +41,6 @@ puzzle_creation/automation/
 puzzle_creation/puzzles-fr.json
 
 README.md
+# macOS metadata and local experiment data
+._*
+mlflow.db

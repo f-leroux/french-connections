@@ -142,8 +142,8 @@ function App() {
     return `Connexions \n${date}\n${attempts}`;
   };
 
-  // Emoji map for categories
-  const categoryEmojis = ['🟨', '🟩', '🔵', '🟣'];
+  // Fallback emojis when puzzle doesn't define per-category emoji
+  const defaultCategoryEmojis = ['🟨', '🟩', '🔵', '🟣'];
 
   // Share handler
   const handleShare = async () => {
@@ -177,7 +177,7 @@ function App() {
           const originalIndex = puzzle.groups.findIndex(g => g.name === group.name);
           return (
             <div key={originalIndex} className={`solved-card category-${originalIndex}`}>
-              <span className="solved-emoji">{categoryEmojis[originalIndex]}</span>
+              <span className="solved-emoji">{group.emoji ?? defaultCategoryEmojis[originalIndex]}</span>
               <div>
                 <div className="solved-theme">{group.name.toUpperCase()}</div>
                 <div className="solved-words">{group.words.map(w => w.toUpperCase()).join(' · ')}</div>

@@ -7,7 +7,13 @@ export async function fetchPuzzleOfTheDay() {
   }
   const puzzles = await response.json();
   
-  const todayStr = new Date().toISOString().split('T')[0];
+  // Use the player's local date (toISOString is UTC, which lags behind France until 1-2am)
+  const now = new Date();
+  const todayStr = [
+    now.getFullYear(),
+    String(now.getMonth() + 1).padStart(2, '0'),
+    String(now.getDate()).padStart(2, '0'),
+  ].join('-');
   const puzzle = puzzles.find(p => p.date === todayStr) || puzzles[puzzles.length - 1];
   
   return puzzle;

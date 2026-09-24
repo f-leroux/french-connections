@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import WordCard from './WordCard';
 
-// Emoji map for categories
-const categoryEmojis = ['🟨', '🟩', '🔵', '🟣'];
+// Fallback emojis when puzzle doesn't define per-category emoji
+const defaultCategoryEmojis = ['🟨', '🟩', '🔵', '🟣'];
 
 function PuzzleGrid({ 
   puzzle, 
@@ -21,14 +21,16 @@ function PuzzleGrid({
   const [shakeClass, setShakeClass] = useState('');
   const [showAlmostMessage, setShowAlmostMessage] = useState(false);
 
-  // Find category index and name for a group of words
+  // Find category index, name, and emoji for a group of words
   const getCategoryInfo = (words) => {
     const index = puzzle.groups.findIndex(group => 
       words.every(w => group.words.includes(w))
     );
+    const group = index !== -1 ? puzzle.groups[index] : null;
     return {
       index,
-      name: index !== -1 ? puzzle.groups[index].name : ''
+      name: group ? group.name : '',
+      emoji: group?.emoji ?? defaultCategoryEmojis[index] ?? '🟨'
     };
   };
 
@@ -123,7 +125,7 @@ function PuzzleGrid({
         const categoryInfo = getCategoryInfo(groupWords);
         return (
           <div key={index} className={`solved-card category-${categoryInfo.index}`}>
-            <span className="solved-emoji">{categoryEmojis[categoryInfo.index]}</span>
+            <span className="solved-emoji">{categoryInfo.emoji}</span>
             <div>
               <div className="solved-theme">{categoryInfo.name.toUpperCase()}</div>
               <div className="solved-words">{groupWords.map(w => w.toUpperCase()).join(' · ')}</div>
