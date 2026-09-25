@@ -48,5 +48,30 @@
                 "words": ["BRONZE", "ACCENT", "TRANSEPT", "FAMILLE"]
             }
         ]
+    },
+    {
+        "date": "2026-09-26",
+        "groups": [
+            {
+                "name": "Fruits",
+                "emoji": "🥝",
+                "words": ["KIWI", "FIGUE", "MANGUE", "FRAMBOISE"]
+            },
+            {
+                "name": "Nuances de rouge",
+                "emoji": "🎨",
+                "words": ["CARMIN", "GRENAT", "VERMILLON", "BORDEAUX"]
+            },
+            {
+                "name": "Vins français",
+                "emoji": "🍷",
+                "words": ["CHABLIS", "SANCERRE", "MARGAUX", "POMEROL"]
+            },
+            {
+                "name": "___ de terre",
+                "emoji": "🌍",
+                "words": ["POMME", "VER", "MOTTE", "TREMBLEMENT"]
+            }
+        ]
     }
 ]
