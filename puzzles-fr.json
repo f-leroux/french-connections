@@ -73,5 +73,30 @@
                 "words": ["POMME", "VER", "MOTTE", "TREMBLEMENT"]
             }
         ]
+    },
+    {
+        "date": "2026-09-27",
+        "groups": [
+            {
+                "name": "Condiments",
+                "emoji": "🥫",
+                "words": ["MOUTARDE", "KETCHUP", "MAYONNAISE", "CORNICHON"]
+            },
+            {
+                "name": "Instruments d'optique",
+                "emoji": "🔬",
+                "words": ["MICROSCOPE", "JUMELLES", "PÉRISCOPE", "LOUPE"]
+            },
+            {
+                "name": "Éléments d'architecture",
+                "emoji": "🏛️",
+                "words": ["FRONTON", "PILASTRE", "CORNICHE", "CARIATIDE"]
+            },
+            {
+                "name": "Anagrammes d'animaux",
+                "emoji": "🐾",
+                "words": ["NICHE", "SIGNE", "MALICE", "CÂPRE"]
+            }
+        ]
     }
 ]
