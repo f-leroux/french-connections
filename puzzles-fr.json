@@ -98,5 +98,30 @@
                 "words": ["NICHE", "SIGNE", "MALICE", "CÂPRE"]
             }
         ]
+    },
+    {
+        "date": "2026-09-28",
+        "groups": [
+            {
+                "name": "Sources de lumière",
+                "emoji": "🕯️",
+                "words": ["BOUGIE", "LANTERNE", "TORCHE", "CHANDELLE"]
+            },
+            {
+                "name": "Anciennes monnaies",
+                "emoji": "🪙",
+                "words": ["SOU", "DENIER", "LIARD", "ÉCU"]
+            },
+            {
+                "name": "Couleurs en héraldique",
+                "emoji": "🛡️",
+                "words": ["GUEULES", "SINOPLE", "SABLE", "AZUR"]
+            },
+            {
+                "name": "___ de poche",
+                "emoji": "👖",
+                "words": ["ARGENT", "LAMPE", "LIVRE", "COUTEAU"]
+            }
+        ]
     }
 ]
