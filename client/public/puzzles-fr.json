@@ -123,5 +123,30 @@
                 "words": ["ARGENT", "LAMPE", "LIVRE", "COUTEAU"]
             }
         ]
+    },
+    {
+        "date": "2026-09-29",
+        "groups": [
+            {
+                "name": "Sports aquatiques",
+                "emoji": "🏄",
+                "words": ["AVIRON", "VOILE", "SURF", "PLONGÉE"]
+            },
+            {
+                "name": "Instruments de navigation",
+                "emoji": "🧭",
+                "words": ["BOUSSOLE", "SEXTANT", "ASTROLABE", "SONAR"]
+            },
+            {
+                "name": "Voiles d'un bateau",
+                "emoji": "⛵",
+                "words": ["FOC", "GÉNOIS", "SPI", "MISAINE"]
+            },
+            {
+                "name": "Palindromes",
+                "emoji": "🔁",
+                "words": ["KAYAK", "RADAR", "RESSASSER", "ÉTÉ"]
+            }
+        ]
     }
 ]
