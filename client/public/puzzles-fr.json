@@ -148,5 +148,30 @@
                 "words": ["KAYAK", "RADAR", "RESSASSER", "ÉTÉ"]
             }
         ]
+    },
+    {
+        "date": "2026-09-30",
+        "groups": [
+            {
+                "name": "Fromages",
+                "emoji": "🧀",
+                "words": ["CAMEMBERT", "BRIE", "COMTÉ", "MUNSTER"]
+            },
+            {
+                "name": "Jeux de cartes",
+                "emoji": "🃏",
+                "words": ["BELOTE", "TAROT", "RAMI", "BRIDGE"]
+            },
+            {
+                "name": "Cités de la Grèce antique",
+                "emoji": "🏛️",
+                "words": ["SPARTE", "ATHÈNES", "CORINTHE", "THÈBES"]
+            },
+            {
+                "name": "Cheval de ___",
+                "emoji": "🐴",
+                "words": ["TROIE", "BATAILLE", "FRISE", "TRAIT"]
+            }
+        ]
     }
 ]
