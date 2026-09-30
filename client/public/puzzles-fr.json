@@ -173,5 +173,30 @@
                 "words": ["TROIE", "BATAILLE", "FRISE", "TRAIT"]
             }
         ]
+    },
+    {
+        "date": "2026-10-01",
+        "groups": [
+            {
+                "name": "Membres du clergé",
+                "emoji": "🙏",
+                "words": ["CURÉ", "ÉVÊQUE", "CARDINAL", "ABBÉ"]
+            },
+            {
+                "name": "Outils agricoles",
+                "emoji": "🚜",
+                "words": ["CHARRUE", "HERSE", "FAUX", "FOURCHE"]
+            },
+            {
+                "name": "Vertus cardinales",
+                "emoji": "⚖️",
+                "words": ["PRUDENCE", "JUSTICE", "FORCE", "TEMPÉRANCE"]
+            },
+            {
+                "name": "Homophones de parties du corps",
+                "emoji": "👂",
+                "words": ["COUP", "FOI", "JOUG", "SAINT"]
+            }
+        ]
     }
 ]
