@@ -198,5 +198,30 @@
                 "words": ["COUP", "FOI", "JOUG", "SAINT"]
             }
         ]
+    },
+    {
+        "date": "2026-10-02",
+        "groups": [
+            {
+                "name": "Planètes",
+                "emoji": "🪐",
+                "words": ["TERRE", "URANUS", "SATURNE", "NEPTUNE"]
+            },
+            {
+                "name": "Signes du zodiaque",
+                "emoji": "♈",
+                "words": ["BÉLIER", "TAUREAU", "BALANCE", "SCORPION"]
+            },
+            {
+                "name": "Divinités romaines",
+                "emoji": "🏛️",
+                "words": ["JUNON", "MINERVE", "VULCAIN", "DIANE"]
+            },
+            {
+                "name": "Ont donné leur nom à un jour de la semaine",
+                "emoji": "📅",
+                "words": ["LUNE", "MARS", "JUPITER", "VÉNUS"]
+            }
+        ]
     }
 ]
