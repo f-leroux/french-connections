@@ -223,5 +223,30 @@
                 "words": ["LUNE", "MARS", "JUPITER", "VÉNUS"]
             }
         ]
+    },
+    {
+        "date": "2026-10-03",
+        "groups": [
+            {
+                "name": "Instruments à cordes",
+                "emoji": "🎻",
+                "words": ["VIOLON", "HARPE", "GUITARE", "CONTREBASSE"]
+            },
+            {
+                "name": "Danses",
+                "emoji": "💃",
+                "words": ["VALSE", "TANGO", "POLKA", "BOLÉRO"]
+            },
+            {
+                "name": "Compositeurs français",
+                "emoji": "🎼",
+                "words": ["RAVEL", "BIZET", "DEBUSSY", "BERLIOZ"]
+            },
+            {
+                "name": "Commencent par une note de musique",
+                "emoji": "🎵",
+                "words": ["SITAR", "LAMBADA", "FAURÉ", "DOMINO"]
+            }
+        ]
     }
 ]
