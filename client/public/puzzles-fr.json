@@ -248,5 +248,30 @@
                 "words": ["SITAR", "LAMBADA", "FAURÉ", "DOMINO"]
             }
         ]
+    },
+    {
+        "date": "2026-10-04",
+        "groups": [
+            {
+                "name": "Légumes",
+                "emoji": "🥬",
+                "words": ["POIREAU", "NAVET", "ÉPINARD", "CITROUILLE"]
+            },
+            {
+                "name": "Ustensiles de cuisine",
+                "emoji": "🍳",
+                "words": ["LOUCHE", "FOUET", "PASSOIRE", "MANDOLINE"]
+            },
+            {
+                "name": "Personnages de Perrault",
+                "emoji": "📖",
+                "words": ["CENDRILLON", "POUCET", "RIQUET", "BARBE-BLEUE"]
+            },
+            {
+                "name": "___ de mer",
+                "emoji": "🌊",
+                "words": ["ÉTOILE", "LOUP", "MAL", "BRAS"]
+            }
+        ]
     }
 ]
