@@ -273,5 +273,30 @@
                 "words": ["ÉTOILE", "LOUP", "MAL", "BRAS"]
             }
         ]
+    },
+    {
+        "date": "2026-10-05",
+        "groups": [
+            {
+                "name": "Animaux de la ferme",
+                "emoji": "🐄",
+                "words": ["VACHE", "COCHON", "CHÈVRE", "MOUTON"]
+            },
+            {
+                "name": "Policiers, familièrement",
+                "emoji": "👮",
+                "words": ["FLIC", "POULET", "CONDÉ", "KEUF"]
+            },
+            {
+                "name": "Dynasties royales françaises",
+                "emoji": "👑",
+                "words": ["CAPÉTIENS", "CAROLINGIENS", "VALOIS", "BOURBONS"]
+            },
+            {
+                "name": "Mots en verlan",
+                "emoji": "🔄",
+                "words": ["OUF", "CHELOU", "RELOU", "ZARBI"]
+            }
+        ]
     }
 ]
