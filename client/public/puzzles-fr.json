@@ -298,5 +298,30 @@
                 "words": ["OUF", "CHELOU", "RELOU", "ZARBI"]
             }
         ]
+    },
+    {
+        "date": "2026-10-06",
+        "groups": [
+            {
+                "name": "Matériel du peintre",
+                "emoji": "🎨",
+                "words": ["PALETTE", "CHEVALET", "TOILE", "GOUACHE"]
+            },
+            {
+                "name": "Vents",
+                "emoji": "🌬️",
+                "words": ["MISTRAL", "SIROCCO", "TRAMONTANE", "ZÉPHYR"]
+            },
+            {
+                "name": "Peintres impressionnistes",
+                "emoji": "🖼️",
+                "words": ["MONET", "DEGAS", "RENOIR", "SISLEY"]
+            },
+            {
+                "name": "Cachent un arbre",
+                "emoji": "🌳",
+                "words": ["PINCEAU", "MISÉRABLE", "ÉNORME", "CALIFE"]
+            }
+        ]
     }
 ]
