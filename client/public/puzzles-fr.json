@@ -323,5 +323,30 @@
                 "words": ["PINCEAU", "MISÉRABLE", "ÉNORME", "CALIFE"]
             }
         ]
+    },
+    {
+        "date": "2026-10-07",
+        "groups": [
+            {
+                "name": "Céréales",
+                "emoji": "🌾",
+                "words": ["BLÉ", "ORGE", "SEIGLE", "AVOINE"]
+            },
+            {
+                "name": "Liquides corporels",
+                "emoji": "💧",
+                "words": ["SALIVE", "SUEUR", "BILE", "LYMPHE"]
+            },
+            {
+                "name": "Boissons fermentées",
+                "emoji": "🍺",
+                "words": ["CIDRE", "HYDROMEL", "KÉFIR", "POIRÉ"]
+            },
+            {
+                "name": "Homophones de nombres",
+                "emoji": "🔢",
+                "words": ["SANG", "VIN", "SÈTE", "MIL"]
+            }
+        ]
     }
 ]
