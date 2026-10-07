@@ -348,5 +348,30 @@
                 "words": ["SANG", "VIN", "SÈTE", "MIL"]
             }
         ]
+    },
+    {
+        "date": "2026-10-08",
+        "groups": [
+            {
+                "name": "Repas",
+                "emoji": "🍽️",
+                "words": ["DÉJEUNER", "DÎNER", "GOÛTER", "SOUPER"]
+            },
+            {
+                "name": "Fermetures de vêtements",
+                "emoji": "🧥",
+                "words": ["BOUTON", "PRESSION", "AGRAFE", "ZIP"]
+            },
+            {
+                "name": "Québécismes",
+                "emoji": "🍁",
+                "words": ["TUQUE", "MAGASINER", "PANTOUTE", "CHUM"]
+            },
+            {
+                "name": "Mots-valises",
+                "emoji": "🧳",
+                "words": ["FRANGLAIS", "BRUNCH", "VELCRO", "COURRIEL"]
+            }
+        ]
     }
 ]
