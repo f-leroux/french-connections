@@ -373,5 +373,30 @@
                 "words": ["FRANGLAIS", "BRUNCH", "VELCRO", "COURRIEL"]
             }
         ]
+    },
+    {
+        "date": "2026-10-09",
+        "groups": [
+            {
+                "name": "Fleurs",
+                "emoji": "🌷",
+                "words": ["TULIPE", "MUGUET", "PIVOINE", "JONQUILLE"]
+            },
+            {
+                "name": "Phénomènes météo",
+                "emoji": "⛈️",
+                "words": ["ORAGE", "GRÊLE", "BROUILLARD", "VERGLAS"]
+            },
+            {
+                "name": "Pâtisseries",
+                "emoji": "🧁",
+                "words": ["ÉCLAIR", "MADELEINE", "RELIGIEUSE", "FINANCIER"]
+            },
+            {
+                "name": "Commencent par un animal",
+                "emoji": "🐓",
+                "words": ["COQUELICOT", "CERFEUIL", "RATATOUILLE", "CHIENDENT"]
+            }
+        ]
     }
 ]
