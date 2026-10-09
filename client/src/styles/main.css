@@ -160,6 +160,10 @@ h2 {
   cursor: pointer;
   transition: transform 0.15s, background 0.15s, box-shadow 0.15s;
   user-select: none;
+  -webkit-user-select: none;
+  /* No double-tap-to-zoom delay, no grey tap flash on mobile */
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
   font-weight: 700;
   letter-spacing: 0.3px;
   text-align: center;
@@ -182,9 +186,13 @@ h2 {
   font-size: clamp(8px, 1.6vw, 12px);
 }
 
-.word-card:hover:not(.solved-tile) {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+/* Only on devices with a real hover pointer: touch screens keep :hover
+   stuck on the last tapped card, so a deselected card would stay lifted */
+@media (hover: hover) and (pointer: fine) {
+  .word-card:hover:not(.solved-tile) {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
 }
 
 .word-card.selected {
@@ -405,9 +413,12 @@ h2 {
   transition: all 0.15s;
 }
 
-.button-row button:hover:not(:disabled) {
-  background: var(--accent-dark);
-  color: #fff;
+/* Hover only on real pointers, otherwise the last tapped button stays dark on mobile */
+@media (hover: hover) and (pointer: fine) {
+  .button-row button:hover:not(:disabled) {
+    background: var(--accent-dark);
+    color: #fff;
+  }
 }
 
 .button-row button:disabled {
@@ -423,10 +434,12 @@ h2 {
   color: #fff;
 }
 
-.button-row button.primary:hover:not(:disabled),
-.button-row button[type="submit"]:hover:not(:disabled) {
-  background: #1a1a1a;
-  border-color: #1a1a1a;
+@media (hover: hover) and (pointer: fine) {
+  .button-row button.primary:hover:not(:disabled),
+  .button-row button[type="submit"]:hover:not(:disabled) {
+    background: #1a1a1a;
+    border-color: #1a1a1a;
+  }
 }
 
 /* Share button specific */
@@ -437,9 +450,11 @@ h2 {
   color: #fff !important;
 }
 
-.share-button:hover {
-  background: #1a1a1a !important;
-  border-color: #1a1a1a !important;
+@media (hover: hover) and (pointer: fine) {
+  .share-button:hover {
+    background: #1a1a1a !important;
+    border-color: #1a1a1a !important;
+  }
 }
 
 /* ===== WIN / GAME OVER ===== */
