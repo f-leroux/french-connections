@@ -398,5 +398,30 @@
                 "words": ["COQUELICOT", "CERFEUIL", "RATATOUILLE", "CHIENDENT"]
             }
         ]
+    },
+    {
+        "date": "2026-10-10",
+        "groups": [
+            {
+                "name": "Vêtements",
+                "emoji": "👕",
+                "words": ["PULL", "JUPE", "GILET", "BLOUSON"]
+            },
+            {
+                "name": "Fournitures scolaires",
+                "emoji": "✏️",
+                "words": ["CAHIER", "GOMME", "RÈGLE", "TROUSSE"]
+            },
+            {
+                "name": "Vocabulaire du vote",
+                "emoji": "🗳️",
+                "words": ["URNE", "ISOLOIR", "PROCURATION", "ÉMARGEMENT"]
+            },
+            {
+                "name": "Précédés de « porte »",
+                "emoji": "🚪",
+                "words": ["MANTEAU", "FEUILLE", "VOIX", "PAROLE"]
+            }
+        ]
     }
 ]
