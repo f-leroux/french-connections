@@ -423,5 +423,30 @@
                 "words": ["MANTEAU", "FEUILLE", "VOIX", "PAROLE"]
             }
         ]
+    },
+    {
+        "date": "2026-10-11",
+        "groups": [
+            {
+                "name": "Insectes",
+                "emoji": "🐝",
+                "words": ["ABEILLE", "LIBELLULE", "CRIQUET", "SAUTERELLE"]
+            },
+            {
+                "name": "Parties d'une voiture",
+                "emoji": "🚗",
+                "words": ["VOLANT", "CAPOT", "COFFRE", "PORTIÈRE"]
+            },
+            {
+                "name": "Animaux des fables de La Fontaine",
+                "emoji": "🦊",
+                "words": ["CIGALE", "CORBEAU", "LIÈVRE", "TORTUE"]
+            },
+            {
+                "name": "Bateau-___",
+                "emoji": "⛴️",
+                "words": ["MOUCHE", "PHARE", "ÉCOLE", "LAVOIR"]
+            }
+        ]
     }
 ]
