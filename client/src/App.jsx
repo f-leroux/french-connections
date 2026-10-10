@@ -152,7 +152,7 @@ function App() {
       }).join('')
     ).join('\n');
 
-    return `Connexions \n${date}\n${attempts}`;
+    return `Connexions \n${date}\n${attempts}\nhttps://www.frenchconnections.fr`;
   };
 
   // Fallback emojis when puzzle doesn't define per-category emoji
@@ -234,6 +234,7 @@ function App() {
           onGroupFound={handleGroupFound}
           onWrongGroup={handleMistake}
           onGroupSelected={handleGroupSelected}
+          selectionHistory={selectionHistory}
           puzzleComplete={puzzleComplete}
           hasMistakesLeft={hasMistakesLeft}
           generateShareText={generateShareText}

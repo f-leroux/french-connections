@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import WordCard from './WordCard';
 
 // Fallback emojis when puzzle doesn't define per-category emoji
@@ -11,6 +11,7 @@ function PuzzleGrid({
   onGroupFound, 
   onWrongGroup, 
   onGroupSelected,
+  selectionHistory,
   puzzleComplete, 
   hasMistakesLeft,
   generateShareText,
@@ -19,7 +20,15 @@ function PuzzleGrid({
 }) {
   const [selectedWords, setSelectedWords] = useState([]);
   const [shakeClass, setShakeClass] = useState('');
-  const [showAlmostMessage, setShowAlmostMessage] = useState(false);
+  const [toastMessage, setToastMessage] = useState(null);
+  const toastTimeout = useRef(null);
+
+  // Remount on every call (new id) so the animation replays even for the same text
+  const showToast = (text) => {
+    clearTimeout(toastTimeout.current);
+    setToastMessage({ text, id: Date.now() });
+    toastTimeout.current = setTimeout(() => setToastMessage(null), 1500);
+  };
 
   // Find category index, name, and emoji for a group of words
   const getCategoryInfo = (words) => {
@@ -58,8 +67,21 @@ function PuzzleGrid({
     });
   };
 
+  // Same 4 words as a previous guess, in any order
+  const wasAlreadyGuessed = (words) =>
+    selectionHistory.some(selection =>
+      selection.words.length === words.length &&
+      words.every(word => selection.words.includes(word))
+    );
+
   const validateSelection = (words) => {
     if (words.length !== 4) return;
+
+    // Like NYT: a repeated guess costs nothing and keeps the selection
+    if (wasAlreadyGuessed(words)) {
+      showToast('Déjà proposé !');
+      return;
+    }
     
     onGroupSelected(words);
     
@@ -78,10 +100,7 @@ function PuzzleGrid({
       setShakeClass('shake-wrong');
       const isOneAway = checkIfOneAway(words);
       if (isOneAway) {
-        setShowAlmostMessage(true);
-        setTimeout(() => {
-          setShowAlmostMessage(false);
-        }, 1500);
+        showToast('🔥 Presque ! Il en manque une…');
       }
       setTimeout(() => {
         onWrongGroup();
@@ -136,9 +155,9 @@ function PuzzleGrid({
       
       {/* Display available words below */}
       <div style={{ position: 'relative' }}>
-        {showAlmostMessage && (
-          <div className="almost-message">
-            🔥 Presque ! Il en manque une…
+        {toastMessage && (
+          <div key={toastMessage.id} className="almost-message">
+            {toastMessage.text}
           </div>
         )}
         {!puzzleComplete && hasMistakesLeft && (
