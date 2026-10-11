@@ -448,5 +448,30 @@
                 "words": ["MOUCHE", "PHARE", "ÉCOLE", "LAVOIR"]
             }
         ]
+    },
+    {
+        "date": "2026-10-12",
+        "groups": [
+            {
+                "name": "Parties du corps",
+                "emoji": "🦵",
+                "words": ["NUQUE", "MOLLET", "ORTEIL", "CHEVILLE"]
+            },
+            {
+                "name": "Accessoires de ménage",
+                "emoji": "🧹",
+                "words": ["BALAI", "ÉPONGE", "PLUMEAU", "SERPILLIÈRE"]
+            },
+            {
+                "name": "Coups de boxe",
+                "emoji": "🥊",
+                "words": ["CROCHET", "UPPERCUT", "DIRECT", "JAB"]
+            },
+            {
+                "name": "Coup de ___",
+                "emoji": "💥",
+                "words": ["FOUDRE", "SOLEIL", "POING", "THÉÂTRE"]
+            }
+        ]
     }
 ]
