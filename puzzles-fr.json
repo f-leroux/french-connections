@@ -473,5 +473,30 @@
                 "words": ["FOUDRE", "SOLEIL", "POING", "THÉÂTRE"]
             }
         ]
+    },
+    {
+        "date": "2026-10-13",
+        "groups": [
+            {
+                "name": "Poissons",
+                "emoji": "🐟",
+                "words": ["SOLE", "TURBOT", "MERLAN", "BAR"]
+            },
+            {
+                "name": "Unités militaires",
+                "emoji": "🎖️",
+                "words": ["RÉGIMENT", "BATAILLON", "ESCOUADE", "COMPAGNIE"]
+            },
+            {
+                "name": "Cépages",
+                "emoji": "🍇",
+                "words": ["MERLOT", "SYRAH", "GAMAY", "CHARDONNAY"]
+            },
+            {
+                "name": "Cachent une capitale",
+                "emoji": "🗺️",
+                "words": ["LIMANDE", "CABERNET", "BRIGADE", "PROMENADE"]
+            }
+        ]
     }
 ]
