@@ -498,5 +498,30 @@
                 "words": ["LIMANDE", "CABERNET", "BRIGADE", "PROMENADE"]
             }
         ]
+    },
+    {
+        "date": "2026-10-14",
+        "groups": [
+            {
+                "name": "Meubles",
+                "emoji": "🪑",
+                "words": ["ARMOIRE", "COMMODE", "BUFFET", "SECRÉTAIRE"]
+            },
+            {
+                "name": "Instruments à vent",
+                "emoji": "🎺",
+                "words": ["FLÛTE", "HAUTBOIS", "BASSON", "CLAIRON"]
+            },
+            {
+                "name": "Personnages de Molière",
+                "emoji": "🎭",
+                "words": ["HARPAGON", "TARTUFFE", "ALCESTE", "SGANARELLE"]
+            },
+            {
+                "name": "___ de chambre",
+                "emoji": "🛏️",
+                "words": ["MUSIQUE", "ROBE", "POT", "VALET"]
+            }
+        ]
     }
 ]
