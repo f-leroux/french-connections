@@ -6,7 +6,7 @@ French clone of NYT Connections, live at https://www.frenchconnections.fr.
   `.github/workflows/deploy.yml` on every push to `main` that touches `client/`.
 - `client/public/puzzles-fr.json` — **the single source of truth**: every puzzle ever published,
   sorted by date. The app shows the puzzle whose `date` equals the player's local date.
-- `scripts/validate_puzzles.py` — validates that file (structure + no reused words/categories).
+- `scripts/validate_puzzles.py` — validates that file (structure + no reused category names).
 - Player submissions: the "Proposer un puzzle" form posts to the Cloudflare Worker in
   `submission-worker/`, which opens an issue in the private repo
   `f-leroux/french-connections-submissions`. A second routine reviews them and schedules the ones
@@ -50,8 +50,9 @@ Everything is in French, for a French-speaking audience.
 - Every word must genuinely belong to its category — no stretches, no factual errors.
 - Category names are short and clear, as revealed to the player after solving.
 - Each group has a fitting emoji.
-- Never reuse a word or a category name that already appears in the history (the validator
-  enforces this), and avoid themes too close to recent puzzles.
+- Never reuse a category name that already appears in the history (the validator enforces this),
+  and avoid themes too close to recent puzzles. Prefer fresh words, but an occasional repeated
+  word is fine when it's the right one (the validator only warns).
 
 ## Daily routine (automated)
 

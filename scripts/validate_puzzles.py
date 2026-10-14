@@ -5,8 +5,8 @@ Usage:
     python3 scripts/validate_puzzles.py
     python3 scripts/validate_puzzles.py --expect-date 2026-09-25
 
-Checks every puzzle's structure, and that no word or category name is reused
-anywhere in the history. Exits non-zero if anything is wrong.
+Checks every puzzle's structure, and that no category name is reused anywhere in
+the history (a reused word is only a warning). Exits non-zero if anything is wrong.
 """
 
 from __future__ import annotations
@@ -91,7 +91,7 @@ def validate(puzzles, expect_date: str | None) -> tuple[list[str], list[str]]:
                     warnings.append(f"{where}: {word!r} is long and will be shown in a small font")
                 key = normalize(word)
                 if key in seen_words:
-                    errors.append(f"{where}: word {word!r} already used on {seen_words[key]}")
+                    warnings.append(f"{where}: word {word!r} already used on {seen_words[key]}")
                 seen_words[key] = date
 
     if expect_date and expect_date not in seen_dates:

@@ -47,7 +47,8 @@ Leave the visitor's part of the body above it unchanged.
 3. **Review.** Read `CLAUDE.md` ("Writing a puzzle") and the whole history in
    `client/public/puzzles-fr.json`. Judge the puzzle against those rules: every word really fits its
    category, the solution is unique, there are red herrings, difficulty rises from yellow to purple,
-   and no word or category repeats the history. Then write the version you'd publish: words in
+   and no category name repeats the history. Words already used in the history are fine: just
+   mention them, don't replace them for that reason. Then write the version you'd publish: words in
    uppercase with proper accents, an emoji per group, groups ordered easiest first. Keep the
    submitter's puzzle: change as little as possible, and list every change with its reason. To
    check repeats, append the candidate to a copy of the puzzle file and run
@@ -70,8 +71,8 @@ Leave the visitor's part of the body above it unchanged.
    Every time you rewrite the review section, set a new `relu-le` time.
 5. **Schedule:**
    - Two runs can overlap (e.g. two quick comments). Fetch the issue again first: if it's closed,
-     another run already handled it, so skip it. If the validator later says the words are already
-     used on a date that holds this very puzzle, it was just scheduled by that other run: stop there.
+     another run already handled it, so skip it. Also skip it if `client/public/puzzles-fr.json`
+     (after any `git pull`) already holds a puzzle with these 16 words: the other run scheduled it.
    - The date is the first day from tomorrow (`TZ=Europe/Paris date -d tomorrow +%F`) that has no
      puzzle in `client/public/puzzles-fr.json`, unless the owner asked for a later free date.
    - Add the puzzle there in date order, with `"author"` right after `"date"` (leave it out if
