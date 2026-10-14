@@ -523,5 +523,31 @@
                 "words": ["MUSIQUE", "ROBE", "POT", "VALET"]
             }
         ]
+    },
+    {
+        "date": "2026-10-15",
+        "author": "Kate",
+        "groups": [
+            {
+                "name": "Qu'on apporte à la plage",
+                "emoji": "🏖️",
+                "words": ["CRÈME", "PELLE", "SERVIETTE", "BRUMISATEUR"]
+            },
+            {
+                "name": "Symptômes",
+                "emoji": "🤒",
+                "words": ["NAUSÉE", "DOULEUR", "FRISSON", "TOUX"]
+            },
+            {
+                "name": "Qu'on entend pendant un match de foot",
+                "emoji": "⚽",
+                "words": ["HORS-JEU", "PRESSING", "TRIPLÉ", "BALLON"]
+            },
+            {
+                "name": "___ jaune",
+                "emoji": "💛",
+                "words": ["CARTON", "RIRE", "FIÈVRE", "MAILLOT"]
+            }
+        ]
     }
 ]
