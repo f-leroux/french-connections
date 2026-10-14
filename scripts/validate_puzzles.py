@@ -55,6 +55,11 @@ def validate(puzzles, expect_date: str | None) -> tuple[list[str], list[str]]:
         seen_dates.add(date)
         previous_date = max(previous_date, date)
 
+        # Only set on puzzles submitted by players (see SUBMISSIONS.md)
+        author = puzzle.get("author")
+        if author is not None and (not isinstance(author, str) or not author.strip()):
+            errors.append(f"{where}: author must be a non-empty string when present")
+
         groups = puzzle.get("groups")
         if not isinstance(groups, list) or len(groups) != 4:
             errors.append(f"{where}: must have exactly 4 groups")

@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import PuzzleGrid from './components/PuzzleGrid';
 import PuzzleSubmissionForm from './components/PuzzleSubmissionForm';
+import ContactForm from './components/ContactForm';
 import { fetchPuzzleOfTheDay, localDateString } from './services/puzzleAPI';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
   const [mistakes, setMistakes] = useState(0);
   const [selectionHistory, setSelectionHistory] = useState([]);
   const [showSubmissionForm, setShowSubmissionForm] = useState(false);
+  const [showContactForm, setShowContactForm] = useState(false);
   const maxMistakes = 4;
   const STORAGE_PREFIX = 'connections-puzzle-';
 
@@ -211,6 +213,7 @@ function App() {
           <h1>Connexions</h1>
         </div>
         <h2>{new Date().toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</h2>
+        {puzzle?.author && <p className="puzzle-author">Puzzle proposé par {puzzle.author}</p>}
         <div className="divider" />
       </div>
 
@@ -258,21 +261,34 @@ function App() {
         </>
       )}
 
-      {/* Submit puzzle button */}
+      {/* Submit puzzle and contact buttons */}
       <div className="submit-puzzle-wrapper">
-        <button 
+        <button
           className="submit-puzzle-button"
           onClick={() => setShowSubmissionForm(true)}
           title="Soumettre un puzzle"
         >
           💡 Proposer un puzzle
         </button>
+        <button
+          className="submit-puzzle-button"
+          onClick={() => setShowContactForm(true)}
+          title="Nous écrire"
+        >
+          ✉️ Contact
+        </button>
       </div>
 
       {/* Submission form modal */}
-      <PuzzleSubmissionForm 
+      <PuzzleSubmissionForm
         isOpen={showSubmissionForm}
         onClose={() => setShowSubmissionForm(false)}
+      />
+
+      {/* Contact form modal */}
+      <ContactForm
+        isOpen={showContactForm}
+        onClose={() => setShowContactForm(false)}
       />
     </div>
   );

@@ -44,3 +44,6 @@ README.md
 # macOS metadata and local experiment data
 ._*
 mlflow.db
+
+# Wrangler cache (submission-worker)
+.wrangler/

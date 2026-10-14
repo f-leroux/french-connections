@@ -1,26 +1,32 @@
 import React, { useState } from 'react';
 
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xpqjlren';
+// Cloudflare Worker in submission-worker/: files each submission as an issue for the review routine
+const SUBMIT_ENDPOINT = 'https://french-connections-submissions.f-leroux.workers.dev';
+
+const COLORS = ['yellow', 'green', 'blue', 'purple'];
+const EMPTY_GROUP = { name: '', word1: '', word2: '', word3: '', word4: '' };
+const EMPTY_FORM = {
+  yellow: EMPTY_GROUP,
+  green: EMPTY_GROUP,
+  blue: EMPTY_GROUP,
+  purple: EMPTY_GROUP,
+  submitterName: '',
+  website: '' // honeypot, hidden from people
+};
 
 function PuzzleSubmissionForm({ isOpen, onClose }) {
-  const [formData, setFormData] = useState({
-    yellow: { name: '', word1: '', word2: '', word3: '', word4: '' },
-    green: { name: '', word1: '', word2: '', word3: '', word4: '' },
-    blue: { name: '', word1: '', word2: '', word3: '', word4: '' },
-    purple: { name: '', word1: '', word2: '', word3: '', word4: '' },
-    submitterName: ''
-  });
+  const [formData, setFormData] = useState(EMPTY_FORM);
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState(null); // 'success' or 'error'
+  const [submitStatus, setSubmitStatus] = useState(null); // 'success', 'error' or 'limit'
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     const [category, field] = name.split('.');
-    
-    if (category === 'submitterName') {
+
+    if (!field) {
       setFormData(prev => ({
         ...prev,
-        submitterName: value
+        [category]: value
       }));
     } else {
       setFormData(prev => ({
@@ -34,8 +40,7 @@ function PuzzleSubmissionForm({ isOpen, onClose }) {
   };
 
   const validateForm = () => {
-    const categories = ['yellow', 'green', 'blue', 'purple'];
-    for (const category of categories) {
+    for (const category of COLORS) {
       const cat = formData[category];
       if (!cat.name || !cat.word1 || !cat.word2 || !cat.word3 || !cat.word4) {
         return false;
@@ -56,35 +61,18 @@ function PuzzleSubmissionForm({ isOpen, onClose }) {
     }
 
     try {
-      const puzzleData = {
-        yellow: {
-          name: formData.yellow.name,
-          words: [formData.yellow.word1, formData.yellow.word2, formData.yellow.word3, formData.yellow.word4]
-        },
-        green: {
-          name: formData.green.name,
-          words: [formData.green.word1, formData.green.word2, formData.green.word3, formData.green.word4]
-        },
-        blue: {
-          name: formData.blue.name,
-          words: [formData.blue.word1, formData.blue.word2, formData.blue.word3, formData.blue.word4]
-        },
-        purple: {
-          name: formData.purple.name,
-          words: [formData.purple.word1, formData.purple.word2, formData.purple.word3, formData.purple.word4]
-        }
-      };
-
-      const response = await fetch(FORMSPREE_ENDPOINT, {
+      const response = await fetch(SUBMIT_ENDPOINT, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          _subject: 'Nouvelle soumission de puzzle complet',
-          puzzle: puzzleData,
-          submitterName: formData.submitterName,
-          submittedAt: new Date().toISOString()
+          groups: COLORS.map(color => {
+            const group = formData[color];
+            return { name: group.name, words: [group.word1, group.word2, group.word3, group.word4] };
+          }),
+          author: formData.submitterName,
+          website: formData.website
         })
       });
 
@@ -92,20 +80,14 @@ function PuzzleSubmissionForm({ isOpen, onClose }) {
         setSubmitStatus('success');
         // Reset form after successful submission
         setTimeout(() => {
-          setFormData({
-            yellow: { name: '', word1: '', word2: '', word3: '', word4: '' },
-            green: { name: '', word1: '', word2: '', word3: '', word4: '' },
-            blue: { name: '', word1: '', word2: '', word3: '', word4: '' },
-            purple: { name: '', word1: '', word2: '', word3: '', word4: '' },
-            submitterName: ''
-          });
+          setFormData(EMPTY_FORM);
           setTimeout(() => {
             onClose();
             setSubmitStatus(null);
           }, 2000);
         }, 2000);
       } else {
-        setSubmitStatus('error');
+        setSubmitStatus(response.status === 429 ? 'limit' : 'error');
       }
     } catch (error) {
       console.error('Error submitting form:', error);
@@ -124,22 +106,31 @@ function PuzzleSubmissionForm({ isOpen, onClose }) {
         <h2>Soumettre un puzzle</h2>
         <p className="form-description">
           Proposez un puzzle complet avec 4 catégories (jaune, vert, bleu, violet) !
+          Les meilleurs ont des mots qui semblent aller dans deux groupes,
+          et un groupe violet basé sur un jeu de mots.
         </p>
-        
+
         {submitStatus === 'success' && (
           <div className="submit-success">
-            ✓ Merci ! Votre soumission a été envoyée.
+            ✓ Merci ! Votre puzzle a bien été reçu. S'il est retenu, il sera publié sur le site
+            (avec votre nom si vous l'avez indiqué).
           </div>
         )}
-        
+
         {submitStatus === 'error' && (
           <div className="submit-error">
             ✗ Erreur lors de l'envoi. Veuillez réessayer.
           </div>
         )}
 
+        {submitStatus === 'limit' && (
+          <div className="submit-error">
+            ✗ Beaucoup de puzzles reçus aujourd'hui, réessayez demain !
+          </div>
+        )}
+
         <form onSubmit={handleSubmit} className="puzzle-submission-form">
-          {['yellow', 'green', 'blue', 'purple'].map((color, index) => {
+          {COLORS.map((color, index) => {
             const colorLabels = {
               yellow: { emoji: '🟨', name: 'Jaune (Facile)' },
               green: { emoji: '🟩', name: 'Vert (Moyen)' },
@@ -147,7 +138,7 @@ function PuzzleSubmissionForm({ isOpen, onClose }) {
               purple: { emoji: '🟪', name: 'Violet (Très difficile)' }
             };
             const label = colorLabels[color];
-            
+
             return (
               <div key={color} className={`category-section category-${index}`}>
                 <h3>{label.emoji} {label.name}</h3>
@@ -160,44 +151,25 @@ function PuzzleSubmissionForm({ isOpen, onClose }) {
                     value={formData[color].name}
                     onChange={handleChange}
                     required
+                    maxLength={60}
                     placeholder="ex: Couleurs, Animaux, etc."
                   />
                 </div>
                 <div className="form-group">
                   <label>Les 4 mots *</label>
                   <div className="words-grid">
-                    <input
-                      type="text"
-                      name={`${color}.word1`}
-                      value={formData[color].word1}
-                      onChange={handleChange}
-                      required
-                      placeholder="Mot 1"
-                    />
-                    <input
-                      type="text"
-                      name={`${color}.word2`}
-                      value={formData[color].word2}
-                      onChange={handleChange}
-                      required
-                      placeholder="Mot 2"
-                    />
-                    <input
-                      type="text"
-                      name={`${color}.word3`}
-                      value={formData[color].word3}
-                      onChange={handleChange}
-                      required
-                      placeholder="Mot 3"
-                    />
-                    <input
-                      type="text"
-                      name={`${color}.word4`}
-                      value={formData[color].word4}
-                      onChange={handleChange}
-                      required
-                      placeholder="Mot 4"
-                    />
+                    {[1, 2, 3, 4].map(n => (
+                      <input
+                        key={n}
+                        type="text"
+                        name={`${color}.word${n}`}
+                        value={formData[color][`word${n}`]}
+                        onChange={handleChange}
+                        required
+                        maxLength={30}
+                        placeholder={`Mot ${n}`}
+                      />
+                    ))}
                   </div>
                 </div>
               </div>
@@ -212,9 +184,21 @@ function PuzzleSubmissionForm({ isOpen, onClose }) {
               name="submitterName"
               value={formData.submitterName}
               onChange={handleChange}
+              maxLength={40}
               placeholder="Votre nom ou pseudonyme"
             />
             <small>Le puzzle sera crédité à ce nom s'il est sélectionné.</small>
+          </div>
+
+          <div className="form-honeypot" aria-hidden="true">
+            <input
+              type="text"
+              name="website"
+              value={formData.website}
+              onChange={handleChange}
+              tabIndex={-1}
+              autoComplete="off"
+            />
           </div>
 
           <div className="form-actions">
@@ -232,4 +216,3 @@ function PuzzleSubmissionForm({ isOpen, onClose }) {
 }
 
 export default PuzzleSubmissionForm;
-

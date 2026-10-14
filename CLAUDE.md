@@ -7,6 +7,11 @@ French clone of NYT Connections, live at https://www.frenchconnections.fr.
 - `client/public/puzzles-fr.json` — **the single source of truth**: every puzzle ever published,
   sorted by date. The app shows the puzzle whose `date` equals the player's local date.
 - `scripts/validate_puzzles.py` — validates that file (structure + no reused words/categories).
+- Player submissions: the "Proposer un puzzle" form posts to the Cloudflare Worker in
+  `submission-worker/`, which opens an issue in the private repo
+  `f-leroux/french-connections-submissions`. A second routine reviews them and schedules the ones
+  the owner approves, following `SUBMISSIONS.md` (notifications via `scripts/notify.py`).
+- The "Contact" form posts to Formspree, which emails the owner.
 - `puzzle_creation/` — old, unused automation (gitignored). Ignore it.
 
 ## Puzzle format
@@ -23,6 +28,9 @@ French clone of NYT Connections, live at https://www.frenchconnections.fr.
 
 Groups are listed **easiest first**: index 0 = 🟨 yellow, 1 = 🟩 green, 2 = 🔵 blue, 3 = 🟣 purple.
 The UI shuffles the words, so their order in the file doesn't matter.
+
+Puzzles submitted by players may also have `"author": "Marie"` right after `"date"`; the app shows
+"Puzzle proposé par Marie". The daily routine never sets it.
 
 ## Writing a puzzle
 

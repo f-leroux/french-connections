@@ -113,6 +113,12 @@ h2 {
   margin-top: 4px;
 }
 
+.puzzle-author {
+  font-size: 13px;
+  color: #666;
+  margin: 2px 0 0;
+}
+
 .divider {
   width: 80px;
   height: 2px;
@@ -498,6 +504,7 @@ h2 {
 .submit-puzzle-wrapper {
   display: flex;
   justify-content: flex-end;
+  gap: 6px;
   margin-top: 20px;
 }
 
@@ -611,6 +618,7 @@ h2 {
 }
 
 .form-group input[type="text"],
+.form-group input[type="email"],
 .form-group select,
 .form-group textarea {
   padding: 12px 16px;
@@ -641,6 +649,15 @@ h2 {
   font-size: 12px;
   font-style: italic;
   margin-top: -0.25rem;
+}
+
+/* Hidden from people, filled in by spam bots */
+.form-honeypot {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 .form-actions {

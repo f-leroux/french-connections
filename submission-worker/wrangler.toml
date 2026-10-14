@@ -1,0 +1,6 @@
+name = "french-connections-submissions"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+# Secret (not in this file): GITHUB_TOKEN, a fine-grained token with Issues read/write on
+# f-leroux/french-connections-submissions only. Set it with `npx wrangler secret put GITHUB_TOKEN`.
