@@ -6,10 +6,10 @@ GitHub Actions workflow there starts this routine when an issue is opened and wh
 (`f-leroux`) comments on one. Each run looks at every open issue and does what it needs, so it
 doesn't matter which event started it.
 
-Your prompt gives you two secrets: `GH_TOKEN` (GitHub API access to the submissions repo's issues)
-and `NTFY_TOPIC` (the owner's phone notifications). Never write them into a file, commit, issue or
-your final reply. Shell variables don't persist between your commands, so set them in the same
-command that uses them.
+Your prompt gives you `GH_TOKEN`, a secret that gives GitHub API access to the submissions repo's
+issues. Never write it into a file, commit, issue or your final reply. Shell variables don't persist
+between your commands, so set it in the same command that uses it. Your final reply is what the owner
+gets as a phone notification (step 6).
 
 ## Safety rules (read first)
 
@@ -59,20 +59,16 @@ Leave the visitor's part of the body above it unchanged.
    - the proposed version as a table, then as a JSON block `{"author": …, "groups": [{"name", "emoji", "words"}, …]}`
      (`author` is the submitter's name, or `null` if they didn't give one);
    - the line: `Réponds en commentaire : « ok », tes changements, ou « non ».`
-   Then notify the owner (step 5) with the verdict.
 4. **Act** on the owner's comments:
-   - Approval ("ok", "oui", "go", "valide"…): **schedule** the proposed version (step 6).
+   - Approval ("ok", "oui", "go", "valide"…): **schedule** the proposed version (step 5).
    - Changes ("remplace GROG par PUNCH", "mets le bleu en violet"…): apply them to the proposed
      version and check it again as in step 3. If the comment also approves ("ok mais…"), schedule
-     the result. Otherwise update the review section and notify the owner of the new version.
+     the result. Otherwise update the review section with the new version.
    - Rejection ("non", "refusé"…): add `**Refusé.**` to the review section and close the issue as
-     `not_planned`. No notification needed.
-   - A question: answer it in the review section and notify the owner.
+     `not_planned`.
+   - A question: answer it in the review section.
    Every time you rewrite the review section, set a new `relu-le` time.
-5. **Notify:** `NTFY_TOPIC=… python3 scripts/notify.py "<title>" "<message>" <issue html_url>`.
-   Title like `🔗 Puzzle de Marie : ✏️ publiable avec modifs`. Message of a few short lines: the
-   four category names, then the main remarks.
-6. **Schedule:**
+5. **Schedule:**
    - Two runs can overlap (e.g. two quick comments). Fetch the issue again first: if it's closed,
      another run already handled it, so skip it. If the validator later says the words are already
      used on a date that holds this very puzzle, it was just scheduled by that other run: stop there.
@@ -85,5 +81,10 @@ Leave the visitor's part of the body above it unchanged.
      If the push is rejected, `git pull --rebase origin main`. If the date got taken in the
      meantime, move to the next free one. Run the validator again, then push.
    - Add `**Programmé pour le <date in French, e.g. jeudi 16 octobre>.**` to the review section,
-     close the issue as `completed`, and notify the owner with the date.
-7. Finish with one short line per issue you handled: what you did.
+     close the issue as `completed`.
+6. **Final reply.** It reaches the owner's phone as the routine's notification, so write it for
+   that, in French: one line per issue you handled, saying what needs their attention, followed by
+   the issue's `html_url`. For example:
+   `🔗 Puzzle de Marie : ✏️ publiable avec modifs (CÉRÈS remplace VERMILLION) — <url>` or
+   `✅ Puzzle de Marie programmé pour le jeudi 16 octobre — <url>`.
+   If there was nothing to do, say so in one line.

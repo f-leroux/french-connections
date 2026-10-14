@@ -10,7 +10,7 @@ French clone of NYT Connections, live at https://www.frenchconnections.fr.
 - Player submissions: the "Proposer un puzzle" form posts to the Cloudflare Worker in
   `submission-worker/`, which opens an issue in the private repo
   `f-leroux/french-connections-submissions`. A second routine reviews them and schedules the ones
-  the owner approves, following `SUBMISSIONS.md` (notifications via `scripts/notify.py`).
+  the owner approves, following `SUBMISSIONS.md`.
 - The "Contact" form posts to Formspree, which emails the owner.
 - `puzzle_creation/` — old, unused automation (gitignored). Ignore it.
 
