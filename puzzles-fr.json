@@ -549,5 +549,30 @@
                 "words": ["CARTON", "GILET", "FIÈVRE", "MAILLOT"]
             }
         ]
+    },
+    {
+        "date": "2026-10-16",
+        "groups": [
+            {
+                "name": "Matériel de couture",
+                "emoji": "🧵",
+                "words": ["AIGUILLE", "ÉPINGLE", "BOBINE", "CISEAUX"]
+            },
+            {
+                "name": "Au théâtre",
+                "emoji": "🎭",
+                "words": ["SCÈNE", "COULISSES", "LOGE", "RAMPE"]
+            },
+            {
+                "name": "Anciennes unités de longueur",
+                "emoji": "📏",
+                "words": ["TOISE", "AUNE", "POUCE", "LIEUE"]
+            },
+            {
+                "name": "___ de fer",
+                "emoji": "⛓️",
+                "words": ["CHEMIN", "BRAS", "RIDEAU", "FIL"]
+            }
+        ]
     }
 ]
