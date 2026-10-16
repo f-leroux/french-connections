@@ -574,5 +574,30 @@
                 "words": ["CHEMIN", "BRAS", "RIDEAU", "FIL"]
             }
         ]
+    },
+    {
+        "date": "2026-10-17",
+        "groups": [
+            {
+                "name": "Vaisselle",
+                "emoji": "🍽️",
+                "words": ["BOL", "SALADIER", "CARAFE", "SOUPIÈRE"]
+            },
+            {
+                "name": "Brigade de cuisine",
+                "emoji": "👨‍🍳",
+                "words": ["COMMIS", "SAUCIER", "PÂTISSIER", "PLONGEUR"]
+            },
+            {
+                "name": "Jargon de la presse",
+                "emoji": "📰",
+                "words": ["MANCHETTE", "CHAPEAU", "BRÈVE", "ÉDITO"]
+            },
+            {
+                "name": "Précédés de « sous »",
+                "emoji": "⬇️",
+                "words": ["VERRE", "TITRE", "CHEF", "MARIN"]
+            }
+        ]
     }
 ]
