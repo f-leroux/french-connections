@@ -599,5 +599,30 @@
                 "words": ["VERRE", "TITRE", "CHEF", "MARIN"]
             }
         ]
+    },
+    {
+        "date": "2026-10-18",
+        "groups": [
+            {
+                "name": "Membres de la famille",
+                "emoji": "👪",
+                "words": ["ONCLE", "TANTE", "NEVEU", "COUSIN"]
+            },
+            {
+                "name": "Reines de France",
+                "emoji": "👑",
+                "words": ["ANNE", "CATHERINE", "MARGUERITE", "BLANCHE"]
+            },
+            {
+                "name": "Robes du cheval",
+                "emoji": "🐴",
+                "words": ["ALEZAN", "BAI", "ROUAN", "ISABELLE"]
+            },
+            {
+                "name": "Carte ___",
+                "emoji": "💳",
+                "words": ["VITALE", "POSTALE", "BLEUE", "MÈRE"]
+            }
+        ]
     }
 ]
