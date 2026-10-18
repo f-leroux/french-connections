@@ -624,5 +624,30 @@
                 "words": ["VITALE", "POSTALE", "BLEUE", "MÈRE"]
             }
         ]
+    },
+    {
+        "date": "2026-10-19",
+        "groups": [
+            {
+                "name": "En montagne",
+                "emoji": "⛰️",
+                "words": ["PIC", "COL", "CRÊTE", "SOMMET"]
+            },
+            {
+                "name": "Enquête policière",
+                "emoji": "🔍",
+                "words": ["EMPREINTE", "ALIBI", "MOBILE", "TÉMOIN"]
+            },
+            {
+                "name": "Vocabulaire de la poésie",
+                "emoji": "📜",
+                "words": ["STROPHE", "QUATRAIN", "SONNET", "ALEXANDRIN"]
+            },
+            {
+                "name": "Donnent un autre mot à l'envers",
+                "emoji": "🔄",
+                "words": ["NEZ", "TRACE", "ROC", "RIME"]
+            }
+        ]
     }
 ]
