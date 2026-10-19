@@ -42,8 +42,9 @@ Everything is in French, for a French-speaking audience.
   - 🟨 yellow: an obvious category (fromages, pièces d'échecs…).
   - 🟩 green: still straightforward, a bit more specific.
   - 🔵 blue: needs some culture or a less obvious link.
-  - 🟣 purple: wordplay — homophones, hidden words, words that precede/follow a common word,
-    anagrams, "se prononcent comme…", etc.
+  - 🟣 purple: the hardest group to find. Often wordplay (homophones, hidden words, words that
+    precede/follow a common word, anagrams, "se prononcent comme…", etc.), but not necessarily:
+    a culture category can be purple if it's harder than the wordplay one.
 - **Red herrings are what make it fun**: several words should plausibly fit a second group
   (e.g. FOU fits both birds and chess pieces). But the solution must be **unique**: once all the
   constraints are considered, each word fits exactly one group. Check this explicitly.
