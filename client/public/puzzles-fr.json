@@ -675,5 +675,31 @@
                 "words": ["CHIEN", "MER", "PAYS", "CRÂNE"]
             }
         ]
+    },
+    {
+        "date": "2026-10-21",
+        "author": "Alexandre LF",
+        "groups": [
+            {
+                "name": "Ivre",
+                "emoji": "🍷",
+                "words": ["ROND", "BOURRÉ", "GRIS", "PÉTÉ"]
+            },
+            {
+                "name": "Véhicule en panne",
+                "emoji": "🚗",
+                "words": ["TRIANGLE", "GILET", "WARNINGS", "BAS-CÔTÉ"]
+            },
+            {
+                "name": "___-gorge",
+                "emoji": "🐦",
+                "words": ["SOUTIEN", "ROUGE", "COUPE", "ARRIÈRE"]
+            },
+            {
+                "name": "Actrices césarisées",
+                "emoji": "🏆",
+                "words": ["CARRÉ", "BLANC", "ANÉMONE", "BOUQUET"]
+            }
+        ]
     }
 ]
