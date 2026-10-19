@@ -649,5 +649,31 @@
                 "words": ["NEZ", "TRACE", "ROC", "RIME"]
             }
         ]
+    },
+    {
+        "date": "2026-10-20",
+        "author": "Kate",
+        "groups": [
+            {
+                "name": "Parentes",
+                "emoji": "👩",
+                "words": ["MÈRE", "ÉPOUSE", "TANTE", "COUSINE"]
+            },
+            {
+                "name": "Signes astrologiques",
+                "emoji": "♈",
+                "words": ["BÉLIER", "LION", "TAUREAU", "SCORPION"]
+            },
+            {
+                "name": "Mouchards",
+                "emoji": "🤫",
+                "words": ["BALANCE", "MOUCHE", "TAUPE", "CAFARD"]
+            },
+            {
+                "name": "Mal de ___",
+                "emoji": "🤕",
+                "words": ["CHIEN", "MER", "PAYS", "CRÂNE"]
+            }
+        ]
     }
 ]
