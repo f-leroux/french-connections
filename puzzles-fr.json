@@ -701,5 +701,31 @@
                 "words": ["CARRÉ", "BLANC", "ANÉMONE", "BOUQUET"]
             }
         ]
+    },
+    {
+        "date": "2026-10-22",
+        "author": "Phil",
+        "groups": [
+            {
+                "name": "Salades classiques",
+                "emoji": "🥗",
+                "words": ["RIZ", "TABOULÉ", "NIÇOISE", "GRECQUE"]
+            },
+            {
+                "name": "Sur un toit",
+                "emoji": "🏠",
+                "words": ["ANTENNE", "FLÈCHE", "LUCARNE", "GIROUETTE"]
+            },
+            {
+                "name": "Quartiers de Paris",
+                "emoji": "🗼",
+                "words": ["CHAPELLE", "MARAIS", "ROQUETTE", "MADELEINE"]
+            },
+            {
+                "name": "Changent de sens selon le genre",
+                "emoji": "🔀",
+                "words": ["MOULE", "TOUR", "VASE", "MOUSSE"]
+            }
+        ]
     }
 ]
