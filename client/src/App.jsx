@@ -4,6 +4,7 @@ import PuzzleGrid from './components/PuzzleGrid';
 import PuzzleSubmissionForm from './components/PuzzleSubmissionForm';
 import ContactForm from './components/ContactForm';
 import { fetchPuzzleOfTheDay, localDateString } from './services/puzzleAPI';
+import { trackEvent } from './services/analytics';
 
 function App() {
   const [puzzle, setPuzzle] = useState(null);
@@ -122,11 +123,18 @@ function App() {
   // Handler when the user selects a correct group
   function handleGroupFound(groupWords) {
     setFoundGroups(prev => [...prev, groupWords]);
+    // Tracked on the winning guess itself, so reloading a finished game doesn't count it again
+    if (foundGroups.length === 3) {
+      trackEvent(`win-${mistakes}`, `Victoire avec ${mistakes} erreur${mistakes > 1 ? 's' : ''}`);
+    }
   }
 
   // Handler when the user attempts a group but is wrong
   function handleMistake() {
     setMistakes(prev => prev + 1);
+    if (mistakes === maxMistakes - 1) {
+      trackEvent('loss', 'Défaite');
+    }
   }
 
   const puzzleComplete = puzzle && foundGroups.length === 4;
@@ -165,6 +173,11 @@ function App() {
     const shareText = generateShareText();
     try {
       await navigator.clipboard.writeText(shareText);
+      if (puzzleComplete) {
+        trackEvent('share-win', 'Partage après victoire');
+      } else {
+        trackEvent('share-loss', 'Partage après défaite');
+      }
       alert('Résultat copié dans le presse-papiers !');
     } catch (err) {
       console.error('Failed to copy text: ', err);
@@ -240,7 +253,7 @@ function App() {
           selectionHistory={selectionHistory}
           puzzleComplete={puzzleComplete}
           hasMistakesLeft={hasMistakesLeft}
-          generateShareText={generateShareText}
+          onShare={handleShare}
           mistakes={mistakes}
           maxMistakes={maxMistakes}
         />

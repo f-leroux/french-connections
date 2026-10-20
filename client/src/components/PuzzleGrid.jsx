@@ -14,7 +14,7 @@ function PuzzleGrid({
   selectionHistory,
   puzzleComplete, 
   hasMistakesLeft,
-  generateShareText,
+  onShare,
   mistakes,
   maxMistakes
 }) {
@@ -126,17 +126,6 @@ function PuzzleGrid({
     validateSelection(selectedWords);
   };
 
-  const handleShare = async () => {
-    const shareText = generateShareText();
-    try {
-      await navigator.clipboard.writeText(shareText);
-      alert('Résultat copié dans le presse-papiers !');
-    } catch (err) {
-      console.error('Failed to copy text: ', err);
-      alert('Erreur lors de la copie du texte');
-    }
-  };
-
   return (
     <div>
       {/* Display found groups with new card styling */}
@@ -211,7 +200,7 @@ function PuzzleGrid({
             </>
           ) : puzzleComplete ? (
             <button 
-              onClick={handleShare}
+              onClick={onShare}
               className="share-button"
             >
               Partager
