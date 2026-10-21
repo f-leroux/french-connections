@@ -727,5 +727,31 @@
                 "words": ["MOULE", "TOUR", "VASE", "MOUSSE"]
             }
         ]
+    },
+    {
+        "date": "2026-10-23",
+        "author": "n5s",
+        "groups": [
+            {
+                "name": "___-là",
+                "emoji": "👉",
+                "words": ["JUSQUE", "DE", "CELUI", "PAR"]
+            },
+            {
+                "name": "Coiffures",
+                "emoji": "💇",
+                "words": ["MULET", "MINIVAGUE", "ZÉRO", "DÉGRADÉ"]
+            },
+            {
+                "name": "Sommets du massif du Mont-Blanc",
+                "emoji": "🏔️",
+                "words": ["TONDU", "BLANC", "MIDI", "VERTE"]
+            },
+            {
+                "name": "Mots d'origine celte",
+                "emoji": "🌳",
+                "words": ["ALOUETTE", "CHÊNE", "CERVOISE", "DRU"]
+            }
+        ]
     }
 ]
