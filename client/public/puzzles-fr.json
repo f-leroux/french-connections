@@ -753,5 +753,31 @@
                 "words": ["ALOUETTE", "CHÊNE", "CERVOISE", "DRU"]
             }
         ]
+    },
+    {
+        "date": "2026-10-24",
+        "author": "luciole",
+        "groups": [
+            {
+                "name": "Coups de tennis",
+                "emoji": "🎾",
+                "words": ["AMORTI", "VOLÉE", "ACE", "CUILLÈRE"]
+            },
+            {
+                "name": "Mesures en cuisine",
+                "emoji": "🥣",
+                "words": ["TASSE", "BOL", "VERRE", "GRAMME"]
+            },
+            {
+                "name": "Homophones de VERT",
+                "emoji": "🗣️",
+                "words": ["VERS", "VERT", "VER", "VAIR"]
+            },
+            {
+                "name": "Cachent un cours d'eau",
+                "emoji": "🌊",
+                "words": ["ARDOISE", "GLOIRE", "ROCHER", "PAIN"]
+            }
+        ]
     }
 ]
