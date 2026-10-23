@@ -779,5 +779,31 @@
                 "words": ["ARDOISE", "GLOIRE", "ROCHER", "PAIN"]
             }
         ]
+    },
+    {
+        "date": "2026-10-25",
+        "author": "Oli",
+        "groups": [
+            {
+                "name": "Chats",
+                "emoji": "🐈",
+                "words": ["NOIR", "SIAMOIS", "SPHYNX", "GOUTTIÈRE"]
+            },
+            {
+                "name": "Jeux de cartes populaires",
+                "emoji": "🃏",
+                "words": ["POUILLEUX", "BARBU", "PRÉSIDENT", "BATAILLE"]
+            },
+            {
+                "name": "Groupes de rock traduits",
+                "emoji": "🎸",
+                "words": ["SCARABÉES", "PIERRE QUI ROULE", "POURPRE PROFOND", "REINE"]
+            },
+            {
+                "name": "Précédés de « CHA »",
+                "emoji": "🎩",
+                "words": ["PEAU", "PITRE", "PELLE", "LOUPE"]
+            }
+        ]
     }
 ]
