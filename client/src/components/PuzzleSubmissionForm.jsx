@@ -11,6 +11,7 @@ const EMPTY_FORM = {
   blue: EMPTY_GROUP,
   purple: EMPTY_GROUP,
   submitterName: '',
+  comment: '',
   website: '' // honeypot, hidden from people
 };
 
@@ -72,6 +73,7 @@ function PuzzleSubmissionForm({ isOpen, onClose }) {
             return { name: group.name, words: [group.word1, group.word2, group.word3, group.word4] };
           }),
           author: formData.submitterName,
+          comment: formData.comment,
           website: formData.website
         })
       });
@@ -107,7 +109,7 @@ function PuzzleSubmissionForm({ isOpen, onClose }) {
         <p className="form-description">
           Proposez un puzzle complet avec 4 catégories (jaune, vert, bleu, violet) !
           Les meilleurs ont des mots qui semblent aller dans deux groupes,
-          et un groupe violet basé sur un jeu de mots.
+          et parfois un jeu de mots bien trouvé.
         </p>
 
         {submitStatus === 'success' && (
@@ -188,6 +190,19 @@ function PuzzleSubmissionForm({ isOpen, onClose }) {
               placeholder="Votre nom ou pseudonyme"
             />
             <small>Le puzzle sera crédité à ce nom s'il est sélectionné.</small>
+          </div>
+
+          <div className="form-group">
+            <label htmlFor="comment">Commentaire (optionnel)</label>
+            <textarea
+              id="comment"
+              name="comment"
+              value={formData.comment}
+              onChange={handleChange}
+              rows={3}
+              maxLength={1000}
+              placeholder="Une explication sur une catégorie, une précision, un petit mot…"
+            />
           </div>
 
           <div className="form-honeypot" aria-hidden="true">
