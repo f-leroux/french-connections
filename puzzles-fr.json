@@ -805,5 +805,31 @@
                 "words": ["PEAU", "PITRE", "PELLE", "LOUPE"]
             }
         ]
+    },
+    {
+        "date": "2026-10-26",
+        "author": "Cha",
+        "groups": [
+            {
+                "name": "Œuvres de Victor Hugo",
+                "emoji": "📚",
+                "words": ["MISÉRABLES", "CONTEMPLATIONS", "ORIENTALES", "FEUILLES D’AUTOMNE"]
+            },
+            {
+                "name": "Races de canards",
+                "emoji": "🦆",
+                "words": ["COLVERT", "MANDARIN", "PÉKIN", "COUREUR INDIEN"]
+            },
+            {
+                "name": "Vocabulaire de la couture",
+                "emoji": "🧵",
+                "words": ["BIAIS", "CANETTE", "LAIZE", "BÂTIR"]
+            },
+            {
+                "name": "Masculins au singulier, féminins au pluriel",
+                "emoji": "🔀",
+                "words": ["AMOURS", "PÂQUES", "DÉLICES", "ORGUES"]
+            }
+        ]
     }
 ]
