@@ -870,7 +870,7 @@
             {
                 "name": "Aux échecs",
                 "emoji": "♟️",
-                "words": ["ARMAGEDDON", "GAFFE", "FOURCHETTE", "OUVERTURE"]
+                "words": ["ARMAGEDDON", "ENFILADE", "FOURCHETTE", "OUVERTURE"]
             },
             {
                 "name": "Éléments d'une platine vinyle",
@@ -880,7 +880,7 @@
             {
                 "name": "Homophones de villes françaises",
                 "emoji": "🏙️",
-                "words": ["LANCE", "TOUR", "VANNE", "SEPT"]
+                "words": ["LANCE", "QUAND", "VANNE", "SEPT"]
             }
         ]
     }
