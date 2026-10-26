@@ -831,5 +831,31 @@
                 "words": ["AMOURS", "PÂQUES", "DÉLICES", "ORGUES"]
             }
         ]
+    },
+    {
+        "date": "2026-10-27",
+        "author": "Phil",
+        "groups": [
+            {
+                "name": "Sous-fifres",
+                "emoji": "🙇",
+                "words": ["CANICHE", "SBIRE", "LARBIN", "SECOND COUTEAU"]
+            },
+            {
+                "name": "Quatrième ___",
+                "emoji": "4️⃣",
+                "words": ["COUVERTURE", "DIMENSION", "POUVOIR", "VITESSE"]
+            },
+            {
+                "name": "Films avec Orson Welles",
+                "emoji": "🎬",
+                "words": ["LE PROCÈS", "MOBY DICK", "OTHELLO", "LE TROISIÈME HOMME"]
+            },
+            {
+                "name": "Capitales dissimulées",
+                "emoji": "🏛️",
+                "words": ["TCHÉCOSLOVAQUIE", "SYNDROME", "PÉKINOIS", "SALOMÉ"]
+            }
+        ]
     }
 ]
