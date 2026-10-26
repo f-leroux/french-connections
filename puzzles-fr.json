@@ -857,5 +857,31 @@
                 "words": ["TCHÉCOSLOVAQUIE", "SYNDROME", "PÉKINOIS", "SALOMÉ"]
             }
         ]
+    },
+    {
+        "date": "2026-10-28",
+        "author": "Oli",
+        "groups": [
+            {
+                "name": "Bande dessinée",
+                "emoji": "💬",
+                "words": ["ALBUM", "PLANCHE", "CASE", "BULLE"]
+            },
+            {
+                "name": "Aux échecs",
+                "emoji": "♟️",
+                "words": ["ARMAGEDDON", "GAFFE", "FOURCHETTE", "OUVERTURE"]
+            },
+            {
+                "name": "Éléments d'une platine vinyle",
+                "emoji": "💿",
+                "words": ["PLATEAU", "CONTREPOIDS", "CELLULE", "DIAMANT"]
+            },
+            {
+                "name": "Homophones de villes françaises",
+                "emoji": "🏙️",
+                "words": ["LANCE", "TOUR", "VANNE", "SEPT"]
+            }
+        ]
     }
 ]
