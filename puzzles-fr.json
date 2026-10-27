@@ -883,5 +883,31 @@
                 "words": ["LANCE", "QUAND", "VANNE", "SEPT"]
             }
         ]
+    },
+    {
+        "date": "2026-10-29",
+        "author": "Kate",
+        "groups": [
+            {
+                "name": "Accessoires de dandy",
+                "emoji": "🎩",
+                "words": ["CHAPEAU", "GANTS", "CANNE", "MONOCLE"]
+            },
+            {
+                "name": "___ bleue",
+                "emoji": "💙",
+                "words": ["CARTE", "PILULE", "PEUR", "FLEUR"]
+            },
+            {
+                "name": "Ce qu'on peut tirer",
+                "emoji": "🎯",
+                "words": ["LANGUE", "PORTRAIT", "CHASSE", "LEÇON"]
+            },
+            {
+                "name": "Pluriels étrangers devenus singuliers en français",
+                "emoji": "🌍",
+                "words": ["CHIPS", "GRAFFITI", "TACOS", "PANINI"]
+            }
+        ]
     }
 ]
