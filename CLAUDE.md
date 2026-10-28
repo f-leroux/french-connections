@@ -10,7 +10,8 @@ French clone of NYT Connections, live at https://www.frenchconnections.fr.
 - Player submissions: the "Proposer un puzzle" form posts to the Cloudflare Worker in
   `submission-worker/`, which opens an issue in the private repo
   `f-leroux/french-connections-submissions`. A second routine reviews them and schedules the ones
-  the owner approves, following `SUBMISSIONS.md`.
+  the owner approves, following `SUBMISSIONS.md`. When an issue is closed, a workflow in that repo
+  emails the submitter (publication date, or the owner's feedback) through Resend.
 - The "Contact" form posts to Formspree, which emails the owner.
 - End-of-game stats ("Ce puzzle était difficile : 52 % des joueurs l'ont résolu"): the app sends
   each finished game to the Cloudflare Worker in `stats-worker/`, which keeps anonymous totals per

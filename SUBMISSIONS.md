@@ -86,10 +86,19 @@ Leave the visitor's part of the body above it unchanged.
      If the push is rejected, `git pull --rebase origin main`. If the date got taken in the
      meantime, move to the next free one. Run the validator again, then push.
    - Add `**Programmé pour le <date in French, e.g. jeudi 16 octobre>.**` to the review section,
-     close the issue as `completed`.
+     followed by the line `<!-- programmé <YYYY-MM-DD> -->`, then close the issue as `completed`.
+     Closing it emails the submitter that date (see the end of this file), so the marker must
+     be right.
 6. **Final reply.** It reaches the owner's phone as the routine's notification, so write it for
    that, in French: one line per issue you handled, saying what needs their attention, followed by
    the issue's `html_url`. For example:
    `🔗 Puzzle de Marie : ✏️ publiable avec modifs (CÉRÈS remplace VERMILLION) — <url>` or
    `✅ Puzzle de Marie programmé pour le jeudi 16 octobre — <url>`.
    If there was nothing to do, say so in one line.
+
+## Emails to submitters
+
+You never send emails. When an issue is closed, the submissions repo's `send-email.yml` workflow
+emails the submitter, if they left an address: the date from the `programmé` marker when the issue
+is closed as `completed`, or the owner's "non …" comment, as written, when it's closed as
+`not_planned`.
