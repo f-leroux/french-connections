@@ -909,5 +909,31 @@
                 "words": ["CHIPS", "GRAFFITI", "TACOS", "PANINI"]
             }
         ]
+    },
+    {
+        "date": "2026-10-30",
+        "author": "Cha",
+        "groups": [
+            {
+                "name": "Pas de ___",
+                "emoji": "👣",
+                "words": ["LOUP", "BOURRÉE", "VELOURS", "GÉANT"]
+            },
+            {
+                "name": "Danse classique",
+                "emoji": "🩰",
+                "words": ["JETÉ", "CHASSÉ", "ARABESQUE", "DÉGAGÉ"]
+            },
+            {
+                "name": "Requin-___",
+                "emoji": "🦈",
+                "words": ["MARTEAU", "GUITARE", "LUTIN", "RENARD"]
+            },
+            {
+                "name": "Peintres français",
+                "emoji": "🎨",
+                "words": ["BOUDIN", "BONHEUR", "POUSSIN", "MERLE"]
+            }
+        ]
     }
 ]
