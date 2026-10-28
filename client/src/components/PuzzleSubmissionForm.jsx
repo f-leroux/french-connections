@@ -11,6 +11,7 @@ const EMPTY_FORM = {
   blue: EMPTY_GROUP,
   purple: EMPTY_GROUP,
   submitterName: '',
+  email: '',
   comment: '',
   website: '' // honeypot, hidden from people
 };
@@ -47,7 +48,7 @@ function PuzzleSubmissionForm({ isOpen, onClose }) {
         return false;
       }
     }
-    return true;
+    return formData.submitterName.trim() !== '';
   };
 
   const handleSubmit = async (e) => {
@@ -73,6 +74,7 @@ function PuzzleSubmissionForm({ isOpen, onClose }) {
             return { name: group.name, words: [group.word1, group.word2, group.word3, group.word4] };
           }),
           author: formData.submitterName,
+          email: formData.email,
           comment: formData.comment,
           website: formData.website
         })
@@ -115,7 +117,7 @@ function PuzzleSubmissionForm({ isOpen, onClose }) {
         {submitStatus === 'success' && (
           <div className="submit-success">
             ✓ Merci ! Votre puzzle a bien été reçu. S'il est retenu, il sera publié sur le site
-            (avec votre nom si vous l'avez indiqué).
+            avec votre nom.
           </div>
         )}
 
@@ -179,17 +181,35 @@ function PuzzleSubmissionForm({ isOpen, onClose }) {
           })}
 
           <div className="form-group">
-            <label htmlFor="submitterName">Votre nom (optionnel)</label>
+            <label htmlFor="submitterName">Votre nom *</label>
             <input
               type="text"
               id="submitterName"
               name="submitterName"
               value={formData.submitterName}
               onChange={handleChange}
+              required
               maxLength={40}
               placeholder="Votre nom ou pseudonyme"
             />
             <small>Le puzzle sera crédité à ce nom s'il est sélectionné.</small>
+          </div>
+
+          <div className="form-group">
+            <label htmlFor="email">Votre email (optionnel)</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              maxLength={100}
+              placeholder="vous@exemple.fr"
+            />
+            <small>
+              Pour vous prévenir de la date de publication ou vous faire un retour.
+              Il ne sera jamais affiché sur le site.
+            </small>
           </div>
 
           <div className="form-group">

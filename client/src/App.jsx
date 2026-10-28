@@ -5,6 +5,8 @@ import PuzzleSubmissionForm from './components/PuzzleSubmissionForm';
 import ContactForm from './components/ContactForm';
 import { fetchPuzzleOfTheDay, localDateString } from './services/puzzleAPI';
 import { trackEvent } from './services/analytics';
+import { fetchStats, sendResult } from './services/stats';
+import PuzzleStats from './components/PuzzleStats';
 
 function App() {
   const [puzzle, setPuzzle] = useState(null);
@@ -13,6 +15,7 @@ function App() {
   const [selectionHistory, setSelectionHistory] = useState([]);
   const [showSubmissionForm, setShowSubmissionForm] = useState(false);
   const [showContactForm, setShowContactForm] = useState(false);
+  const [stats, setStats] = useState(null);
   const maxMistakes = 4;
   const STORAGE_PREFIX = 'connections-puzzle-';
 
@@ -45,6 +48,11 @@ function App() {
           setFoundGroups(savedState.foundGroups || []);
           setMistakes(savedState.mistakes || 0);
           setSelectionHistory(savedState.selectionHistory || []);
+
+          // Already finished today: show the stats again, without counting the game twice
+          if ((savedState.foundGroups || []).length === 4 || savedState.mistakes >= maxMistakes) {
+            fetchStats(puzzleData.date).then(setStats);
+          }
         } else {
           // Fresh puzzle for today
           puzzleData.words = puzzleData.groups.flatMap(group => group.words);
@@ -126,6 +134,7 @@ function App() {
     // Tracked on the winning guess itself, so reloading a finished game doesn't count it again
     if (foundGroups.length === 3) {
       trackEvent(`win-${mistakes}`, `Victoire avec ${mistakes} erreur${mistakes > 1 ? 's' : ''}`);
+      sendResult(puzzle.date, true, mistakes).then(setStats);
     }
   }
 
@@ -134,6 +143,7 @@ function App() {
     setMistakes(prev => prev + 1);
     if (mistakes === maxMistakes - 1) {
       trackEvent('loss', 'Défaite');
+      sendResult(puzzle.date, false, maxMistakes).then(setStats);
     }
   }
 
@@ -273,6 +283,8 @@ function App() {
           </div>
         </>
       )}
+
+      {(puzzleComplete || !hasMistakesLeft) && <PuzzleStats stats={stats} />}
 
       {/* Submit puzzle and contact buttons */}
       <div className="submit-puzzle-wrapper">

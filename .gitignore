@@ -45,5 +45,5 @@ README.md
 ._*
 mlflow.db
 
-# Wrangler cache (submission-worker)
+# Wrangler cache and local test databases (submission-worker, stats-worker)
 .wrangler/

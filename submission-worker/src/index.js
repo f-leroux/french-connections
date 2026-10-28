@@ -6,6 +6,7 @@ const REPO = 'f-leroux/french-connections-submissions';
 const ALLOWED_ORIGINS = ['https://www.frenchconnections.fr', 'https://frenchconnections.fr', 'http://localhost:3000'];
 const DAILY_CAP = 10; // every issue starts a routine run, so a spammer can't burn through usage
 const SQUARES = ['🟨', '🟩', '🟦', '🟪'];
+const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 export default {
   async fetch(request, env) {
@@ -36,7 +37,7 @@ export default {
     const res = await github(env, `/repos/${REPO}/issues`, {
       method: 'POST',
       body: JSON.stringify({
-        title: submission.author ? `Puzzle proposé par ${submission.author}` : 'Puzzle proposé (anonyme)',
+        title: `Puzzle proposé par ${submission.author}`,
         body: issueBody(submission),
       }),
     });
@@ -82,13 +83,23 @@ function parseSubmission(body) {
     words: Array.isArray(group?.words) ? group.words.map(word => clean(word, 30)) : [],
   }));
   if (groups.some(group => !group.name || group.words.length !== 4 || group.words.includes(null))) return null;
-  return { author: clean(body.author, 40), groups, comment: cleanMultiline(body.comment, 1000) };
+  const author = clean(body.author, 40);
+  if (!author) return null;
+  const email = clean(body.email, 100);
+  return {
+    author,
+    // Not in the JSON block below: it's only for the owner to answer, never part of the puzzle
+    email: email && EMAIL.test(email) ? email : null,
+    groups,
+    comment: cleanMultiline(body.comment, 1000),
+  };
 }
 
-function issueBody({ author, groups, comment }) {
+function issueBody({ author, email, groups, comment }) {
   const received = new Date().toLocaleString('fr-FR', { timeZone: 'Europe/Paris', dateStyle: 'long', timeStyle: 'short' });
   return [
-    `**Proposé par :** ${author ?? 'anonyme'}`,
+    `**Proposé par :** ${author}`,
+    ...(email ? [`**Email :** ${email}`] : []),
     `**Reçu le :** ${received}`,
     '',
     '| | Catégorie | Mots |',
