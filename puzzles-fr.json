@@ -935,5 +935,31 @@
                 "words": ["BOUDIN", "BONHEUR", "POUSSIN", "MERLE"]
             }
         ]
+    },
+    {
+        "date": "2026-10-31",
+        "author": "Phil",
+        "groups": [
+            {
+                "name": "Cocktails",
+                "emoji": "🍸",
+                "words": ["MANHATTAN", "AMERICANO", "CUBA LIBRE", "MIMOSA"]
+            },
+            {
+                "name": "Ça tourne mal : « ça (se)… »",
+                "emoji": "😬",
+                "words": ["CORSE", "COMPLIQUE", "GÂTE", "DÉGÉNÈRE"]
+            },
+            {
+                "name": "Points de tricot",
+                "emoji": "🧶",
+                "words": ["JERSEY", "MOUSSE", "CÔTES", "TORSADE"]
+            },
+            {
+                "name": "Îles partagées entre deux États",
+                "emoji": "🏝️",
+                "words": ["IRLANDE", "CHYPRE", "HISPANIOLA", "TIMOR"]
+            }
+        ]
     }
 ]
