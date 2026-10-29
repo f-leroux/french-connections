@@ -961,5 +961,31 @@
                 "words": ["IRLANDE", "CHYPRE", "HISPANIOLA", "TIMOR"]
             }
         ]
+    },
+    {
+        "date": "2026-11-01",
+        "author": "Tiph",
+        "groups": [
+            {
+                "name": "Furète",
+                "emoji": "🔍",
+                "words": ["CHERCHE", "FOUILLE", "EXPLORE", "ESPIONNE"]
+            },
+            {
+                "name": "Vocabulaire des séries",
+                "emoji": "📺",
+                "words": ["ÉPISODE", "SAISON", "FICTION", "PERSONNAGES"]
+            },
+            {
+                "name": "Mustélidés",
+                "emoji": "🦦",
+                "words": ["FOUINE", "GLOUTON", "BLAIREAU", "LOUTRE"]
+            },
+            {
+                "name": "Homophones de fleuves",
+                "emoji": "🌊",
+                "words": ["SCÈNE", "REIN", "LOIR", "HÉROS"]
+            }
+        ]
     }
 ]
