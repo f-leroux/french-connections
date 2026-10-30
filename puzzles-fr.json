@@ -987,5 +987,31 @@
                 "words": ["SCÈNE", "REIN", "LOIR", "HÉROS"]
             }
         ]
+    },
+    {
+        "date": "2026-11-02",
+        "author": "Elo",
+        "groups": [
+            {
+                "name": "Pain de…",
+                "emoji": "🍞",
+                "words": ["CAMPAGNE", "SUCRE", "VIANDE", "MIE"]
+            },
+            {
+                "name": "Farines",
+                "emoji": "🌾",
+                "words": ["CHÂTAIGNE", "BLÉ", "ÉPEAUTRE", "MAÏS"]
+            },
+            {
+                "name": "Fermeture ___",
+                "emoji": "🔒",
+                "words": ["ÉCLAIR", "ANNUELLE", "ADMINISTRATIVE", "EXCEPTIONNELLE"]
+            },
+            {
+                "name": "Stations de métro parisiennes",
+                "emoji": "🚇",
+                "words": ["POISSONNIÈRE", "CHÂTEAU D’EAU", "MAISON BLANCHE", "PYRAMIDES"]
+            }
+        ]
     }
 ]
