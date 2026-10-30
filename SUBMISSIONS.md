@@ -61,6 +61,7 @@ Leave the visitor's part of the body above it unchanged.
    - a verdict: `👍 Publiable tel quel`, `✏️ Publiable avec les changements ci-dessous` or
      `👎 Pas publiable`, followed by why, in a few French sentences;
    - the changes you made;
+   - the note for the submitter, if these changes call for one (see "Emails to submitters");
    - the proposed version as a table, then as a JSON block `{"author": …, "groups": [{"name", "emoji", "words"}, …]}`
      (`author` is the submitter's name, or `null` if they didn't give one);
    - the line: `Réponds en commentaire : « ok », tes changements, ou « non ».`
@@ -88,12 +89,13 @@ Leave the visitor's part of the body above it unchanged.
    - Add `**Programmé pour le <date in French, e.g. jeudi 16 octobre>.**` to the review section,
      followed by the line `<!-- programmé <YYYY-MM-DD> -->`, then close the issue as `completed`.
      Closing it emails the submitter that date (see the end of this file), so the marker must
-     be right.
+     be right. Before closing, make sure the note for the submitter matches what you published.
 6. **Final reply.** It reaches the owner's phone as the routine's notification, so write it for
    that, in French: one line per issue you handled, saying what needs their attention, followed by
    the issue's `html_url`. For example:
    `🔗 Puzzle de Marie : ✏️ publiable avec modifs (CÉRÈS remplace VERMILLION) — <url>` or
-   `✅ Puzzle de Marie programmé pour le jeudi 16 octobre — <url>`.
+   `✅ Puzzle de Marie programmé pour le jeudi 16 octobre — <url>`. When there's a note for the
+   submitter, quote it on that line, so the owner knows what was sent.
    If there was nothing to do, say so in one line.
 
 ## Emails to submitters
@@ -102,3 +104,22 @@ You never send emails. When an issue is closed, the submissions repo's `send-ema
 emails the submitter, if they left an address: the date from the `programmé` marker when the issue
 is closed as `completed`, or the owner's "non …" comment, as written, when it's closed as
 `not_planned`.
+
+When the version you'd publish differs from the submission in a way the submitter would notice (a
+word or category name replaced, a word moved to another group, groups swapped), the review section
+also holds a note that the date email will include, whether or not the issue has an "Email" line:
+
+```
+**Dans l'email :**
+<!-- note-email -->
+J'ai remplacé GROG par PUNCH, car GROG allait aussi avec les boissons chaudes.
+<!-- /note-email -->
+```
+
+Write it as the owner, in French, in one or two plain-text sentences and at most 500 characters: what
+changed and why, addressing the submitter as "vous" if you address them at all. Base it only on your
+own comparison of the submission and the published version, and on what the owner said. Never quote
+the submitter's comment, and never include a link or an email address (the note would be left out).
+Uppercase, accents, emojis and the order of the words don't call for a note. Keep the note up to date
+each time the version changes, and remove it if nothing noticeable changed in the end. If the owner
+dictates the note or asks for none, do as they say.
