@@ -1013,5 +1013,32 @@
                 "words": ["POISSONNIÈRE", "CHÂTEAU D’EAU", "MAISON BLANCHE", "PYRAMIDES"]
             }
         ]
+    },
+    {
+        "date": "2026-11-03",
+        "author": "Akshay",
+        "groups": [
+            {
+                "name": "Éléments d'anatomie",
+                "emoji": "👂",
+                "words": ["BRAS", "NEZ", "OREILLE", "NOMBRIL"]
+            },
+            {
+                "name": "Lexique du rugby",
+                "emoji": "🏉",
+                "words": ["BALLON", "MÊLÉE", "ESSAI", "TOUCHE"]
+            },
+            {
+                "name": "Coup de ____",
+                "emoji": "⚡",
+                "words": ["FOUDRE", "POUCE", "CHAPEAU", "SANG"]
+            },
+            {
+                "name": "Palindromes",
+                "emoji": "↔️",
+                "allowRepeatName": true,
+                "words": ["ROTOR", "SAGAS", "SELLES", "SERRES"]
+            }
+        ]
     }
 ]
