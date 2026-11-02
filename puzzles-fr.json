@@ -1040,5 +1040,31 @@
                 "words": ["ROTOR", "SAGAS", "SELLES", "SERRES"]
             }
         ]
+    },
+    {
+        "date": "2026-11-04",
+        "author": "Joli chat",
+        "groups": [
+            {
+                "name": "Sac à …",
+                "emoji": "👜",
+                "words": ["PUCE", "VIANDE", "MAIN", "CROTTE"]
+            },
+            {
+                "name": "Anciens magasins",
+                "emoji": "🛒",
+                "words": ["MAMMOUTH", "TATI", "CHAMPION", "RADAR"]
+            },
+            {
+                "name": "Types de sièges",
+                "emoji": "🪑",
+                "words": ["BERGÈRE", "CONFIDENT", "CRAPAUD", "INDISCRET"]
+            },
+            {
+                "name": "Nombre caché",
+                "emoji": "🔢",
+                "words": ["BRUN", "BRONZE", "CAMOMILLE", "INDÉCENT"]
+            }
+        ]
     }
 ]
