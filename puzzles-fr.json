@@ -1066,5 +1066,31 @@
                 "words": ["BRUN", "BRONZE", "CAMOMILLE", "INDÉCENT"]
             }
         ]
+    },
+    {
+        "date": "2026-11-05",
+        "author": "Kate",
+        "groups": [
+            {
+                "name": "Personnes instruites",
+                "emoji": "🎓",
+                "words": ["MANDARIN", "LETTRÉ", "SAGE", "ÉRUDIT"]
+            },
+            {
+                "name": "Se lisent dans les deux sens",
+                "emoji": "🔁",
+                "words": ["KAYAK", "SAS", "NON", "ELLE"]
+            },
+            {
+                "name": "Pour avancer dans l’eau",
+                "emoji": "🌊",
+                "words": ["RAME", "HÉLICE", "NAGEOIRE", "PALME"]
+            },
+            {
+                "name": "Ont un verlan courant",
+                "emoji": "🔄",
+                "words": ["LOURD", "FEMME", "LOUCHE", "FOU"]
+            }
+        ]
     }
 ]
