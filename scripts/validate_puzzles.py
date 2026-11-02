@@ -73,7 +73,8 @@ def validate(puzzles, expect_date: str | None) -> tuple[list[str], list[str]]:
             if not isinstance(group.get("emoji"), str) or not group["emoji"].strip():
                 errors.append(f"{where}: group {name!r} has no emoji")
             key = normalize(name)
-            if key in seen_names:
+            # "allowRepeatName": true is an exception the owner grants explicitly
+            if key in seen_names and group.get("allowRepeatName") is not True:
                 errors.append(f"{where}: category {name!r} already used on {seen_names[key]}")
             seen_names[key] = date
 

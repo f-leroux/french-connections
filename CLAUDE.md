@@ -36,6 +36,9 @@ The UI shuffles the words, so their order in the file doesn't matter.
 Puzzles submitted by players may also have `"author": "Marie"` right after `"date"`; the app shows
 "Puzzle proposé par Marie". The daily routine never sets it.
 
+A group may have `"allowRepeatName": true` (after `"emoji"`) to reuse a category name from the
+history. Only the owner grants this exception; routines never add it on their own.
+
 ## Writing a puzzle
 
 Everything is in French, for a French-speaking audience.
