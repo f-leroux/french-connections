@@ -1092,5 +1092,31 @@
                 "words": ["LOURD", "FEMME", "LOUCHE", "FOU"]
             }
         ]
+    },
+    {
+        "date": "2026-11-06",
+        "author": "Nico",
+        "groups": [
+            {
+                "name": "Pays bordés par la Méditerranée",
+                "emoji": "🌊",
+                "words": ["FRANCE", "ITALIE", "ESPAGNE", "MONACO"]
+            },
+            {
+                "name": "Pays nommés d'après une personne",
+                "emoji": "👤",
+                "words": ["ARABIE SAOUDITE", "COLOMBIE", "PHILIPPINES", "BOLIVIE"]
+            },
+            {
+                "name": "Pays frontaliers de la France",
+                "emoji": "🛂",
+                "words": ["LUXEMBOURG", "PAYS-BAS", "BRÉSIL", "BELGIQUE"]
+            },
+            {
+                "name": "Îles partagées entre plusieurs pays",
+                "emoji": "🏝️",
+                "words": ["BORNÉO", "HISPANIOLA", "NOUVELLE-GUINÉE", "TERRE DE FEU"]
+            }
+        ]
     }
 ]
