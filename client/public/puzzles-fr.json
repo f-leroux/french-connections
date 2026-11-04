@@ -1118,5 +1118,31 @@
                 "words": ["BORNÉO", "HISPANIOLA", "NOUVELLE-GUINÉE", "TERRE DE FEU"]
             }
         ]
+    },
+    {
+        "date": "2026-11-07",
+        "author": "CrazyLibrarian",
+        "groups": [
+            {
+                "name": "Rayons",
+                "emoji": "☀️",
+                "words": ["SOLAIRE", "LASER", "GAMMA", "COSMIQUE"]
+            },
+            {
+                "name": "___ noire",
+                "emoji": "⚫",
+                "words": ["IDÉE", "MAGIE", "PISTE", "CEINTURE"]
+            },
+            {
+                "name": "Satellites de Saturne",
+                "emoji": "🪐",
+                "words": ["TITAN", "MIMAS", "DIONÉ", "RHÉA"]
+            },
+            {
+                "name": "Le « quarteron » des généraux",
+                "emoji": "🎖️",
+                "words": ["CHALLE", "JOUHAUD", "SALAN", "ZELLER"]
+            }
+        ]
     }
 ]
