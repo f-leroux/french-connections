@@ -1144,5 +1144,30 @@
                 "words": ["CHALLE", "JOUHAUD", "SALAN", "ZELLER"]
             }
         ]
+    },
+    {
+        "date": "2026-11-08",
+        "groups": [
+            {
+                "name": "Chaussures",
+                "emoji": "👠",
+                "words": ["ESCARPIN", "MOCASSIN", "BOTTINE", "SANDALE"]
+            },
+            {
+                "name": "Champignons",
+                "emoji": "🍄",
+                "words": ["CÈPE", "GIROLLE", "MORILLE", "TRUFFE"]
+            },
+            {
+                "name": "Venise",
+                "emoji": "🎭",
+                "words": ["RIALTO", "MURANO", "LIDO", "DOGE"]
+            },
+            {
+                "name": "Tête de ___",
+                "emoji": "🧠",
+                "words": ["LINOTTE", "LISTE", "MULE", "GONDOLE"]
+            }
+        ]
     }
 ]
