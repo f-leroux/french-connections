@@ -1169,5 +1169,30 @@
                 "words": ["LINOTTE", "LISTE", "MULE", "GONDOLE"]
             }
         ]
+    },
+    {
+        "date": "2026-11-09",
+        "groups": [
+            {
+                "name": "Dans la crèche",
+                "emoji": "🐑",
+                "words": ["ÂNE", "BŒUF", "BERGER", "ANGE"]
+            },
+            {
+                "name": "Bien élevé",
+                "emoji": "🎩",
+                "words": ["POLI", "CIVIL", "AIMABLE", "COURTOIS"]
+            },
+            {
+                "name": "Prédisent l'avenir",
+                "emoji": "🔮",
+                "words": ["MAGE", "AUGURE", "SIBYLLE", "PYTHIE"]
+            },
+            {
+                "name": "Précédés de « mal »",
+                "emoji": "😖",
+                "words": ["VOYANT", "ADROIT", "SAIN", "CHANCE"]
+            }
+        ]
     }
 ]
