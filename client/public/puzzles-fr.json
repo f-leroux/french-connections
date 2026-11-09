@@ -1194,5 +1194,30 @@
                 "words": ["VOYANT", "ADROIT", "SAIN", "CHANCE"]
             }
         ]
+    },
+    {
+        "date": "2026-11-10",
+        "groups": [
+            {
+                "name": "Agrumes",
+                "emoji": "🍊",
+                "words": ["CLÉMENTINE", "POMELO", "KUMQUAT", "BERGAMOTE"]
+            },
+            {
+                "name": "Opérateurs téléphoniques",
+                "emoji": "📱",
+                "words": ["ORANGE", "FREE", "SFR", "BOUYGUES"]
+            },
+            {
+                "name": "Villes du Vaucluse",
+                "emoji": "🏰",
+                "words": ["AVIGNON", "CARPENTRAS", "CAVAILLON", "APT"]
+            },
+            {
+                "name": "Presse-___",
+                "emoji": "🗜️",
+                "words": ["CITRON", "AIL", "PURÉE", "PAPIER"]
+            }
+        ]
     }
 ]
