@@ -1219,5 +1219,30 @@
                 "words": ["CITRON", "AIL", "PURÉE", "PAPIER"]
             }
         ]
+    },
+    {
+        "date": "2026-11-11",
+        "groups": [
+            {
+                "name": "Grades militaires",
+                "emoji": "🪖",
+                "words": ["CAPORAL", "ADJUDANT", "COLONEL", "GÉNÉRAL"]
+            },
+            {
+                "name": "Escrime",
+                "emoji": "🤺",
+                "words": ["FLEURET", "RIPOSTE", "BOTTE", "PLASTRON"]
+            },
+            {
+                "name": "Batailles de la Grande Guerre",
+                "emoji": "🗺️",
+                "words": ["VERDUN", "SOMME", "MARNE", "YPRES"]
+            },
+            {
+                "name": "___ d'armes",
+                "emoji": "⚔️",
+                "words": ["FAIT", "PORT", "FRÈRE", "MAÎTRE"]
+            }
+        ]
     }
 ]
