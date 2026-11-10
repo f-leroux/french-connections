@@ -1244,5 +1244,31 @@
                 "words": ["FAIT", "PORT", "FRÈRE", "MAÎTRE"]
             }
         ]
+    },
+    {
+        "date": "2026-11-12",
+        "author": "Nicolas",
+        "groups": [
+            {
+                "name": "Jouets à forme humaine",
+                "emoji": "🧸",
+                "words": ["POUPÉE", "BAIGNEUR", "PLAYMOBIL", "POLICHINELLE"]
+            },
+            {
+                "name": "Villes de traités de paix",
+                "emoji": "🕊️",
+                "words": ["VERSAILLES", "UTRECHT", "SÈVRES", "PARIS"]
+            },
+            {
+                "name": "Pays d'Europe à langue non indo-européenne",
+                "emoji": "🗣️",
+                "words": ["PAYS BASQUE", "HONGRIE", "MALTE", "TURQUIE"]
+            },
+            {
+                "name": "Syllabes inversées → un autre mot",
+                "emoji": "🔄",
+                "words": ["PANTIN", "MONCEAU", "YUCCA", "ROSÉ"]
+            }
+        ]
     }
 ]
