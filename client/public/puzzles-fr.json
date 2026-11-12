@@ -1296,5 +1296,31 @@
                 "words": ["MARCHE", "PERCHE", "ANJOU", "FOIX"]
             }
         ]
+    },
+    {
+        "date": "2026-11-14",
+        "author": "Nicolas",
+        "groups": [
+            {
+                "name": "Animaux à écailles",
+                "emoji": "🦎",
+                "words": ["TORTUE ÉTOILÉE", "GECKO LÉOPARD", "MONARQUE", "POISSON CLOWN"]
+            },
+            {
+                "name": "Surnoms de pays",
+                "emoji": "🗺️",
+                "words": ["LONG NUAGE BLANC", "SOURIRE", "MATIN CALME", "SOLEIL LEVANT"]
+            },
+            {
+                "name": "Lieux collectifs dans une caserne",
+                "emoji": "🪖",
+                "words": ["ORDINAIRE", "FOYER", "MESS", "DORTOIR"]
+            },
+            {
+                "name": "« Je ___ » = « je dissimule » (à l'oral)",
+                "emoji": "🙊",
+                "words": ["SELLE", "MÛR", "CASH", "TAIE"]
+            }
+        ]
     }
 ]
