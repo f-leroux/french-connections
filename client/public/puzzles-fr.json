@@ -1270,5 +1270,31 @@
                 "words": ["PANTIN", "MONCEAU", "YUCCA", "ROSÉ"]
             }
         ]
+    },
+    {
+        "date": "2026-11-13",
+        "author": "Mimis",
+        "groups": [
+            {
+                "name": "Activités en plein air",
+                "emoji": "🧗",
+                "words": ["ESCALADE", "RANDONNÉE", "CUEILLETTE", "TRAIL"]
+            },
+            {
+                "name": "Massifs montagneux français",
+                "emoji": "🏔️",
+                "words": ["ALPES", "JURA", "VOSGES", "CORSE"]
+            },
+            {
+                "name": "Chiens de berger",
+                "emoji": "🐕",
+                "words": ["SUISSE", "BELGE", "BEAUCE", "PYRÉNÉES"]
+            },
+            {
+                "name": "Anciennes provinces françaises",
+                "emoji": "👑",
+                "words": ["MARCHE", "PERCHE", "ANJOU", "FOIX"]
+            }
+        ]
     }
 ]
