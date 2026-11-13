@@ -1322,5 +1322,31 @@
                 "words": ["SELLE", "MÛR", "CASH", "TAIE"]
             }
         ]
+    },
+    {
+        "date": "2026-11-15",
+        "author": "phil",
+        "groups": [
+            {
+                "name": "Échelles des temps géologiques",
+                "emoji": "🪨",
+                "words": ["ÉON", "PÉRIODE", "ÉPOQUE", "ÂGE"]
+            },
+            {
+                "name": "Synonymes de tempo",
+                "emoji": "🎼",
+                "words": ["CADENCE", "MESURE", "MOUVEMENT", "ALLURE"]
+            },
+            {
+                "name": "___ X",
+                "emoji": "❌",
+                "words": ["RAYON", "TEMPS", "CLASSÉ", "GÉNÉRATION"]
+            },
+            {
+                "name": "Extinction (de/des) ___",
+                "emoji": "🧯",
+                "words": ["MASSE", "VOIX", "FEUX", "REBELLION"]
+            }
+        ]
     }
 ]
