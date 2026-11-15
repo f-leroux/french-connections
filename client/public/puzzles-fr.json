@@ -1348,5 +1348,30 @@
                 "words": ["MASSE", "VOIX", "FEUX", "REBELLION"]
             }
         ]
+    },
+    {
+        "date": "2026-11-16",
+        "groups": [
+            {
+                "name": "Outils de jardin",
+                "emoji": "🌱",
+                "words": ["RÂTEAU", "BINETTE", "SÉCATEUR", "BROUETTE"]
+            },
+            {
+                "name": "Conifères",
+                "emoji": "🌲",
+                "words": ["MÉLÈZE", "CÈDRE", "ÉPICÉA", "CYPRÈS"]
+            },
+            {
+                "name": "Personnages de la Genèse",
+                "emoji": "📜",
+                "words": ["ÈVE", "CAÏN", "ABEL", "NOÉ"]
+            },
+            {
+                "name": "Pomme de ___ / Pomme d'___",
+                "emoji": "🍎",
+                "words": ["PIN", "ADAM", "ARROSOIR", "DISCORDE"]
+            }
+        ]
     }
 ]
