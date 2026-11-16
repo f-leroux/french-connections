@@ -1373,5 +1373,30 @@
                 "words": ["PIN", "ADAM", "ARROSOIR", "DISCORDE"]
             }
         ]
+    },
+    {
+        "date": "2026-11-17",
+        "groups": [
+            {
+                "name": "Modes de cuisson",
+                "emoji": "🍳",
+                "words": ["POCHÉ", "BRAISÉ", "SAUTÉ", "FLAMBÉ"]
+            },
+            {
+                "name": "En colère",
+                "emoji": "😠",
+                "words": ["FÂCHÉ", "FURIEUX", "EXASPÉRÉ", "COURROUCÉ"]
+            },
+            {
+                "name": "Personnages de l'Iliade",
+                "emoji": "🏛️",
+                "words": ["ACHILLE", "HECTOR", "ULYSSE", "PATROCLE"]
+            },
+            {
+                "name": "Se lisent en lettres : OQP, KC, LN, NRV",
+                "emoji": "🔤",
+                "words": ["OCCUPÉ", "CASSÉ", "HÉLÈNE", "ÉNERVÉ"]
+            }
+        ]
     }
 ]
