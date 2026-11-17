@@ -1398,5 +1398,30 @@
                 "words": ["OCCUPÉ", "CASSÉ", "HÉLÈNE", "ÉNERVÉ"]
             }
         ]
+    },
+    {
+        "date": "2026-11-18",
+        "groups": [
+            {
+                "name": "Accessoires pour cheveux",
+                "emoji": "🎀",
+                "words": ["BARRETTE", "SERRE-TÊTE", "BANDEAU", "PINCE"]
+            },
+            {
+                "name": "Mots doux",
+                "emoji": "💕",
+                "words": ["TRÉSOR", "LOULOU", "CHOUCHOU", "POUSSIN"]
+            },
+            {
+                "name": "Femelles d'animaux",
+                "emoji": "🦌",
+                "words": ["HASE", "LAIE", "BICHE", "POULE"]
+            },
+            {
+                "name": "Épingle à ___",
+                "emoji": "🧷",
+                "words": ["CHEVEUX", "NOURRICE", "CHAPEAU", "LINGE"]
+            }
+        ]
     }
 ]
