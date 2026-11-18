@@ -1423,5 +1423,30 @@
                 "words": ["CHEVEUX", "NOURRICE", "CHAPEAU", "LINGE"]
             }
         ]
+    },
+    {
+        "date": "2026-11-19",
+        "groups": [
+            {
+                "name": "Engins de chantier",
+                "emoji": "🚧",
+                "words": ["PELLETEUSE", "BULLDOZER", "BÉTONNIÈRE", "TRACTOPELLE"]
+            },
+            {
+                "name": "Parties d'un livre",
+                "emoji": "📖",
+                "words": ["PRÉFACE", "CHAPITRE", "SOMMAIRE", "ÉPILOGUE"]
+            },
+            {
+                "name": "Échassiers",
+                "emoji": "🦩",
+                "words": ["HÉRON", "CIGOGNE", "FLAMANT", "IBIS"]
+            },
+            {
+                "name": "Pied de ___",
+                "emoji": "🦶",
+                "words": ["GRUE", "PAGE", "GUERRE", "VIGNE"]
+            }
+        ]
     }
 ]
