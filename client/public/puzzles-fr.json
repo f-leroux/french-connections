@@ -1448,5 +1448,30 @@
                 "words": ["GRUE", "PAGE", "GUERRE", "VIGNE"]
             }
         ]
+    },
+    {
+        "date": "2026-11-20",
+        "groups": [
+            {
+                "name": "Maladies infantiles",
+                "emoji": "🤒",
+                "words": ["ROUGEOLE", "VARICELLE", "OREILLONS", "SCARLATINE"]
+            },
+            {
+                "name": "Jeux de cour de récré",
+                "emoji": "🧒",
+                "words": ["BILLES", "MARELLE", "OSSELETS", "ÉLASTIQUE"]
+            },
+            {
+                "name": "Anciennes armes à feu",
+                "emoji": "💥",
+                "words": ["MOUSQUET", "TROMBLON", "COULEUVRINE", "BOMBARDE"]
+            },
+            {
+                "name": "Cachent un oiseau",
+                "emoji": "🐦",
+                "words": ["COQUELUCHE", "ARQUEBUSE", "TOUPIE", "ÉCAILLE"]
+            }
+        ]
     }
 ]
