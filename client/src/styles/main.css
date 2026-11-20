@@ -510,9 +510,17 @@ h2 {
 /* ===== SUBMIT PUZZLE BUTTON ===== */
 .submit-puzzle-wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
+  align-items: center;
   gap: 6px;
   margin-top: 20px;
+}
+
+.submit-puzzle-notice {
+  font-size: 10px;
+  font-weight: 500;
+  color: #4a8a4a;
 }
 
 .submit-puzzle-button {
