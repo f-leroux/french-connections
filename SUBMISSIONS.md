@@ -52,7 +52,8 @@ Leave the visitor's part of the body above it unchanged.
    `client/public/puzzles-fr.json`. Judge the puzzle against those rules: every word really fits its
    category, the solution is unique, there are red herrings, difficulty rises from yellow to purple,
    and no category name repeats the history. Words already used in the history are fine: just
-   mention them, don't replace them for that reason. Then write the version you'd publish: words in
+   mention them, don't replace them for that reason. The "three obvious groups + the leftovers"
+   point is for the daily puzzles only: don't hold it against a submission. Then write the version you'd publish: words in
    uppercase with proper accents, an emoji per group, groups ordered easiest first. Keep the
    submitter's puzzle: change as little as possible, and list every change with its reason. To
    check repeats, append the candidate to a copy of the puzzle file and run

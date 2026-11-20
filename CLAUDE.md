@@ -55,19 +55,13 @@ Everything is in French, for a French-speaking audience.
 - **Red herrings are what make it fun**: several words should plausibly fit a second group
   (e.g. FOU fits both birds and chess pieces). But the solution must be **unique**: once all the
   constraints are considered, each word fits exactly one group. Check this explicitly.
-- **Avoid "three obvious groups + the leftovers".** Players have complained that too many puzzles
-  have three plain categories with five candidates each, the purple group being the fifth word of
-  each plus one more (e.g. 2026-11-20: Maladies infantiles + COQUELUCHE, Anciennes armes à feu +
-  ARQUEBUSE, Jeux de cour de récré + TOUPIE, purple "Cachent un oiseau"). The three groups jump
-  out, and the game is just finding the hidden one. Instead:
-  - Only yellow should be spottable at a glance. Make the other links less obvious than "a kind of
-    thing": a shared property, an expression, a context ("Ont des dents", "Se plient").
-  - Spread the red herrings: words that could go in two of the non-purple groups, a decoy theme
-    whose 5 or 6 candidates are split across several real groups, purple words that don't look
-    like they belong anywhere. Not just one stolen word from each group into purple.
-  - Vary the structure from one day to the next.
-  - Before committing, solve it as a player would. If three groups are obvious and the fourth is
-    just what's left, rework it.
+- **Don't lean on "three obvious groups + the leftovers".** A player noticed that many daily
+  puzzles have three plain categories with a fifth candidate each, purple being those extra words
+  plus one more (e.g. 2026-11-20: Maladies infantiles + COQUELUCHE, Anciennes armes à feu +
+  ARQUEBUSE, Jeux de cour de récré + TOUPIE, purple "Cachent un oiseau"). It's fine now and then,
+  but as a habit the three groups jump out and the game comes down to finding the hidden one. So
+  mix it up: a link less obvious than "a kind of thing" ("Ont des dents", "Se plient"), a red
+  herring between two non-purple groups, purple words that don't look like they belong elsewhere.
 - Every word must genuinely belong to its category — no stretches, no factual errors.
 - Category names are short and clear, as revealed to the player after solving.
 - Each group has a fitting emoji.

@@ -290,7 +290,7 @@ function App() {
       <div className="submit-puzzle-wrapper">
         {/* Temporary: the form was broken from Nov 13 to Nov 20, 2026; hides itself after Nov 21 */}
         {localDateString() <= '2026-11-21' && (
-          <span className="submit-puzzle-notice">✓ Formulaire réparé, à vos puzzles !</span>
+          <span className="submit-puzzle-notice">Formulaire réparé</span>
         )}
         <button
           className="submit-puzzle-button"
