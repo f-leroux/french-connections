@@ -1473,5 +1473,31 @@
                 "words": ["COQUELUCHE", "ARQUEBUSE", "TOUPIE", "ÉCAILLE"]
             }
         ]
+    },
+    {
+        "date": "2026-11-21",
+        "author": "CrazierLibrarian",
+        "groups": [
+            {
+                "name": "Désignent une belle femme",
+                "emoji": "😍",
+                "words": ["BOMBE", "BEAUTÉ", "AVION DE CHASSE", "CANON"]
+            },
+            {
+                "name": "Livres bibliques",
+                "emoji": "📖",
+                "words": ["NOMBRES", "SAGESSE", "JUGES", "APOCALYPSE"]
+            },
+            {
+                "name": "Mots issus du nahuatl",
+                "emoji": "🌋",
+                "words": ["POPOCATÉPETL", "CHOCOLAT", "AVOCAT", "TOMATE"]
+            },
+            {
+                "name": "Finissent par un membre de la famille (à l'oral)",
+                "emoji": "👨‍👩‍👧",
+                "words": ["DÉTENTE", "HOMER", "ORIFICE", "DOUCEUR"]
+            }
+        ]
     }
 ]
