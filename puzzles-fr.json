@@ -1499,5 +1499,31 @@
                 "words": ["DÉTENTE", "HOMER", "ORIFICE", "DOUCEUR"]
             }
         ]
+    },
+    {
+        "date": "2026-11-22",
+        "author": "Mimi",
+        "groups": [
+            {
+                "name": "Sortes de papier",
+                "emoji": "📜",
+                "words": ["ARMÉNIE", "PAPYRUS", "MÂCHÉ", "MARBRÉ"]
+            },
+            {
+                "name": "Papillons",
+                "emoji": "🦋",
+                "words": ["SPHINX", "CLÉOPÂTRE", "MONARQUE", "FLAMBÉ"]
+            },
+            {
+                "name": "Tissus",
+                "emoji": "🧵",
+                "words": ["INDIENNE", "DAMAS", "MOIRÉ", "CRÊPE"]
+            },
+            {
+                "name": "Anciens jeux de cartes",
+                "emoji": "🃏",
+                "words": ["PHARAON", "MOUCHE", "ÉCARTÉ", "PIQUET"]
+            }
+        ]
     }
 ]
