@@ -106,8 +106,7 @@ emails the submitter, if they left an address: the date from the `programmé` ma
 is closed as `completed`, or the owner's "non …" comment, as written, when it's closed as
 `not_planned`.
 
-When the version you'd publish differs from the submission in a way the submitter would notice (a
-word or category name replaced, a word moved to another group, groups swapped), the review section
+When the version you'd publish replaces a word or moves one to another group, the review section
 also holds a note that the date email will include, whether or not the issue has an "Email" line:
 
 ```
@@ -121,6 +120,8 @@ Write it as the owner, in French, in one or two plain-text sentences and at most
 changed and why, addressing the submitter as "vous" if you address them at all. Base it only on your
 own comparison of the submission and the published version, and on what the owner said. Never quote
 the submitter's comment, and never include a link or an email address (the note would be left out).
-Uppercase, accents, emojis and the order of the words don't call for a note. Keep the note up to date
+Only words replaced or moved call for a note. Renamed categories, groups in a different order (e.g.
+blue and purple swapped), uppercase, accents, emojis and the order of the words don't, and the note
+doesn't mention them even when other changes call for one. Keep the note up to date
 each time the version changes, and remove it if nothing noticeable changed in the end. If the owner
 dictates the note or asks for none, do as they say.
