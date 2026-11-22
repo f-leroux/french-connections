@@ -1525,5 +1525,31 @@
                 "words": ["PHARAON", "MOUCHE", "ÉCARTÉ", "PIQUET"]
             }
         ]
+    },
+    {
+        "date": "2026-11-23",
+        "author": "Geantvert",
+        "groups": [
+            {
+                "name": "Enceintes sportives",
+                "emoji": "🏟️",
+                "words": ["GEOFFROY-GUICHARD", "BOLLAERT", "ERNEST-WALLON", "BEAUBLANC"]
+            },
+            {
+                "name": "Pêche",
+                "emoji": "🎣",
+                "words": ["BATEAU", "LIGNE", "FILET", "LANCER"]
+            },
+            {
+                "name": "Corps humain",
+                "emoji": "🦴",
+                "words": ["MARTEAU", "DISQUE", "TALON", "MAIN"]
+            },
+            {
+                "name": "Parties d'instruments",
+                "emoji": "🎷",
+                "words": ["ANCHE", "EMBOUCHURE", "TOUCHE", "CORDE"]
+            }
+        ]
     }
 ]
