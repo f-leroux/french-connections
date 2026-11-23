@@ -1551,5 +1551,30 @@
                 "words": ["ANCHE", "EMBOUCHURE", "TOUCHE", "CORDE"]
             }
         ]
+    },
+    {
+        "date": "2026-11-24",
+        "groups": [
+            {
+                "name": "Doigts de la main",
+                "emoji": "✋",
+                "words": ["POUCE", "INDEX", "ANNULAIRE", "AURICULAIRE"]
+            },
+            {
+                "name": "Solfège",
+                "emoji": "🎼",
+                "words": ["MAJEUR", "DIÈSE", "BÉMOL", "BÉCARRE"]
+            },
+            {
+                "name": "Une idiote, familièrement",
+                "emoji": "🙄",
+                "words": ["BÉCASSE", "GOURDE", "CRUCHE", "COURGE"]
+            },
+            {
+                "name": "Un pays + une lettre",
+                "emoji": "🌍",
+                "words": ["MALIN", "ROMAN", "CHINER", "DINDE"]
+            }
+        ]
     }
 ]
