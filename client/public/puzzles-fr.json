@@ -1576,5 +1576,31 @@
                 "words": ["MALIN", "ROMAN", "CHINER", "DINDE"]
             }
         ]
+    },
+    {
+        "date": "2026-11-25",
+        "author": "CrazierLibrarian",
+        "groups": [
+            {
+                "name": "Sans importance",
+                "emoji": "🤏",
+                "words": ["BRICOLE", "VÉTILLE", "DÉTAIL", "BAGATELLE"]
+            },
+            {
+                "name": "Nouvelle…",
+                "emoji": "🆕",
+                "words": ["DONNE", "HÉLOÏSE", "ANNÉE", "POLICIÈRE"]
+            },
+            {
+                "name": "On y entend un rongeur",
+                "emoji": "🐭",
+                "words": ["SOURIANTE", "AMSTERDAM", "CASTORAMA", "SCÉLÉRAT"]
+            },
+            {
+                "name": "Alternance consonne/voyelle",
+                "emoji": "🔤",
+                "words": ["BIBELOT", "HÉLÉNA", "MALAGA", "LÉGÈRETÉ"]
+            }
+        ]
     }
 ]
