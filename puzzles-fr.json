@@ -1602,5 +1602,31 @@
                 "words": ["BIBELOT", "HÉLÉNA", "MALAGA", "LÉGÈRETÉ"]
             }
         ]
+    },
+    {
+        "date": "2026-11-26",
+        "author": "CraziestLibrarian",
+        "groups": [
+            {
+                "name": "Synonymes de crédule",
+                "emoji": "😇",
+                "words": ["PIGEON", "CANDIDE", "DUPE", "JOBARD"]
+            },
+            {
+                "name": "Villes rebaptisées au XXe siècle",
+                "emoji": "🏷️",
+                "words": ["MUMBAI", "OSLO", "SAINT-PÉTERSBOURG", "ISTANBUL"]
+            },
+            {
+                "name": "Équipementiers sportifs",
+                "emoji": "👕",
+                "words": ["MACRON", "JOMA", "KAPPA", "HUMMEL"]
+            },
+            {
+                "name": "Ont accueilli deux Expositions universelles",
+                "emoji": "🎡",
+                "words": ["OSAKA", "MILAN", "CHICAGO", "BARCELONE"]
+            }
+        ]
     }
 ]
