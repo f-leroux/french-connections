@@ -1654,5 +1654,31 @@
                 "words": ["DIANE", "SERGE", "ÉGLANTINE", "NATACHA"]
             }
         ]
+    },
+    {
+        "date": "2026-11-28",
+        "author": "InsaneLibrarian",
+        "groups": [
+            {
+                "name": "« Rue » en différentes langues",
+                "emoji": "🛣️",
+                "words": ["STREET", "RUE", "CALLE", "STRASSE"]
+            },
+            {
+                "name": "Se redoublent avec un A",
+                "emoji": "🔁",
+                "words": ["MIC", "TIC", "CLIC", "ZIG"]
+            },
+            {
+                "name": "Troubles psychiques",
+                "emoji": "🧠",
+                "words": ["TOC", "TSA", "TICS", "TDI"]
+            },
+            {
+                "name": "Se prononcent S-voyelle-S",
+                "emoji": "🐍",
+                "words": ["SAUCE", "SIX", "SAS", "CESSE"]
+            }
+        ]
     }
 ]
