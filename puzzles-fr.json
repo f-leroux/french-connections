@@ -1628,5 +1628,31 @@
                 "words": ["OSAKA", "MILAN", "CHICAGO", "BARCELONE"]
             }
         ]
+    },
+    {
+        "date": "2026-11-27",
+        "author": "92i",
+        "groups": [
+            {
+                "name": "Se déplacent sur deux pattes",
+                "emoji": "🐾",
+                "words": ["POULE", "KANGOUROU", "PIGEON", "AUTRUCHE"]
+            },
+            {
+                "name": "Marques à nom d'animal",
+                "emoji": "🏷️",
+                "words": ["PUMA", "POULAIN", "AIGLE", "JAGUAR"]
+            },
+            {
+                "name": "Prénoms où l'on entend un fruit",
+                "emoji": "🍑",
+                "words": ["BENOÎT", "AMANDINE", "OLIVIER", "MIRABELLE"]
+            },
+            {
+                "name": "Prénoms où l'on entend un animal",
+                "emoji": "🐈",
+                "words": ["DIANE", "SERGE", "ÉGLANTINE", "NATACHA"]
+            }
+        ]
     }
 ]
